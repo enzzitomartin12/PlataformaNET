@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectosModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ProyectosModeloStoreContainer">
+    <EntitySet Name="Clientes" EntityType="ProyectosModelo.Store.Clientes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Proyectos" EntityType="ProyectosModelo.Store.Proyectos" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Proyectos_Clientes" Association="ProyectosModelo.Store.FK_Proyectos_Clientes">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Proyectos" EntitySet="Proyectos" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="IDCliente" />
+    </Key>
+    <Property Name="IDCliente" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IDContacto" Type="int" Nullable="false" />
+    <Property Name="Calle" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Numero" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Piso" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Departamento" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Cuidad" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Provincia" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Pais" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Telefono" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Web" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Proyectos">
+    <Key>
+      <PropertyRef Name="IDProyecto" />
+    </Key>
+    <Property Name="IDProyecto" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="IDCliente" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Proyectos_Clientes">
+    <End Role="Clientes" Type="ProyectosModelo.Store.Clientes" Multiplicity="1" />
+    <End Role="Proyectos" Type="ProyectosModelo.Store.Proyectos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="IDCliente" />
+      </Principal>
+      <Dependent Role="Proyectos">
+        <PropertyRef Name="IDCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

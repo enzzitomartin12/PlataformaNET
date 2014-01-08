@@ -1,0 +1,6 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\bin\Debug\ModelFirstEF.dll.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\bin\Debug\ModelFirstEF.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\bin\Debug\ModelFirstEF.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\obj\Debug\ModelFirstEF.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\ModelFirstEF\obj\Debug\ModelFirstEF.pdb

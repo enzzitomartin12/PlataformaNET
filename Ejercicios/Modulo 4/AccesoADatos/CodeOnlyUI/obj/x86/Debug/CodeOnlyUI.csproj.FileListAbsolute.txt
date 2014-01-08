@@ -1,0 +1,8 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\bin\Debug\CodeOnlyUI.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\bin\Debug\CodeOnlyUI.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\CodeOnlyUI.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\CodeOnlyUI.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\CodeOnlyUI\obj\x86\Debug\CodeOnlyUI.pdb

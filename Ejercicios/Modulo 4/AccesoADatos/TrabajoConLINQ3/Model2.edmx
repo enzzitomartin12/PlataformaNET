@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProyectosModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="ProyectosModeloStoreContainer">
+          <EntitySet Name="Clientes" EntityType="ProyectosModelo.Store.Clientes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Proyectos" EntityType="ProyectosModelo.Store.Proyectos" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Proyectos_Clientes" Association="ProyectosModelo.Store.FK_Proyectos_Clientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Proyectos" EntitySet="Proyectos" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="IDCliente" />
+          </Key>
+          <Property Name="IDCliente" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="IDContacto" Type="int" Nullable="false" />
+          <Property Name="Calle" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Numero" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Piso" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Departamento" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Cuidad" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Provincia" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Pais" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Telefono" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Web" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Proyectos">
+          <Key>
+            <PropertyRef Name="IDProyecto" />
+          </Key>
+          <Property Name="IDProyecto" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+          <Property Name="IDCliente" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Proyectos_Clientes">
+          <End Role="Clientes" Type="ProyectosModelo.Store.Clientes" Multiplicity="1" />
+          <End Role="Proyectos" Type="ProyectosModelo.Store.Proyectos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="IDCliente" />
+            </Principal>
+            <Dependent Role="Proyectos">
+              <PropertyRef Name="IDCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProyectosModelo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="ProyectosEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="ProyectosModelo.Clientes" />
+          <EntitySet Name="Proyectos" EntityType="ProyectosModelo.Proyectos" />
+          <AssociationSet Name="FK_Proyectos_Clientes" Association="ProyectosModelo.FK_Proyectos_Clientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Proyectos" EntitySet="Proyectos" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="IDCliente" />
+          </Key>
+          <Property Name="IDCliente" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="IDContacto" Type="Int32" Nullable="false" />
+          <Property Name="Calle" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Numero" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Piso" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Departamento" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Cuidad" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Provincia" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Pais" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Telefono" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Web" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Proyectos" Relationship="ProyectosModelo.FK_Proyectos_Clientes" FromRole="Clientes" ToRole="Proyectos" />
+        </EntityType>
+        <EntityType Name="Proyectos">
+          <Key>
+            <PropertyRef Name="IDProyecto" />
+          </Key>
+          <Property Name="IDProyecto" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="IDCliente" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Clientes" Relationship="ProyectosModelo.FK_Proyectos_Clientes" FromRole="Proyectos" ToRole="Clientes" />
+        </EntityType>
+        <Association Name="FK_Proyectos_Clientes">
+          <End Role="Clientes" Type="ProyectosModelo.Clientes" Multiplicity="1" />
+          <End Role="Proyectos" Type="ProyectosModelo.Proyectos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="IDCliente" />
+            </Principal>
+            <Dependent Role="Proyectos">
+              <PropertyRef Name="IDCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProyectosModeloStoreContainer" CdmEntityContainer="ProyectosEntities1">
+          <EntitySetMapping Name="Clientes"><EntityTypeMapping TypeName="ProyectosModelo.Clientes"><MappingFragment StoreEntitySet="Clientes">
+            <ScalarProperty Name="IDCliente" ColumnName="IDCliente" />
+            <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+            <ScalarProperty Name="IDContacto" ColumnName="IDContacto" />
+            <ScalarProperty Name="Calle" ColumnName="Calle" />
+            <ScalarProperty Name="Numero" ColumnName="Numero" />
+            <ScalarProperty Name="Piso" ColumnName="Piso" />
+            <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+            <ScalarProperty Name="Cuidad" ColumnName="Cuidad" />
+            <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+            <ScalarProperty Name="Pais" ColumnName="Pais" />
+            <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+            <ScalarProperty Name="Web" ColumnName="Web" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Proyectos"><EntityTypeMapping TypeName="ProyectosModelo.Proyectos"><MappingFragment StoreEntitySet="Proyectos">
+            <ScalarProperty Name="IDProyecto" ColumnName="IDProyecto" />
+            <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+            <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+            <ScalarProperty Name="IDCliente" ColumnName="IDCliente" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model2">
+        <EntityTypeShape EntityType="ProyectosModelo.Clientes" Width="1.5" PointX="0.75" PointY="1" Height="3.5186979166666665" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProyectosModelo.Proyectos" Width="1.5" PointX="3" PointY="1.75" Height="1.9802864583333335" IsExpanded="true" />
+        <AssociationConnector Association="ProyectosModelo.FK_Proyectos_Clientes" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.7401432291666667" />
+          <ConnectorPoint PointX="3" PointY="2.7401432291666667" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

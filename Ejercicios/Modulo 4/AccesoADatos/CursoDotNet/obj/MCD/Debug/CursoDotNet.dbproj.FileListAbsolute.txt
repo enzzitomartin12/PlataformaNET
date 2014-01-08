@@ -1,0 +1,8 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet_Script.PreDeployment.sql
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet_Script.PostDeployment.sql
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet_Database.sqlsettings
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet_Database.sqldeployment
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet_Database.sqlcmdvars
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet.deploymanifest
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\sql\debug\CursoDotNet.dbschema
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\CursoDotNet\CursoDotNet\obj\MCD\Debug\CursoDotNet.dbschema

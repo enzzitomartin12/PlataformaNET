@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MotocrossStoreContainer" CdmEntityContainer="MotocrossContainer">
+    <EntitySetMapping Name="Equipo">
+      <EntityTypeMapping TypeName="IsTypeOf(Motocross.Equipo)">
+        <MappingFragment StoreEntitySet="Equipo">
+          <ScalarProperty Name="IDEquipo" ColumnName="IDEquipo" />
+          <ScalarProperty Name="NombreEquipo" ColumnName="NombreEquipo" />
+          <ScalarProperty Name="IsEquipoConSoponser" ColumnName="IsEquipoConSoponser" />
+          <ScalarProperty Name="IDMarca" ColumnName="IDMarca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marca">
+      <EntityTypeMapping TypeName="IsTypeOf(Motocross.Marca)">
+        <MappingFragment StoreEntitySet="Marca">
+          <ScalarProperty Name="IDMarca" ColumnName="IDMarca" />
+          <ScalarProperty Name="NombreMarca" ColumnName="NombreMarca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Corredor">
+      <EntityTypeMapping TypeName="IsTypeOf(Motocross.Corredor)">
+        <MappingFragment StoreEntitySet="Corredor">
+          <ScalarProperty Name="IDCorredor" ColumnName="IDCorredor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="IDClase" ColumnName="IDClase" />
+          <ScalarProperty Name="IDEquipo" ColumnName="IDEquipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clase">
+      <EntityTypeMapping TypeName="IsTypeOf(Motocross.Clase)">
+        <MappingFragment StoreEntitySet="Clase">
+          <ScalarProperty Name="IDClase" ColumnName="IDClase" />
+          <ScalarProperty Name="NombreClase" ColumnName="NombreClase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MarcaEquipo" TypeName="Motocross.MarcaEquipo" StoreEntitySet="Equipo">
+      <EndProperty Name="Marca">
+        <ScalarProperty Name="IDMarca" ColumnName="Marca_IDMarca" />
+      </EndProperty>
+      <EndProperty Name="Equipo">
+        <ScalarProperty Name="IDEquipo" ColumnName="IDEquipo" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EquipoCorredor" TypeName="Motocross.EquipoCorredor" StoreEntitySet="Corredor">
+      <EndProperty Name="Equipo">
+        <ScalarProperty Name="IDEquipo" ColumnName="Equipo_IDEquipo" />
+      </EndProperty>
+      <EndProperty Name="Corredor">
+        <ScalarProperty Name="IDCorredor" ColumnName="IDCorredor" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="CorredorClase" TypeName="Motocross.CorredorClase" StoreEntitySet="Clase">
+      <EndProperty Name="Corredor">
+        <ScalarProperty Name="IDCorredor" ColumnName="Corredor_IDCorredor" />
+      </EndProperty>
+      <EndProperty Name="Clase">
+        <ScalarProperty Name="IDClase" ColumnName="IDClase" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

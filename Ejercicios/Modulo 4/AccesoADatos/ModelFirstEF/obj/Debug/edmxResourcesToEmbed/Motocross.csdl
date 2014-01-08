@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Motocross" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="MotocrossContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Equipo" EntityType="Motocross.Equipo" />
+    <EntitySet Name="Marca" EntityType="Motocross.Marca" />
+    <EntitySet Name="Corredor" EntityType="Motocross.Corredor" />
+    <EntitySet Name="Clase" EntityType="Motocross.Clase" />
+    <AssociationSet Name="MarcaEquipo" Association="Motocross.MarcaEquipo">
+      <End Role="Marca" EntitySet="Marca" />
+      <End Role="Equipo" EntitySet="Equipo" />
+    </AssociationSet>
+    <AssociationSet Name="EquipoCorredor" Association="Motocross.EquipoCorredor">
+      <End Role="Equipo" EntitySet="Equipo" />
+      <End Role="Corredor" EntitySet="Corredor" />
+    </AssociationSet>
+    <AssociationSet Name="CorredorClase" Association="Motocross.CorredorClase">
+      <End Role="Corredor" EntitySet="Corredor" />
+      <End Role="Clase" EntitySet="Clase" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Equipo">
+    <Key>
+      <PropertyRef Name="IDEquipo" />
+    </Key>
+    <Property Type="Int32" Name="IDEquipo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Boolean" Name="NombreEquipo" Nullable="false" />
+    <Property Type="String" Name="IsEquipoConSoponser" Nullable="false" />
+    <Property Type="Int32" Name="IDMarca" Nullable="false" />
+    <NavigationProperty Name="Marca" Relationship="Motocross.MarcaEquipo" FromRole="Equipo" ToRole="Marca" />
+    <NavigationProperty Name="Corredor" Relationship="Motocross.EquipoCorredor" FromRole="Equipo" ToRole="Corredor" />
+  </EntityType>
+  <EntityType Name="Marca">
+    <Key>
+      <PropertyRef Name="IDMarca" />
+    </Key>
+    <Property Type="Int32" Name="IDMarca" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NombreMarca" Nullable="false" />
+    <NavigationProperty Name="Equipo" Relationship="Motocross.MarcaEquipo" FromRole="Marca" ToRole="Equipo" />
+  </EntityType>
+  <EntityType Name="Corredor">
+    <Key>
+      <PropertyRef Name="IDCorredor" />
+    </Key>
+    <Property Type="Int32" Name="IDCorredor" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nombre" Nullable="false" />
+    <Property Type="String" Name="Apellido" Nullable="false" />
+    <Property Type="Int16" Name="Edad" Nullable="false" />
+    <Property Type="Int32" Name="IDClase" Nullable="false" />
+    <Property Type="String" Name="IDEquipo" Nullable="false" />
+    <NavigationProperty Name="Equipo" Relationship="Motocross.EquipoCorredor" FromRole="Corredor" ToRole="Equipo" />
+    <NavigationProperty Name="Clase" Relationship="Motocross.CorredorClase" FromRole="Corredor" ToRole="Clase" />
+  </EntityType>
+  <EntityType Name="Clase">
+    <Key>
+      <PropertyRef Name="IDClase" />
+    </Key>
+    <Property Type="Int32" Name="IDClase" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NombreClase" Nullable="false" />
+    <NavigationProperty Name="Corredor" Relationship="Motocross.CorredorClase" FromRole="Clase" ToRole="Corredor" />
+  </EntityType>
+  <Association Name="MarcaEquipo">
+    <End Type="Motocross.Marca" Role="Marca" Multiplicity="1" />
+    <End Type="Motocross.Equipo" Role="Equipo" Multiplicity="*" />
+  </Association>
+  <Association Name="EquipoCorredor">
+    <End Type="Motocross.Equipo" Role="Equipo" Multiplicity="1" />
+    <End Type="Motocross.Corredor" Role="Corredor" Multiplicity="*" />
+  </Association>
+  <Association Name="CorredorClase">
+    <End Type="Motocross.Corredor" Role="Corredor" Multiplicity="1" />
+    <End Type="Motocross.Clase" Role="Clase" Multiplicity="*" />
+  </Association>
+</Schema>

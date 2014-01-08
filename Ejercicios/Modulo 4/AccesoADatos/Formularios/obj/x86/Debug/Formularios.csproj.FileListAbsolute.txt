@@ -1,0 +1,10 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\bin\Debug\Formularios.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\bin\Debug\Formularios.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\bin\Debug\Formularios.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\Formularios.Form1.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\Formularios.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\Formularios.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\Formularios\obj\x86\Debug\Formularios.pdb
