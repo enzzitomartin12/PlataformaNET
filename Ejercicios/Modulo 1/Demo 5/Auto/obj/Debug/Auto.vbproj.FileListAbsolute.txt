@@ -1,0 +1,35 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\bin\Debug\Auto.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\bin\Debug\Auto.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\bin\Debug\Auto.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\bin\Debug\Vehiculo.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\Auto.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\Auto.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\Auto.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Auto\obj\Debug\IntegracionAuto.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\IntegracionAuto.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\Auto.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\Auto.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\obj\Debug\Auto.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\bin\Debug\Auto.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\bin\Debug\Auto.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\bin\Debug\Auto.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Auto\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\bin\Debug\Auto.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\bin\Debug\Auto.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\bin\Debug\Auto.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\bin\Debug\Vehiculo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\IntegracionAuto.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\Auto.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\Auto.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Auto\obj\Debug\Auto.pdb

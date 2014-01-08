@@ -1,0 +1,5 @@
+C:\Users\Victor\AppData\Local\Temporary Projects\HolaMundo\bin\Debug\HolaMundo.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\HolaMundo\bin\Debug\HolaMundo.pdb
+C:\Users\Victor\AppData\Local\Temporary Projects\HolaMundo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\AppData\Local\Temporary Projects\HolaMundo\obj\x86\Debug\HolaMundo.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\HolaMundo\obj\x86\Debug\HolaMundo.pdb

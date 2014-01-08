@@ -1,0 +1,21 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\bin\Debug\Avion.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\bin\Debug\Avion.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\bin\Debug\Vehiculo.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\obj\Debug\Avion.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Integracion\Avion\obj\Debug\Avion.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\obj\Debug\Avion.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\obj\Debug\Avion.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\bin\Debug\Avion.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\bin\Debug\Avion.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\bin\Debug\Vehiculo.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 1\Avion\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\bin\Debug\Avion.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\bin\Debug\Avion.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\bin\Debug\Vehiculo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\bin\Debug\Vehiculo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\obj\Debug\Avion.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\Avion\obj\Debug\Avion.pdb
