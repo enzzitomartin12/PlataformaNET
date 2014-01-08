@@ -1,0 +1,14 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\LissajousCurves.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\LissajousCurves.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\AppManifest.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\LissajousCurves.xap
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\LissajousCurvesTestPage.html
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\Petzold.Oscilloscope.Silverlight.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\Bin\Debug\Petzold.Oscilloscope.Silverlight.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\App.g.i.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\MainPage.g.i.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\LissajousCurves.g.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\LissajousCurves.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\LissajousCurves.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves\obj\Debug\XapCacheFile.xml

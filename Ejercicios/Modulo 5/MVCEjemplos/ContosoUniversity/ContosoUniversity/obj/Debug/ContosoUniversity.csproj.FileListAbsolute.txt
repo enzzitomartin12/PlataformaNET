@@ -1,0 +1,9 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\ContosoUniversity.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\EntityFramework.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\PagedList.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\EntityFramework.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\bin\PagedList.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MVCEjemplo\C#\ContosoUniversity\obj\Debug\ContosoUniversity.pdb

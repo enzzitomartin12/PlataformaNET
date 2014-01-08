@@ -1,0 +1,26 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\bin\Debug\WpfLab03.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\bin\Debug\WpfLab03.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\MainWindow.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\App.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03_MarkupCompile.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.g.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.Properties.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\bin\Debug\WpfLab03.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\bin\Debug\WpfLab03.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\MainWindow.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\App.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03_MarkupCompile.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.g.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WpfLab03\WpfLab03\obj\x86\Debug\WpfLab03.pdb

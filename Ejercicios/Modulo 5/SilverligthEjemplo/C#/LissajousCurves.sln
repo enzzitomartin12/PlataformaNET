@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LissajousCurves", "LissajousCurves\LissajousCurves.csproj", "{673FEEEF-4E8C-4E33-B7D1-DB72A16B008C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LissajousCurves.Web", "LissajousCurves.Web\LissajousCurves.Web.csproj", "{213973D7-6FE1-441C-87BD-39A9EB7365CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzold.Oscilloscope.Silverlight", "Petzold.Oscilloscope.Silverlight\Petzold.Oscilloscope.Silverlight.csproj", "{B43EFA6D-DE46-4E1A-9E50-177A9613FF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673FEEEF-4E8C-4E33-B7D1-DB72A16B008C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673FEEEF-4E8C-4E33-B7D1-DB72A16B008C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673FEEEF-4E8C-4E33-B7D1-DB72A16B008C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673FEEEF-4E8C-4E33-B7D1-DB72A16B008C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213973D7-6FE1-441C-87BD-39A9EB7365CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213973D7-6FE1-441C-87BD-39A9EB7365CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213973D7-6FE1-441C-87BD-39A9EB7365CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213973D7-6FE1-441C-87BD-39A9EB7365CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43EFA6D-DE46-4E1A-9E50-177A9613FF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43EFA6D-DE46-4E1A-9E50-177A9613FF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43EFA6D-DE46-4E1A-9E50-177A9613FF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43EFA6D-DE46-4E1A-9E50-177A9613FF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

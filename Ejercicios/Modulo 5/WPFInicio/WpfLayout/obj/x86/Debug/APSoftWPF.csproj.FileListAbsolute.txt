@@ -1,0 +1,69 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\bin\Debug\APSoftWPF.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\bin\Debug\APSoftWPF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFGrid.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFGrid.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\App.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF_MarkupCompile.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.g.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.Properties.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFStackPanel.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFStackPanel.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFDockPanel.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFDockPanel.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFWrapPanel.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFWrapPanel.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFCanvas.baml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFCanvas.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\bin\Debug\APSoftWPF.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\bin\Debug\APSoftWPF.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFCanvas.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFDockPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFGrid.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFStackPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFWrapPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFCanvas.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFDockPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFGrid.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFStackPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\WPFWrapPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\App.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF_MarkupCompile.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.g.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\APSoftWPF.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\APSoftWPF\APSoftWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\bin\Debug\APSoftWPF.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\bin\Debug\APSoftWPF.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\MainWindow.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFCanvas.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFDockPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFGrid.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFStackPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFWrapPanel.baml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFCanvas.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFDockPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFGrid.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFStackPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\WPFWrapPanel.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\App.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\APSoftWPF_MarkupCompile.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\APSoftWPF.g.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\APSoftWPF.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\APSoftWPF.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 5\WPFInicio\WpfLayout\obj\x86\Debug\APSoftWPF.pdb
