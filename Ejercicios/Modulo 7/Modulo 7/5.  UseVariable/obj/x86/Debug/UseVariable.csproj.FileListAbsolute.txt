@@ -1,0 +1,28 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\bin\Debug\UseVariable.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\bin\Debug\UseVariable.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\bin\Debug\UseVariable.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\_UseVariable.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\InProcessTempFiles\_UseVariable.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\UseVariable.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\UseVariable\obj\x86\Debug\UseVariable.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\bin\Debug\UseVariable.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\bin\Debug\UseVariable.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\bin\Debug\UseVariable.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\_UseVariable.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\InProcessTempFiles\_UseVariable.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\UseVariable.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\5 - UseVariable\obj\x86\Debug\UseVariable.pdb

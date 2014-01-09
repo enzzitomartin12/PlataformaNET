@@ -1,0 +1,18 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\bin\Debug\SendAndReceive.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\bin\Debug\SendAndReceive.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\bin\Debug\SendAndReceive.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\SendAndReceive.ServiceReference1.IService.GetData.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\_SendAndReceive.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\SendAndReceive.ServiceReference1.IService.GetData.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\13. SendAndReceive.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\13. SendAndReceive.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\InProcessTempFiles\SendAndReceive.ServiceReference1.IService.GetData.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\InProcessTempFiles\SendAndReceive.ServiceReference1.IService.GetData.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\InProcessTempFiles\_SendAndReceive.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\SendAndReceive.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\13. SendAndReceive\obj\x86\Debug\SendAndReceive.pdb

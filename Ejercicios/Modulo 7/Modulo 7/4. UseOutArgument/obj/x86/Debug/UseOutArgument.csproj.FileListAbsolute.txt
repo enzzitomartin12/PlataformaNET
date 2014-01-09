@@ -1,0 +1,28 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\bin\Debug\UseOutArgument.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\bin\Debug\UseOutArgument.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\bin\Debug\UseOutArgument.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\_UseOutArgument.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\UseOutArgument.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\UseOutArgument.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\InProcessTempFiles\_UseOutArgument.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\UseOutArgument.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseOutArgument\obj\x86\Debug\UseOutArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\bin\Debug\UseOutArgument.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\UseOutArgument.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\UseOutArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\bin\Debug\UseOutArgument.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\bin\Debug\UseOutArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\_UseOutArgument.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\UseOutArgument.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\UseOutArgument.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\4. UseOutArgument\obj\x86\Debug\InProcessTempFiles\_UseOutArgument.g.cs

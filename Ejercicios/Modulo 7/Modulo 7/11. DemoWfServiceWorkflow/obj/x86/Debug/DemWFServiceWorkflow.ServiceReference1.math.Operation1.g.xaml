@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<this:Operation1 this:EndpointConfigurationName="BasicHttpBinding_math" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ds="clr-namespace:DemWFServiceWorkflow.ServiceReference1;assembly=DemWFServiceWorkflow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:ds1="clr-namespace:DemWFServiceWorkflow.ServiceReference1;assembly=DemWFServiceWorkflow" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schema.develop.com/2010/math" xmlns:p1="http://schemas.microsoft.com/netfx/2009/xaml/servicemodel" xmlns:this="clr-namespace:DemWFServiceWorkflow.ServiceReference1.Activities;assembly=DemWFServiceWorkflow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <this:Operation1.Implementation>
+    <Sequence>
+      <Sequence.Variables>
+        <x:Reference>__ReferenceID1</x:Reference>
+        <x:Reference>__ReferenceID2</x:Reference>
+      </Sequence.Variables>
+      <p1:Send x:Name="__ReferenceID0" Action="http://schema.develop.com/2010/math/math/Operation1" OperationName="Operation1" ServiceContractName="p:math">
+        <p1:Send.CorrelationInitializers>
+          <p1:RequestReplyCorrelationInitializer>
+            <p1:RequestReplyCorrelationInitializer.CorrelationHandle>
+              <InArgument x:TypeArguments="p1:CorrelationHandle">
+                <VariableValue x:TypeArguments="p1:CorrelationHandle">
+                  <VariableValue.Variable>
+                    <Variable x:TypeArguments="p1:CorrelationHandle" x:Name="__ReferenceID2" />
+                  </VariableValue.Variable>
+                </VariableValue>
+              </InArgument>
+            </p1:RequestReplyCorrelationInitializer.CorrelationHandle>
+          </p1:RequestReplyCorrelationInitializer>
+        </p1:Send.CorrelationInitializers>
+        <p1:Send.EndpointConfigurationName>
+          <PropertyReference x:TypeArguments="x:String" PropertyName="EndpointConfigurationName" />
+        </p1:Send.EndpointConfigurationName>
+        <p1:SendMessageContent>
+          <InArgument x:TypeArguments="ds1:Operation1Request">[New DemWFServiceWorkflow.ServiceReference1.Operation1Request() With { .xIn = xIn, .yIn = yIn }]</InArgument>
+        </p1:SendMessageContent>
+      </p1:Send>
+      <p1:ReceiveReply Request="{x:Reference __ReferenceID0}" Action="http://schema.develop.com/2010/math/math/Operation1Response">
+        <p1:ReceiveMessageContent>
+          <OutArgument x:TypeArguments="ds1:Operation1Response">
+            <VariableReference x:TypeArguments="ds1:Operation1Response">
+              <VariableReference.Variable>
+                <Variable x:TypeArguments="ds1:Operation1Response" x:Name="__ReferenceID1" Name="tempResult" />
+              </VariableReference.Variable>
+            </VariableReference>
+          </OutArgument>
+        </p1:ReceiveMessageContent>
+      </p1:ReceiveReply>
+      <Assign>
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[sumar]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tempResult.sumar]</InArgument>
+        </Assign.Value>
+      </Assign>
+    </Sequence>
+  </this:Operation1.Implementation>
+</this:Operation1>

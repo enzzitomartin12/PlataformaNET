@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HRApplicationDataModelStoreContainer" CdmEntityContainer="HRApplicationDataEntities">
+    <EntitySetMapping Name="Applicants">
+      <EntityTypeMapping TypeName="HRApplicationDataModel.Applicant">
+        <MappingFragment StoreEntitySet="Applicants">
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+          <ScalarProperty Name="ApplicantName" ColumnName="ApplicantName" />
+          <ScalarProperty Name="Education" ColumnName="Education" />
+          <ScalarProperty Name="NumberOfReferences" ColumnName="NumberOfReferences" />
+          <ScalarProperty Name="HireApproved" ColumnName="HireApproved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

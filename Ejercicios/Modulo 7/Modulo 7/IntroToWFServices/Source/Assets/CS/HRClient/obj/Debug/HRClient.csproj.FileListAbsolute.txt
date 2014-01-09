@@ -1,0 +1,10 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\bin\Debug\HRClient.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\bin\Debug\HRClient.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\bin\Debug\HRClient.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\HRClient.HRForm.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\HRClient.Properties.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\HRClient.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Assets\CS\HRClient\obj\Debug\HRClient.pdb

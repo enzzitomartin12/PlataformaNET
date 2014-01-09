@@ -1,0 +1,2 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.pdb

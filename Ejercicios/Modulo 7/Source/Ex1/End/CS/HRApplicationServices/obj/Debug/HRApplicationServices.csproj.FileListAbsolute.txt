@@ -1,0 +1,28 @@
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.Resources.WebResources.resources
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.read.1.tlog
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.write.1.tlog
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.Resources.WebResources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.pdb

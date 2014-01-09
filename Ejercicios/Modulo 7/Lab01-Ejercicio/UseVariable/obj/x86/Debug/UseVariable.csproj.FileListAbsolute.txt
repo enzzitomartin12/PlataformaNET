@@ -1,0 +1,14 @@
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\bin\Debug\UseVariable.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\bin\Debug\UseVariable.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\bin\Debug\UseVariable.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\_UseVariable.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\UseVariable.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\InProcessTempFiles\_UseVariable.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\UseVariable.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseVariable\obj\x86\Debug\UseVariable.pdb

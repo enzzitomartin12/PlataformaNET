@@ -1,0 +1,14 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Activities.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Contracts.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\bin\HRApplicationServices.Data.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.Resources.WebResources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\End\CS\HRApplicationServices\obj\Debug\HRApplicationServices.pdb

@@ -1,0 +1,28 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\bin\Debug\UseInArgument.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\bin\Debug\UseInArgument.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\bin\Debug\UseInArgument.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\_UseInArgument.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\UseInArgument.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\UseInArgument.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\InProcessTempFiles\_UseInArgument.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\UseInArgument.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\UseInArgument\obj\x86\Debug\UseInArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\bin\Debug\UseInArgument.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\UseInArgument.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\UseInArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\bin\Debug\UseInArgument.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\bin\Debug\UseInArgument.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\_UseInArgument.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\UseInArgument.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\UseInArgument.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\3. UseInArgument\obj\x86\Debug\InProcessTempFiles\_UseInArgument.g.cs

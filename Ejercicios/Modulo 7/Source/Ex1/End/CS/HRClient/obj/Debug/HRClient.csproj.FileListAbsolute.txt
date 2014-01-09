@@ -1,0 +1,13 @@
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\bin\Debug\HRClient.exe.config
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\bin\Debug\HRClient.exe
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\bin\Debug\HRClient.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.HRForm.resources
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.Properties.Resources.resources
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\GenerateResource.read.1.tlog
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\GenerateResource.write.1.tlog
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.exe
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRClient\bin\Debug\HRClient.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Source\Ex1\End\CS\HRClient\obj\Debug\HRClient.pdb

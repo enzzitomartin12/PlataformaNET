@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HRApplicationDataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="HRApplicationDataModelStoreContainer">
+    <EntitySet Name="Applicants" EntityType="HRApplicationDataModel.Store.Applicants" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Applicants">
+    <Key>
+      <PropertyRef Name="ApplicationID" />
+    </Key>
+    <Property Name="ApplicationID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RequestID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ApplicantName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Education" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="NumberOfReferences" Type="int" Nullable="false" />
+    <Property Name="HireApproved" Type="bit" />
+  </EntityType>
+</Schema>

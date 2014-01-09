@@ -1,0 +1,14 @@
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\bin\Debug\UseBookmark.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\bin\Debug\UseBookmark.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\bin\Debug\UseBookmark.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\_UseBookmark.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\UseBookmark.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\UseBookmark.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\InProcessTempFiles\_UseBookmark.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\UseBookmark.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\UseBookmark\obj\x86\Debug\UseBookmark.pdb

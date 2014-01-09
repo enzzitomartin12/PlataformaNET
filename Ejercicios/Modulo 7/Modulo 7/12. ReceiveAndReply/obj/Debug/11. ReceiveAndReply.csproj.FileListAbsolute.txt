@@ -1,0 +1,5 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\11. ReceiveAndReply\bin\ReceiveAndReply.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\11. ReceiveAndReply\bin\ReceiveAndReply.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\11. ReceiveAndReply\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\11. ReceiveAndReply\obj\Debug\ReceiveAndReply.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\11. ReceiveAndReply\obj\Debug\ReceiveAndReply.pdb

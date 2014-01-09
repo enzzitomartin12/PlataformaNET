@@ -1,0 +1,40 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\bin\Debug\DemWFServiceWorkflow.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\bin\Debug\DemWFServiceWorkflow.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\bin\Debug\DemWFServiceWorkflow.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.ServiceReference1.math.Operation1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\_DemWFServiceWorkflow.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.ServiceReference1.math.Operation1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemoWFServiceWorkflow.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemoWFServiceWorkflow.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\_XamlTemporaryAssembly_.dll
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\_XamlTemporaryAssembly_.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\InProcessTempFiles\DemWFServiceWorkflow.ServiceReference1.math.Operation1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\InProcessTempFiles\DemWFServiceWorkflow.ServiceReference1.math.Operation1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\InProcessTempFiles\_DemWFServiceWorkflow.g.cs
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemWFServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.ServiceReference1.math.Sumar.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\_DemWFServiceWorkflow.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.ServiceReference1.math.Sumar.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemoWFServiceWorkflow.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemoWFServiceWorkflow.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\_XamlTemporaryAssembly_.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\_XamlTemporaryAssembly_.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\DemWFServiceWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\bin\Debug\DemWFServiceWorkflow.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\bin\Debug\DemWFServiceWorkflow.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\bin\Debug\DemWFServiceWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\InProcessTempFiles\DemWFServiceWorkflow.ServiceReference1.math.Sumar.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\InProcessTempFiles\DemWFServiceWorkflow.ServiceReference1.math.Sumar.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\InProcessTempFiles\Workflow1.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\InProcessTempFiles\Workflow1.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceWorkflow\obj\x86\Debug\InProcessTempFiles\_DemWFServiceWorkflow.g.cs

@@ -1,0 +1,5 @@
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Contracts\bin\Debug\HRApplicationServices.Contracts.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Contracts\bin\Debug\HRApplicationServices.Contracts.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Contracts\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Contracts\obj\Debug\HRApplicationServices.Contracts.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Contracts\obj\Debug\HRApplicationServices.Contracts.pdb

@@ -1,0 +1,6 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.pdb

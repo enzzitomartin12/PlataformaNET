@@ -1,0 +1,12 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.pdb

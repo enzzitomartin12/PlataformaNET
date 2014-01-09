@@ -1,0 +1,17 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Activities.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Activities.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Contracts.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Data.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Data.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Contracts.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\ScreenEducation.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\_HRApplicationServices.Activities.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\ScreenEducation.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\HRApplicationServices.Activities.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\HRApplicationServices.Activities.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\HRApplicationServices.Activities.ServiceResources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\HRApplicationServices.Activities.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Activities\obj\Debug\HRApplicationServices.Activities.pdb

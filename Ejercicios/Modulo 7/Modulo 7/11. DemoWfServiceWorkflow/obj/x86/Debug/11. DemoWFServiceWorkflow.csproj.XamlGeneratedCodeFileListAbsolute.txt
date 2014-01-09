@@ -1,0 +1,3 @@
+obj\x86\Debug\_DemWFServiceWorkflow.g.cs
+obj\x86\Debug\Workflow1.g.cs
+obj\x86\Debug\DemWFServiceWorkflow.ServiceReference1.math.Sumar.g.cs

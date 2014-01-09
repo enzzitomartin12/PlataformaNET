@@ -1,0 +1,5 @@
+C:\Windows Workflow Foundation\Labs\Lab01\Cap03\ReceiveAndReply\bin\ReceiveAndReply.dll
+C:\Windows Workflow Foundation\Labs\Lab01\Cap03\ReceiveAndReply\bin\ReceiveAndReply.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\Cap03\ReceiveAndReply\obj\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\Cap03\ReceiveAndReply\obj\Debug\ReceiveAndReply.dll
+C:\Windows Workflow Foundation\Labs\Lab01\Cap03\ReceiveAndReply\obj\Debug\ReceiveAndReply.pdb

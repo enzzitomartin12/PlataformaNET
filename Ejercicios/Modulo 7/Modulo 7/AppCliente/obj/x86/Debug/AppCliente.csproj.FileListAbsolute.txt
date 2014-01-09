@@ -1,0 +1,12 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\bin\Debug\AppCliente.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\bin\Debug\AppCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\bin\Debug\AppCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\obj\x86\Debug\AppCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\AppCliente\obj\x86\Debug\AppCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\bin\Debug\AppCliente.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\obj\x86\Debug\AppCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\obj\x86\Debug\AppCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\bin\Debug\AppCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\bin\Debug\AppCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\AppCliente\obj\x86\Debug\ResolveAssemblyReference.cache

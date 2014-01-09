@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9e77e553-dd9f-4d28-8da0-4a297e3a7768" name="Victor@VICTOR-HP 2012-05-11 08:50:42" runUser="Victor-HP\Victor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7fd1e879-82e5-4315-bc49-fee5728dc496">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Victor_VICTOR-HP 2012-05-11 08_50_42" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-11T08:50:42.1331415-03:00" queuing="2012-05-11T08:50:46.7014028-03:00" start="2012-05-11T08:50:47.0434224-03:00" finish="2012-05-11T08:50:51.0596521-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\windows workflow foundation\labs\lab01\lab01-ejercicio\unittestforwfprogram\bin\debug\unittestforwfprogram.dll" id="ff9e8c38-f44a-df59-e325-7ba9c28a0312">
+      <Execution id="702bb611-4e16-4214-8610-b478ece8cb0b" />
+      <TestMethod codeBase="C:/Windows Workflow Foundation/Labs/Lab01/Lab01-Ejercicio/UnitTestForWFProgram/bin/Debug/UnitTestForWFProgram.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestForWFProgram.UnitTest1, UnitTestForWFProgram, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ff9e8c38-f44a-df59-e325-7ba9c28a0312" executionId="702bb611-4e16-4214-8610-b478ece8cb0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="702bb611-4e16-4214-8610-b478ece8cb0b" testId="ff9e8c38-f44a-df59-e325-7ba9c28a0312" testName="TestMethod1" computerName="VICTOR-HP" duration="00:00:01.2640382" startTime="2012-05-11T08:50:47.1464283-03:00" endTime="2012-05-11T08:50:50.8946426-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="702bb611-4e16-4214-8610-b478ece8cb0b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,6 @@
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll.config
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.pdb
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.dll
+C:\VS2010TrainingKit\Labs\IntroToWFServices\Source\Ex3\End\CS\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.pdb

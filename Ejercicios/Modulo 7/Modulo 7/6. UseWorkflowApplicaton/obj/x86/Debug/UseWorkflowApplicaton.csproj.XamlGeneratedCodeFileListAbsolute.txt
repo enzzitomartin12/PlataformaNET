@@ -1,0 +1,2 @@
+obj\x86\Debug\_UseWorkflowApplicaton.g.cs
+obj\x86\Debug\Workflow1.g.cs

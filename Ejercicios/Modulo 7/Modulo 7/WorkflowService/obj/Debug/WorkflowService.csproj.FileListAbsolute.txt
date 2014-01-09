@@ -1,0 +1,5 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\WorkflowService\bin\WorkflowService.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\WorkflowService\bin\WorkflowService.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\WorkflowService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\WorkflowService\obj\Debug\WorkflowService.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WorkflowConsoleDemo\WorkflowService\obj\Debug\WorkflowService.pdb

@@ -1,0 +1,12 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\bin\Debug\WcfDemo.dll.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\bin\Debug\WcfDemo.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\bin\Debug\WcfDemo.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\obj\Debug\WcfDemo.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\WcfDemo\WcfDemo\obj\Debug\WcfDemo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\bin\Debug\WcfDemo.dll.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\bin\Debug\WcfDemo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\bin\Debug\WcfDemo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\obj\Debug\WcfDemo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfDemo\obj\Debug\WcfDemo.pdb

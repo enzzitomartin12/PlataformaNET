@@ -1,0 +1,10 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfService\bin\DemoWfService.dll
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfService\bin\DemoWfService.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfService\obj\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfService\obj\Debug\DemoWfService.dll
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\DemoWfService\obj\Debug\DemoWfService.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfService\bin\DemoWfService.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfService\bin\DemoWfService.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfService\obj\Debug\DemoWfService.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\DemoWfService\obj\Debug\DemoWfService.pdb

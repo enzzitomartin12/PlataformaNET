@@ -1,0 +1,2 @@
+obj\Debug\_HRApplicationServices.Activities.g.cs
+obj\Debug\ScreenEducation.g.cs

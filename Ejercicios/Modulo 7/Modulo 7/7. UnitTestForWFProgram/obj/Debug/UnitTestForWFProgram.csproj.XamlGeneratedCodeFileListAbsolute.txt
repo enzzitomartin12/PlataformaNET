@@ -1,0 +1,2 @@
+obj\Debug\_UnitTestForWFProgram.g.cs
+obj\Debug\WorkflowForTest.g.cs

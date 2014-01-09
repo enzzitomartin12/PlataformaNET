@@ -1,0 +1,6 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\bin\Debug\HRApplicationServices.Data.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\IntroToWFServices\Source\Ex1\Begin\CS\HRApplicationServices.Data\obj\Debug\HRApplicationServices.Data.pdb

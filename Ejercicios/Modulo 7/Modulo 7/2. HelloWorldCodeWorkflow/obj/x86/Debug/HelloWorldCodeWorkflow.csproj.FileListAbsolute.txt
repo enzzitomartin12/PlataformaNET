@@ -1,0 +1,10 @@
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\HelloWorldCodeWorkflow\bin\Debug\HelloWorldCodeWorkflow.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\HelloWorldCodeWorkflow\bin\Debug\HelloWorldCodeWorkflow.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\HelloWorldCodeWorkflow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.exe
+C:\Windows Workflow Foundation\Labs\Lab01\HelloWorlWorkflow\HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\obj\x86\Debug\HelloWorldCodeWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\bin\Debug\HelloWorldCodeWorkflow.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\bin\Debug\HelloWorldCodeWorkflow.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\2. HelloWorldCodeWorkflow\obj\x86\Debug\ResolveAssemblyReference.cache

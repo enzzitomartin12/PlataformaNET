@@ -1,0 +1,9 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\bin\Debug\DemoWfServiceCliente.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\10. DemoWfServiceCliente\obj\x86\Debug\DemoWfServiceCliente.pdb

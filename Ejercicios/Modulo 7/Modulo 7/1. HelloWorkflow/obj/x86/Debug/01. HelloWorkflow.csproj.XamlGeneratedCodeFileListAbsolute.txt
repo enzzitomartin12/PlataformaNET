@@ -1,0 +1,2 @@
+obj\x86\Debug\_HelloWorkflow.g.cs
+obj\x86\Debug\SayHello.g.cs

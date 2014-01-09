@@ -1,0 +1,10 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\bin\Debug\WindowsFormsCliente.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\bin\Debug\WindowsFormsCliente.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\bin\Debug\WindowsFormsCliente.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\WindowsFormsCliente.Cliente.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\WindowsFormsCliente.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\WindowsFormsCliente.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WindowsFormsCliente\obj\x86\Debug\WindowsFormsCliente.pdb

@@ -1,0 +1,5 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfService2\bin\WcfService2.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfService2\bin\WcfService2.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfService2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfService2\obj\Debug\WcfService2.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfService2\obj\Debug\WcfService2.pdb

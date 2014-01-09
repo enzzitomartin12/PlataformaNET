@@ -1,0 +1,26 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\bin\Debug\UnitTestForWFProgram.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\bin\Debug\UnitTestForWFProgram.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\WorkflowForTest.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\_UnitTestForWFProgram.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\WorkflowForTest.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\07. UnitTestForWFProgram.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\07. UnitTestForWFProgram.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\WorkflowForTest.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\WorkflowForTest.g.xaml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\_UnitTestForWFProgram.g.cs
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\UnitTestForWFProgram.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\UnitTestForWFProgram.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\bin\Debug\UnitTestForWFProgram.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\bin\Debug\UnitTestForWFProgram.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\WorkflowForTest.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\_UnitTestForWFProgram.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\WorkflowForTest.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\07. UnitTestForWFProgram.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\07. UnitTestForWFProgram.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\WorkflowForTest.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\WorkflowForTest.g.xaml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\InProcessTempFiles\_UnitTestForWFProgram.g.cs
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\UnitTestForWFProgram.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 7\Modulo 7\7. UnitTestForWFProgram\obj\Debug\UnitTestForWFProgram.pdb

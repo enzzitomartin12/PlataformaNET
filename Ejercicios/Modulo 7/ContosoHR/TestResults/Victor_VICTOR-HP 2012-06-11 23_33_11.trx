@@ -1,0 +1,3054 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6810daad-245d-4f3a-9aa3-24639e17984f" name="Victor@VICTOR-HP 2012-06-11 23:33:11" runUser="Victor-HP\Victor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="local" id="f76e4780-d33d-492d-bee4-478c037a02cf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Victor_VICTOR-HP 2012-06-11 23_33_11">
+      <DeploymentItem filename="C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Activities\bin\Debug\HRApplicationServices.Activities.dll" />
+      <DeploymentItem filename="HRApplicationServices\SubmitApplication.xamlx" />
+      <DeploymentItem filename="C:\Users\Victor\Desktop\Ejemplos\Modulo 7\packages\Microsoft.Activities.Extensions.2.0.0.13\lib\Net40\Microsoft.Activities.Extensions.dll" />
+      <DeploymentItem filename="C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices.Contracts\bin\Debug\HRApplicationServices.Contracts.dll" />
+      <DeploymentItem filename="C:\Users\Victor\Desktop\Ejemplos\Modulo 7\packages\Microsoft.Activities.UnitTesting.2.0.0.13\lib\Net40\Microsoft.Activities.UnitTesting.dll" />
+      <DeploymentItem filename="C:\Users\Victor\Desktop\Ejemplos\Modulo 7\HRApplicationServices\bin\HRApplicationServices.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-11T23:33:11.6836636-03:00" queuing="2012-06-11T23:33:12.3757032-03:00" start="2012-06-11T23:33:12.5867153-03:00" finish="2012-06-11T23:33:17.1649771-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ServiceShouldCancelAfter2Nags" storage="c:\users\victor\desktop\ejemplos\modulo 7\hrservices.tests\bin\debug\hrservices.tests.dll" id="ea0d2198-4a83-7b36-c037-a303bcf49f42">
+      <DeploymentItems>
+        <DeploymentItem filename="HRApplicationServices\SubmitApplication.xamlx" />
+      </DeploymentItems>
+      <Execution id="dc68ce51-ad19-4359-9b60-415fb267061a" />
+      <TestMethod codeBase="C:/Users/Victor/Desktop/Ejemplos/Modulo 7/HRServices.Tests/bin/Debug/HRServices.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HRServices.Tests.SubmitApplicationTest, HRServices.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ServiceShouldCancelAfter2Nags" />
+    </UnitTest>
+    <UnitTest name="EducationLevelMastersWhenSentShouldHireWhenHumanApproves" storage="c:\users\victor\desktop\ejemplos\modulo 7\hrservices.tests\bin\debug\hrservices.tests.dll" id="d64b72b0-291a-11c5-5ff7-6bc4088f5a54">
+      <DeploymentItems>
+        <DeploymentItem filename="HRApplicationServices\SubmitApplication.xamlx" />
+      </DeploymentItems>
+      <Execution id="e17fbe97-3df1-49ac-abd6-6efe4583731a" />
+      <TestMethod codeBase="C:/Users/Victor/Desktop/Ejemplos/Modulo 7/HRServices.Tests/bin/Debug/HRServices.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HRServices.Tests.SubmitApplicationTest, HRServices.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EducationLevelMastersWhenSentShouldHireWhenHumanApproves" />
+    </UnitTest>
+    <UnitTest name="ShouldNotHireEductionLevelNone" storage="c:\users\victor\desktop\ejemplos\modulo 7\hrservices.tests\bin\debug\hrservices.tests.dll" id="811be0db-7615-ac5f-8e9e-c71f3aac07ec">
+      <DeploymentItems>
+        <DeploymentItem filename="HRApplicationServices\SubmitApplication.xamlx" />
+      </DeploymentItems>
+      <Execution id="8118d838-18cf-4f10-a421-b11fc2447467" />
+      <TestMethod codeBase="C:/Users/Victor/Desktop/Ejemplos/Modulo 7/HRServices.Tests/bin/Debug/HRServices.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HRServices.Tests.SubmitApplicationTest, HRServices.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotHireEductionLevelNone" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="811be0db-7615-ac5f-8e9e-c71f3aac07ec" executionId="8118d838-18cf-4f10-a421-b11fc2447467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d64b72b0-291a-11c5-5ff7-6bc4088f5a54" executionId="e17fbe97-3df1-49ac-abd6-6efe4583731a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea0d2198-4a83-7b36-c037-a303bcf49f42" executionId="dc68ce51-ad19-4359-9b60-415fb267061a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8118d838-18cf-4f10-a421-b11fc2447467" testId="811be0db-7615-ac5f-8e9e-c71f3aac07ec" testName="ShouldNotHireEductionLevelNone" computerName="VICTOR-HP" duration="00:00:03.0281022" startTime="2012-06-11T23:33:12.6127168-03:00" endTime="2012-06-11T23:33:16.1459189-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8118d838-18cf-4f10-a421-b11fc2447467">
+      <Output>
+        <DebugTrace>Host: Opening net.pipe://localhost/SubmitApplication
+Host: Opened
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: System.ServiceModel.Activities.CorrelationHandle
+        ApplicationRequest: 
+        ApplicationResponse: 
+        ApplicationIDHandle: System.ServiceModel.Activities.CorrelationHandle
+        Hire: False
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplication&lt;/a:Action&gt;
+    &lt;a:MessageID&gt;urn:uuid:943697d0-cb38-4bcd-b2a8-b82aae7ae672&lt;/a:MessageID&gt;
+    &lt;a:ReplyTo&gt;
+      &lt;a:Address&gt;http://www.w3.org/2005/08/addressing/anonymous&lt;/a:Address&gt;
+    &lt;/a:ReplyTo&gt;
+    &lt;a:To s:mustUnderstand="1"&gt;net.pipe://localhost/SubmitApplication&lt;/a:To&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationRequest xmlns="http://contoso.com/contracts/hr" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;RequestID&gt;d66b97dd-018b-4ead-b5f3-6ed107cb6b4f&lt;/RequestID&gt;
+      &lt;Resume&gt;
+        &lt;Education&gt;none&lt;/Education&gt;
+        &lt;Email&gt;test@test.org&lt;/Email&gt;
+        &lt;Name&gt;test&lt;/Name&gt;
+        &lt;NumReferences&gt;0&lt;/NumReferences&gt;
+      &lt;/Resume&gt;
+    &lt;/SubmitJobApplicationRequest&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: none
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: none
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.12] "Assign"
+52: Activity [67.12] "Assign" is Executing
+{
+    Arguments
+        Value: False
+}
+53: Activity [67.12] "Assign" is Closed
+{
+    Arguments
+        Value: False
+        To: False
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: False
+        Education: none
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: False
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [16] "Update No Hire"
+59: Activity [16] "Update No Hire" is Executing
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+60: Activity [16] "Update No Hire" is Closed
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+61: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: False
+}
+62: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+63: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+64: Activity [3] "Notify Applicant" is Executing
+65: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+66: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+67: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+68: Activity [3] "Notify Applicant" is Closed
+69: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 0
+}
+70: WorkflowInstance "Application Service" is Completed
+71: WorkflowInstance "Application Service" is Deleted
+Host: Closed
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: System.ServiceModel.Channels.MessagePatterns+PatternMessage
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: none
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: none
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.12] "Assign"
+52: Activity [67.12] "Assign" is Executing
+{
+    Arguments
+        Value: False
+}
+53: Activity [67.12] "Assign" is Closed
+{
+    Arguments
+        Value: False
+        To: False
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: False
+        Education: none
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: False
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [16] "Update No Hire"
+59: Activity [16] "Update No Hire" is Executing
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+60: Activity [16] "Update No Hire" is Closed
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+61: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: False
+}
+62: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+63: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+64: Activity [3] "Notify Applicant" is Executing
+65: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+66: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+67: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+68: Activity [3] "Notify Applicant" is Closed
+69: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 0
+}
+70: WorkflowInstance "Application Service" is Completed
+71: WorkflowInstance "Application Service" is Deleted
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: System.ServiceModel.Channels.MessagePatterns+PatternMessage
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: none
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: none
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.12] "Assign"
+52: Activity [67.12] "Assign" is Executing
+{
+    Arguments
+        Value: False
+}
+53: Activity [67.12] "Assign" is Closed
+{
+    Arguments
+        Value: False
+        To: False
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: False
+        Education: none
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: False
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [16] "Update No Hire"
+59: Activity [16] "Update No Hire" is Executing
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+60: Activity [16] "Update No Hire" is Closed
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: False
+}
+61: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: False
+}
+62: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+63: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+64: Activity [3] "Notify Applicant" is Executing
+65: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+66: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+67: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: False
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+68: Activity [3] "Notify Applicant" is Closed
+69: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 0
+}
+70: WorkflowInstance "Application Service" is Completed
+71: WorkflowInstance "Application Service" is Deleted
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e17fbe97-3df1-49ac-abd6-6efe4583731a" testId="d64b72b0-291a-11c5-5ff7-6bc4088f5a54" testName="EducationLevelMastersWhenSentShouldHireWhenHumanApproves" computerName="VICTOR-HP" duration="00:00:00.4074382" startTime="2012-06-11T23:33:16.1489190-03:00" endTime="2012-06-11T23:33:16.6029450-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e17fbe97-3df1-49ac-abd6-6efe4583731a">
+      <Output>
+        <DebugTrace>Host: Opening net.pipe://localhost/SubmitApplication
+Host: Opened
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: System.ServiceModel.Activities.CorrelationHandle
+        ApplicationRequest: 
+        ApplicationResponse: 
+        ApplicationIDHandle: System.ServiceModel.Activities.CorrelationHandle
+        Hire: False
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplication&lt;/a:Action&gt;
+    &lt;a:MessageID&gt;urn:uuid:adf295a9-7956-4728-ac83-85d4ae0ffc29&lt;/a:MessageID&gt;
+    &lt;a:ReplyTo&gt;
+      &lt;a:Address&gt;http://www.w3.org/2005/08/addressing/anonymous&lt;/a:Address&gt;
+    &lt;/a:ReplyTo&gt;
+    &lt;a:To s:mustUnderstand="1"&gt;net.pipe://localhost/SubmitApplication&lt;/a:To&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationRequest xmlns="http://contoso.com/contracts/hr" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;RequestID&gt;ee9a5ad5-9663-47e3-a191-1bc94459b6d6&lt;/RequestID&gt;
+      &lt;Resume&gt;
+        &lt;Education&gt;Masters&lt;/Education&gt;
+        &lt;Email&gt;test@test.org&lt;/Email&gt;
+        &lt;Name&gt;test&lt;/Name&gt;
+        &lt;NumReferences&gt;0&lt;/NumReferences&gt;
+      &lt;/Resume&gt;
+    &lt;/SubmitJobApplicationRequest&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: Masters
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: Masters
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.4] "Assign"
+52: Activity [67.4] "Assign" is Executing
+{
+    Arguments
+        Value: True
+}
+53: Activity [67.4] "Assign" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: True
+        Education: Masters
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: True
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [21] "Human Screening"
+59: Activity [21] "Human Screening" is Executing
+60: Activity [21] "Human Screening" scheduled child activity [22] "While Human Is Unresponsive"
+61: Activity [22] "While Human Is Unresponsive" is Executing
+62: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+63: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+64: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+65: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+66: Activity [26] "Sequence" is Executing
+67: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+68: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+69: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+70: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+71: Activity [27] "Respond Or Timeout" is Executing
+72: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+73: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+74: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: 
+}
+75: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+76: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+77: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+78: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+79: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+80: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+81: Activity [28] "Timeout" is Executing
+82: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+83: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+84: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+85: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:01
+}
+86: WorkflowInstance "Application Service" is Idle
+87: Bookmark "HumanScreeningCompleted|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [55.6] "InternalReceiveMessage"
+88: Activity [55.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/HumanScreeningCompleted&lt;/a:Action&gt;
+    &lt;a:MessageID&gt;urn:uuid:faf04ced-5a4d-4984-bb9e-3c37e66493c2&lt;/a:MessageID&gt;
+    &lt;a:ReplyTo&gt;
+      &lt;a:Address&gt;http://www.w3.org/2005/08/addressing/anonymous&lt;/a:Address&gt;
+    &lt;/a:ReplyTo&gt;
+    &lt;a:To s:mustUnderstand="1"&gt;net.pipe://localhost/SubmitApplication&lt;/a:To&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;HumanScreeningResult xmlns="http://contoso.com/contracts/hr" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;AppID&gt;123&lt;/AppID&gt;
+      &lt;HiringApproved&gt;true&lt;/HiringApproved&gt;
+      &lt;RequestID&gt;00000000-0000-0000-0000-000000000000&lt;/RequestID&gt;
+    &lt;/HumanScreeningResult&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+89: Activity [55.1] "Sequence" scheduled child activity [55.2] "FromRequest"
+90: Activity [55.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+91: Activity [55.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.HumanScreeningResult
+}
+92: Activity [55.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+93: Activity [55] "Receive Human Screening" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.HumanScreeningResult
+}
+94: Bookmark "null" resumed with payload &lt;27&gt; owner [27] "Respond Or Timeout"
+95: Activity [27] "Respond Or Timeout" requests cancel of activity [28] "Timeout"
+96: Activity [28] "Timeout" requests cancel of activity [35] "DelayStub"
+97: Activity [35] "DelayStub" requests cancel of activity [35.1] "Delay"
+98: Activity [35.1] "Delay" is Canceled
+{
+    Arguments
+        Duration: 00:00:01
+}
+99: Activity [35] "DelayStub" is Canceled
+{
+    Arguments
+        Duration: 00:00:30
+}
+100: Activity [28] "Timeout" is Canceled
+101: Bookmark "null" resumed with payload &lt;null&gt; owner [37] "Respond Branch"
+102: Activity [37] "Respond Branch" scheduled child activity [38] "Update Human Screening Result"
+103: Activity [38] "Update Human Screening Result" is Executing
+104: Activity [38] "Update Human Screening Result" scheduled child activity [50] "Assign Hire"
+105: Activity [50] "Assign Hire" is Executing
+{
+    Arguments
+        Value: True
+}
+106: Activity [50] "Assign Hire" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+107: Activity [38] "Update Human Screening Result" scheduled child activity [45] "Update Hire Approved"
+108: Activity [45] "Update Hire Approved" is Executing
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: True
+}
+109: Activity [45] "Update Hire Approved" is Closed
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: True
+}
+110: Activity [38] "Update Human Screening Result" scheduled child activity [41] "Assign"
+111: Activity [41] "Assign" is Executing
+{
+    Arguments
+        Value: False
+}
+112: Activity [41] "Assign" is Closed
+{
+    Arguments
+        Value: False
+        To: False
+}
+113: Activity [38] "Update Human Screening Result" scheduled child activity [39] "SendReplyToReceive"
+114: Activity [39] "SendReplyToReceive" is Executing
+{
+    Arguments
+        Message: True
+}
+115: Activity [39] "SendReplyToReceive" scheduled child activity [39.1] "Sequence"
+116: Activity [39.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+117: Activity [39.1] "Sequence" scheduled child activity [39.5] "ToReply"
+118: Activity [39.5] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: True
+}
+119: Activity [39.5] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/HumanScreeningCompletedResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/"&gt;true&lt;/boolean&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: True
+}
+120: Activity [39.1] "Sequence" scheduled child activity [39.2] "InternalSendMessage"
+121: Activity [39.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        EndpointAddress: 
+        RequestMessage: 
+}
+122: Activity [39.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+}
+123: Activity [39.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+124: Activity [39] "SendReplyToReceive" is Closed
+{
+    Arguments
+        Message: True
+}
+125: Activity [38] "Update Human Screening Result" is Closed
+126: Activity [37] "Respond Branch" is Closed
+{
+    Variables
+        HumanScreening: HRApplicationServices.Contracts.HumanScreeningResult
+}
+127: Activity [27] "Respond Or Timeout" is Closed
+128: Activity [26] "Sequence" is Closed
+129: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+130: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+131: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+132: Activity [22] "While Human Is Unresponsive" is Closed
+133: Activity [21] "Human Screening" is Closed
+134: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: True
+}
+135: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: False
+}
+136: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+137: Activity [3] "Notify Applicant" is Executing
+138: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+139: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: False
+        Hire: True
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+140: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: False
+        Hire: True
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+141: Activity [3] "Notify Applicant" is Closed
+142: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: True
+        NagCount: 0
+}
+143: WorkflowInstance "Application Service" is Completed
+144: WorkflowInstance "Application Service" is Deleted
+Host: Closed
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: True
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: System.ServiceModel.Channels.MessagePatterns+PatternMessage
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: False
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: Masters
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: Masters
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.4] "Assign"
+52: Activity [67.4] "Assign" is Executing
+{
+    Arguments
+        Value: True
+}
+53: Activity [67.4] "Assign" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: True
+        Education: Masters
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: True
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [21] "Human Screening"
+59: Activity [21] "Human Screening" is Executing
+60: Activity [21] "Human Screening" scheduled child activity [22] "While Human Is Unresponsive"
+61: Activity [22] "While Human Is Unresponsive" is Executing
+62: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+63: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+64: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+65: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+66: Activity [26] "Sequence" is Executing
+67: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+68: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+69: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+70: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+71: Activity [27] "Respond Or Timeout" is Executing
+72: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+73: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+74: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: HRApplicationServices.Contracts.HumanScreeningResult
+}
+75: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+76: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+77: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+78: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+79: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+80: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+81: Activity [28] "Timeout" is Executing
+82: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+83: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+84: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+85: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:01
+}
+86: WorkflowInstance "Application Service" is Idle
+87: Bookmark "HumanScreeningCompleted|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [55.6] "InternalReceiveMessage"
+88: Activity [55.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/HumanScreeningCompleted&lt;/a:Action&gt;
+    &lt;a:MessageID&gt;urn:uuid:faf04ced-5a4d-4984-bb9e-3c37e66493c2&lt;/a:MessageID&gt;
+    &lt;a:ReplyTo&gt;
+      &lt;a:Address&gt;http://www.w3.org/2005/08/addressing/anonymous&lt;/a:Address&gt;
+    &lt;/a:ReplyTo&gt;
+    &lt;a:To s:mustUnderstand="1"&gt;net.pipe://localhost/SubmitApplication&lt;/a:To&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;HumanScreeningResult xmlns="http://contoso.com/contracts/hr" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;AppID&gt;123&lt;/AppID&gt;
+      &lt;HiringApproved&gt;true&lt;/HiringApproved&gt;
+      &lt;RequestID&gt;00000000-0000-0000-0000-000000000000&lt;/RequestID&gt;
+    &lt;/HumanScreeningResult&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+89: Activity [55.1] "Sequence" scheduled child activity [55.2] "FromRequest"
+90: Activity [55.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+91: Activity [55.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.HumanScreeningResult
+}
+92: Activity [55.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+93: Activity [55] "Receive Human Screening" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.HumanScreeningResult
+}
+94: Bookmark "null" resumed with payload &lt;27&gt; owner [27] "Respond Or Timeout"
+95: Activity [27] "Respond Or Timeout" requests cancel of activity [28] "Timeout"
+96: Activity [28] "Timeout" requests cancel of activity [35] "DelayStub"
+97: Activity [35] "DelayStub" requests cancel of activity [35.1] "Delay"
+98: Activity [35.1] "Delay" is Canceled
+{
+    Arguments
+        Duration: 00:00:01
+}
+99: Activity [35] "DelayStub" is Canceled
+{
+    Arguments
+        Duration: 00:00:30
+}
+100: Activity [28] "Timeout" is Canceled
+101: Bookmark "null" resumed with payload &lt;null&gt; owner [37] "Respond Branch"
+102: Activity [37] "Respond Branch" scheduled child activity [38] "Update Human Screening Result"
+103: Activity [38] "Update Human Screening Result" is Executing
+104: Activity [38] "Update Human Screening Result" scheduled child activity [50] "Assign Hire"
+105: Activity [50] "Assign Hire" is Executing
+{
+    Arguments
+        Value: True
+}
+106: Activity [50] "Assign Hire" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+107: Activity [38] "Update Human Screening Result" scheduled child activity [45] "Update Hire Approved"
+108: Activity [45] "Update Hire Approved" is Executing
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: True
+}
+109: Activity [45] "Update Hire Approved" is Closed
+{
+    Arguments
+        ApplicantID: 123
+        HireApproved: True
+}
+110: Activity [38] "Update Human Screening Result" scheduled child activity [41] "Assign"
+111: Activity [41] "Assign" is Executing
+{
+    Arguments
+        Value: False
+}
+112: Activity [41] "Assign" is Closed
+{
+    Arguments
+        Value: False
+        To: False
+}
+113: Activity [38] "Update Human Screening Result" scheduled child activity [39] "SendReplyToReceive"
+114: Activity [39] "SendReplyToReceive" is Executing
+{
+    Arguments
+        Message: True
+}
+115: Activity [39] "SendReplyToReceive" scheduled child activity [39.1] "Sequence"
+116: Activity [39.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+117: Activity [39.1] "Sequence" scheduled child activity [39.5] "ToReply"
+118: Activity [39.5] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: True
+}
+119: Activity [39.5] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/HumanScreeningCompletedResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/"&gt;true&lt;/boolean&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: True
+}
+120: Activity [39.1] "Sequence" scheduled child activity [39.2] "InternalSendMessage"
+121: Activity [39.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        EndpointAddress: 
+        RequestMessage: 
+}
+122: Activity [39.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+}
+123: Activity [39.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+124: Activity [39] "SendReplyToReceive" is Closed
+{
+    Arguments
+        Message: True
+}
+125: Activity [38] "Update Human Screening Result" is Closed
+126: Activity [37] "Respond Branch" is Closed
+{
+    Variables
+        HumanScreening: HRApplicationServices.Contracts.HumanScreeningResult
+}
+127: Activity [27] "Respond Or Timeout" is Closed
+128: Activity [26] "Sequence" is Closed
+129: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+130: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+131: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+132: Activity [22] "While Human Is Unresponsive" is Closed
+133: Activity [21] "Human Screening" is Closed
+134: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: True
+}
+135: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: False
+}
+136: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+137: Activity [3] "Notify Applicant" is Executing
+138: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+139: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: False
+        Hire: True
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+140: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: False
+        Hire: True
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+141: Activity [3] "Notify Applicant" is Closed
+142: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: True
+        NagCount: 0
+}
+143: WorkflowInstance "Application Service" is Completed
+144: WorkflowInstance "Application Service" is Deleted
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc68ce51-ad19-4359-9b60-415fb267061a" testId="ea0d2198-4a83-7b36-c037-a303bcf49f42" testName="ServiceShouldCancelAfter2Nags" computerName="VICTOR-HP" duration="00:00:00.3114173" startTime="2012-06-11T23:33:16.6069452-03:00" endTime="2012-06-11T23:33:16.9229633-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc68ce51-ad19-4359-9b60-415fb267061a">
+      <Output>
+        <DebugTrace>Host: Opening net.pipe://localhost/SubmitApplication
+Host: Opened
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: System.ServiceModel.Activities.CorrelationHandle
+        ApplicationRequest: 
+        ApplicationResponse: 
+        ApplicationIDHandle: System.ServiceModel.Activities.CorrelationHandle
+        Hire: False
+        NagCount: 0
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplication&lt;/a:Action&gt;
+    &lt;a:MessageID&gt;urn:uuid:fdecee83-66a6-47e9-a6d3-03c921178ffa&lt;/a:MessageID&gt;
+    &lt;a:ReplyTo&gt;
+      &lt;a:Address&gt;http://www.w3.org/2005/08/addressing/anonymous&lt;/a:Address&gt;
+    &lt;/a:ReplyTo&gt;
+    &lt;a:To s:mustUnderstand="1"&gt;net.pipe://localhost/SubmitApplication&lt;/a:To&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationRequest xmlns="http://contoso.com/contracts/hr" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;RequestID&gt;f659bdc2-6413-4b1a-a53f-de667a23235f&lt;/RequestID&gt;
+      &lt;Resume&gt;
+        &lt;Education&gt;Masters&lt;/Education&gt;
+        &lt;Email&gt;test@test.org&lt;/Email&gt;
+        &lt;Name&gt;test&lt;/Name&gt;
+        &lt;NumReferences&gt;0&lt;/NumReferences&gt;
+      &lt;/Resume&gt;
+    &lt;/SubmitJobApplicationRequest&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: False
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: Masters
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: Masters
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.4] "Assign"
+52: Activity [67.4] "Assign" is Executing
+{
+    Arguments
+        Value: True
+}
+53: Activity [67.4] "Assign" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: True
+        Education: Masters
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: True
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [21] "Human Screening"
+59: Activity [21] "Human Screening" is Executing
+60: Activity [21] "Human Screening" scheduled child activity [22] "While Human Is Unresponsive"
+61: Activity [22] "While Human Is Unresponsive" is Executing
+62: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+63: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+64: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+65: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+66: Activity [26] "Sequence" is Executing
+67: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+68: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+69: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+70: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+71: Activity [27] "Respond Or Timeout" is Executing
+72: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+73: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+74: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: 
+}
+75: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+76: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+77: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+78: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+79: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+80: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+81: Activity [28] "Timeout" is Executing
+82: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+83: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+84: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+85: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+86: WorkflowInstance "Application Service" is Idle
+87: Bookmark "null" resumed with payload &lt;null&gt; owner [35.1] "Delay"
+88: Activity [35.1] "Delay" is Closed
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+89: Activity [35] "DelayStub" is Closed
+{
+    Arguments
+        Duration: 00:00:30
+}
+90: Bookmark "null" resumed with payload &lt;26&gt; owner [27] "Respond Or Timeout"
+91: Activity [27] "Respond Or Timeout" requests cancel of activity [37] "Respond Branch"
+92: Activity [37] "Respond Branch" requests cancel of activity [55] "Receive Human Screening"
+93: Activity [55] "Receive Human Screening" requests cancel of activity [55.1] "Sequence"
+94: Activity [55.1] "Sequence" requests cancel of activity [55.6] "InternalReceiveMessage"
+95: Activity [55.6] "InternalReceiveMessage" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+96: Activity [55.1] "Sequence" is Canceled
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+97: Activity [55] "Receive Human Screening" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+}
+98: Activity [37] "Respond Branch" is Canceled
+{
+    Variables
+        HumanScreening: 
+}
+99: Bookmark "null" resumed with payload &lt;null&gt; owner [28] "Timeout"
+100: Activity [28] "Timeout" scheduled child activity [29] "Sequence"
+101: Activity [29] "Sequence" is Executing
+{
+    Variables
+        x: 
+}
+102: Activity [29] "Sequence" scheduled child activity [30] "Assign"
+103: Activity [30] "Assign" is Executing
+{
+    Arguments
+        Value: 1
+}
+104: Activity [30] "Assign" is Closed
+{
+    Arguments
+        Value: 1
+        To: 1
+}
+105: Activity [29] "Sequence" is Closed
+{
+    Variables
+        x: 
+}
+106: Activity [28] "Timeout" is Closed
+107: Activity [27] "Respond Or Timeout" is Closed
+108: Activity [26] "Sequence" is Closed
+109: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+110: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+111: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+112: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+113: Activity [26] "Sequence" is Executing
+114: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+115: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 1
+        ApplicationID: 123
+}
+116: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 1
+        ApplicationID: 123
+}
+117: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+118: Activity [27] "Respond Or Timeout" is Executing
+119: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+120: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+121: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: 
+}
+122: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+123: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+124: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+125: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: System.Activities.NoPersistHandle
+}
+126: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+127: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+128: Activity [28] "Timeout" is Executing
+129: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+130: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+131: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+132: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+133: WorkflowInstance "Application Service" is Idle
+134: Bookmark "null" resumed with payload &lt;null&gt; owner [35.1] "Delay"
+135: Activity [35.1] "Delay" is Closed
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+136: Activity [35] "DelayStub" is Closed
+{
+    Arguments
+        Duration: 00:00:30
+}
+137: Bookmark "null" resumed with payload &lt;39&gt; owner [27] "Respond Or Timeout"
+138: Activity [27] "Respond Or Timeout" requests cancel of activity [37] "Respond Branch"
+139: Activity [37] "Respond Branch" requests cancel of activity [55] "Receive Human Screening"
+140: Activity [55] "Receive Human Screening" requests cancel of activity [55.1] "Sequence"
+141: Activity [55.1] "Sequence" requests cancel of activity [55.6] "InternalReceiveMessage"
+142: Activity [55.6] "InternalReceiveMessage" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+143: Activity [55.1] "Sequence" is Canceled
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+144: Activity [55] "Receive Human Screening" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+}
+145: Activity [37] "Respond Branch" is Canceled
+{
+    Variables
+        HumanScreening: 
+}
+146: Bookmark "null" resumed with payload &lt;null&gt; owner [28] "Timeout"
+147: Activity [28] "Timeout" scheduled child activity [29] "Sequence"
+148: Activity [29] "Sequence" is Executing
+{
+    Variables
+        x: 
+}
+149: Activity [29] "Sequence" scheduled child activity [30] "Assign"
+150: Activity [30] "Assign" is Executing
+{
+    Arguments
+        Value: 2
+}
+151: Activity [30] "Assign" is Closed
+{
+    Arguments
+        Value: 2
+        To: 2
+}
+152: Activity [29] "Sequence" is Closed
+{
+    Variables
+        x: 
+}
+153: Activity [28] "Timeout" is Closed
+154: Activity [27] "Respond Or Timeout" is Closed
+155: Activity [26] "Sequence" is Closed
+156: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+157: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+158: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+159: Activity [22] "While Human Is Unresponsive" is Closed
+160: Activity [21] "Human Screening" is Closed
+161: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: True
+}
+162: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: True
+}
+163: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+164: Activity [3] "Notify Applicant" is Executing
+165: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+166: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: True
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+167: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: True
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+168: Activity [3] "Notify Applicant" is Closed
+169: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 2
+}
+170: WorkflowInstance "Application Service" is Completed
+171: WorkflowInstance "Application Service" is Deleted
+Host: Closed
+0: WorkflowInstance "Application Service" is Started
+1: Activity [null] "null" scheduled child activity [1] "Application Service"
+2: Activity [1] "Application Service" is Executing
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 2
+}
+3: Activity [1] "Application Service" scheduled child activity [72] "Receive Application"
+4: Activity [72] "Receive Application" is Executing
+5: Activity [72] "Receive Application" scheduled child activity [88] "ReceiveRequest"
+6: Activity [88] "ReceiveRequest" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+7: Activity [88] "ReceiveRequest" scheduled child activity [88.1] "Sequence"
+8: Activity [88.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+9: Activity [88.1] "Sequence" scheduled child activity [88.6] "InternalReceiveMessage"
+10: Activity [88.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+11: WorkflowInstance "Application Service" is Idle
+12: Bookmark "SubmitJobApplication|{http://contoso.com/hr/}IApplicationService" resumed with payload &lt;System.ServiceModel.Activities.WorkflowOperationContext&gt; owner [88.6] "InternalReceiveMessage"
+13: Activity [88.6] "InternalReceiveMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: System.ServiceModel.Channels.MessagePatterns+PatternMessage
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+14: Activity [88.1] "Sequence" scheduled child activity [88.2] "FromRequest"
+15: Activity [88.2] "FromRequest" is Executing
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+16: Activity [88.2] "FromRequest" is Closed
+{
+    Arguments
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+17: Activity [88.1] "Sequence" is Closed
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+18: Activity [88] "ReceiveRequest" is Closed
+{
+    Arguments
+        CorrelatesWith: 
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+19: Activity [72] "Receive Application" scheduled child activity [73] "Save and Respond"
+20: Activity [73] "Save and Respond" is Executing
+21: Activity [73] "Save and Respond" scheduled child activity [83] "MockSaveJobApplication"
+22: Activity [83] "MockSaveJobApplication" is Executing
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+}
+23: Activity [83] "MockSaveJobApplication" is Closed
+{
+    Arguments
+        AppRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        Result: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+24: Activity [73] "Save and Respond" scheduled child activity [74] "SendResponse"
+25: Activity [74] "SendResponse" is Executing
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+26: Activity [74] "SendResponse" scheduled child activity [74.1] "Sequence"
+27: Activity [74.1] "Sequence" is Executing
+{
+    Variables
+        ResponseMessage: 
+}
+28: Activity [74.1] "Sequence" scheduled child activity [74.7] "ToReply"
+29: Activity [74.7] "ToReply" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+30: Activity [74.7] "ToReply" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: &lt;s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope"&gt;
+  &lt;s:Header&gt;
+    &lt;a:Action s:mustUnderstand="1"&gt;http://contoso.com/hr/IApplicationService/SubmitJobApplicationResponse&lt;/a:Action&gt;
+  &lt;/s:Header&gt;
+  &lt;s:Body&gt;
+    &lt;SubmitJobApplicationResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://contoso.com/contracts/hr"&gt;
+      &lt;ApplicantName&gt;test&lt;/ApplicantName&gt;
+      &lt;ApplicationID&gt;123&lt;/ApplicationID&gt;
+      &lt;ResponseText&gt;Thank you test, your applicant ID is 123.  We are now processing resume and references.  You will receive an email with the results.&lt;/ResponseText&gt;
+    &lt;/SubmitJobApplicationResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;
+        Parameter0: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+}
+31: Activity [74.1] "Sequence" scheduled child activity [74.2] "InternalSendMessage"
+32: Activity [74.2] "InternalSendMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+33: Activity [74.2] "InternalSendMessage" is Closed
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        MessageReference: 
+        EndpointAddress: 
+        RequestMessage: 
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+34: Activity [74.1] "Sequence" is Closed
+{
+    Variables
+        ResponseMessage: 
+}
+35: Activity [74] "SendResponse" is Closed
+{
+    Arguments
+        InternalSendCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        ResponseFormatterCorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        Parameter0: System.ServiceModel.Activities.CorrelationHandle
+}
+36: Activity [73] "Save and Respond" is Closed
+37: WorkflowInstance "Application Service" is Persisted
+38: Activity [72] "Receive Application" is Closed
+39: Activity [1] "Application Service" scheduled child activity [11] "Screen Applicant"
+40: Activity [11] "Screen Applicant" is Executing
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: True
+}
+41: Activity [11] "Screen Applicant" scheduled child activity [67] "Auto Screen Education"
+42: Activity [67] "Auto Screen Education" is Executing
+{
+    Arguments
+        Education: Masters
+}
+43: Activity [67] "Auto Screen Education" scheduled child activity [67.1] "Flowchart"
+44: Activity [67.1] "Flowchart" is Executing
+45: Activity [67.1] "Flowchart" scheduled child activity [67.18] "VisualBasicValue&lt;Boolean&gt;"
+46: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Executing
+47: Activity [67.18] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+48: Activity [67.1] "Flowchart" scheduled child activity [67.16] "VisualBasicValue&lt;String&gt;"
+49: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Executing
+50: Activity [67.16] "VisualBasicValue&lt;String&gt;" is Closed
+{
+    Arguments
+        Result: Masters
+}
+51: Activity [67.1] "Flowchart" scheduled child activity [67.4] "Assign"
+52: Activity [67.4] "Assign" is Executing
+{
+    Arguments
+        Value: True
+}
+53: Activity [67.4] "Assign" is Closed
+{
+    Arguments
+        Value: True
+        To: True
+}
+54: Activity [67.1] "Flowchart" is Closed
+55: Activity [67] "Auto Screen Education" is Closed
+{
+    Arguments
+        EducationPassed: True
+        Education: Masters
+}
+56: Activity [11] "Screen Applicant" scheduled child activity [13] "If Education Screen Passed"
+57: Activity [13] "If Education Screen Passed" is Executing
+{
+    Arguments
+        Condition: True
+}
+58: Activity [13] "If Education Screen Passed" scheduled child activity [21] "Human Screening"
+59: Activity [21] "Human Screening" is Executing
+60: Activity [21] "Human Screening" scheduled child activity [22] "While Human Is Unresponsive"
+61: Activity [22] "While Human Is Unresponsive" is Executing
+62: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+63: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+64: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+65: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+66: Activity [26] "Sequence" is Executing
+67: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+68: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+69: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 0
+        ApplicationID: 123
+}
+70: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+71: Activity [27] "Respond Or Timeout" is Executing
+72: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+73: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+74: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: 
+}
+75: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+76: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+77: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+78: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+79: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+80: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+81: Activity [28] "Timeout" is Executing
+82: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+83: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+84: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+85: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+86: WorkflowInstance "Application Service" is Idle
+87: Bookmark "null" resumed with payload &lt;null&gt; owner [35.1] "Delay"
+88: Activity [35.1] "Delay" is Closed
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+89: Activity [35] "DelayStub" is Closed
+{
+    Arguments
+        Duration: 00:00:30
+}
+90: Bookmark "null" resumed with payload &lt;26&gt; owner [27] "Respond Or Timeout"
+91: Activity [27] "Respond Or Timeout" requests cancel of activity [37] "Respond Branch"
+92: Activity [37] "Respond Branch" requests cancel of activity [55] "Receive Human Screening"
+93: Activity [55] "Receive Human Screening" requests cancel of activity [55.1] "Sequence"
+94: Activity [55.1] "Sequence" requests cancel of activity [55.6] "InternalReceiveMessage"
+95: Activity [55.6] "InternalReceiveMessage" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+96: Activity [55.1] "Sequence" is Canceled
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+97: Activity [55] "Receive Human Screening" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+}
+98: Activity [37] "Respond Branch" is Canceled
+{
+    Variables
+        HumanScreening: 
+}
+99: Bookmark "null" resumed with payload &lt;null&gt; owner [28] "Timeout"
+100: Activity [28] "Timeout" scheduled child activity [29] "Sequence"
+101: Activity [29] "Sequence" is Executing
+{
+    Variables
+        x: 
+}
+102: Activity [29] "Sequence" scheduled child activity [30] "Assign"
+103: Activity [30] "Assign" is Executing
+{
+    Arguments
+        Value: 1
+}
+104: Activity [30] "Assign" is Closed
+{
+    Arguments
+        Value: 1
+        To: 1
+}
+105: Activity [29] "Sequence" is Closed
+{
+    Variables
+        x: 
+}
+106: Activity [28] "Timeout" is Closed
+107: Activity [27] "Respond Or Timeout" is Closed
+108: Activity [26] "Sequence" is Closed
+109: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+110: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+111: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: True
+}
+112: Activity [22] "While Human Is Unresponsive" scheduled child activity [26] "Sequence"
+113: Activity [26] "Sequence" is Executing
+114: Activity [26] "Sequence" scheduled child activity [60] "Request Human Screening"
+115: Activity [60] "Request Human Screening" is Executing
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 1
+        ApplicationID: 123
+}
+116: Activity [60] "Request Human Screening" is Closed
+{
+    Arguments
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        RetryCount: 1
+        ApplicationID: 123
+}
+117: Activity [26] "Sequence" scheduled child activity [27] "Respond Or Timeout"
+118: Activity [27] "Respond Or Timeout" is Executing
+119: Activity [27] "Respond Or Timeout" scheduled child activity [28] "Timeout"
+120: Activity [27] "Respond Or Timeout" scheduled child activity [37] "Respond Branch"
+121: Activity [37] "Respond Branch" is Executing
+{
+    Variables
+        HumanScreening: 
+}
+122: Activity [37] "Respond Branch" scheduled child activity [55] "Receive Human Screening"
+123: Activity [55] "Receive Human Screening" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+}
+124: Activity [55] "Receive Human Screening" scheduled child activity [55.1] "Sequence"
+125: Activity [55.1] "Sequence" is Executing
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+126: Activity [55.1] "Sequence" scheduled child activity [55.6] "InternalReceiveMessage"
+127: Activity [55.6] "InternalReceiveMessage" is Executing
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+128: Activity [28] "Timeout" is Executing
+129: Activity [28] "Timeout" scheduled child activity [35] "DelayStub"
+130: Activity [35] "DelayStub" is Executing
+{
+    Arguments
+        Duration: 00:00:30
+}
+131: Activity [35] "DelayStub" scheduled child activity [35.1] "Delay"
+132: Activity [35.1] "Delay" is Executing
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+133: WorkflowInstance "Application Service" is Idle
+134: Bookmark "null" resumed with payload &lt;null&gt; owner [35.1] "Delay"
+135: Activity [35.1] "Delay" is Closed
+{
+    Arguments
+        Duration: 00:00:00.0010000
+}
+136: Activity [35] "DelayStub" is Closed
+{
+    Arguments
+        Duration: 00:00:30
+}
+137: Bookmark "null" resumed with payload &lt;39&gt; owner [27] "Respond Or Timeout"
+138: Activity [27] "Respond Or Timeout" requests cancel of activity [37] "Respond Branch"
+139: Activity [37] "Respond Branch" requests cancel of activity [55] "Receive Human Screening"
+140: Activity [55] "Receive Human Screening" requests cancel of activity [55.1] "Sequence"
+141: Activity [55.1] "Sequence" requests cancel of activity [55.6] "InternalReceiveMessage"
+142: Activity [55.6] "InternalReceiveMessage" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+        noPersistHandle: System.Activities.NoPersistHandle
+}
+143: Activity [55.1] "Sequence" is Canceled
+{
+    Variables
+        RequestMessage: 
+        ReceiveNoPersistHandle: 
+}
+144: Activity [55] "Receive Human Screening" is Canceled
+{
+    Arguments
+        CorrelatesWith: System.ServiceModel.Activities.CorrelationHandle
+        Message: 
+}
+145: Activity [37] "Respond Branch" is Canceled
+{
+    Variables
+        HumanScreening: 
+}
+146: Bookmark "null" resumed with payload &lt;null&gt; owner [28] "Timeout"
+147: Activity [28] "Timeout" scheduled child activity [29] "Sequence"
+148: Activity [29] "Sequence" is Executing
+{
+    Variables
+        x: 
+}
+149: Activity [29] "Sequence" scheduled child activity [30] "Assign"
+150: Activity [30] "Assign" is Executing
+{
+    Arguments
+        Value: 2
+}
+151: Activity [30] "Assign" is Closed
+{
+    Arguments
+        Value: 2
+        To: 2
+}
+152: Activity [29] "Sequence" is Closed
+{
+    Variables
+        x: 
+}
+153: Activity [28] "Timeout" is Closed
+154: Activity [27] "Respond Or Timeout" is Closed
+155: Activity [26] "Sequence" is Closed
+156: Activity [22] "While Human Is Unresponsive" scheduled child activity [23] "VisualBasicValue&lt;Boolean&gt;"
+157: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Executing
+158: Activity [23] "VisualBasicValue&lt;Boolean&gt;" is Closed
+{
+    Arguments
+        Result: False
+}
+159: Activity [22] "While Human Is Unresponsive" is Closed
+160: Activity [21] "Human Screening" is Closed
+161: Activity [13] "If Education Screen Passed" is Closed
+{
+    Arguments
+        Condition: True
+}
+162: Activity [11] "Screen Applicant" is Closed
+{
+    Variables
+        EducationPassed: True
+        WaitingForHuman: True
+}
+163: Activity [1] "Application Service" scheduled child activity [3] "Notify Applicant"
+164: Activity [3] "Notify Applicant" is Executing
+165: Activity [3] "Notify Applicant" scheduled child activity [4] "MockNotifyApplicant"
+166: Activity [4] "MockNotifyApplicant" is Executing
+{
+    Arguments
+        Cancel: True
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+167: Activity [4] "MockNotifyApplicant" is Closed
+{
+    Arguments
+        Cancel: True
+        Hire: False
+        Resume: HRApplicationServices.Contracts.ApplicantResume
+}
+168: Activity [3] "Notify Applicant" is Closed
+169: Activity [1] "Application Service" is Closed
+{
+    Variables
+        handle: 
+        ApplicationRequest: HRApplicationServices.Contracts.SubmitJobApplicationRequest
+        ApplicationResponse: HRApplicationServices.Contracts.SubmitJobApplicationResponse
+        ApplicationIDHandle: 
+        Hire: False
+        NagCount: 2
+}
+170: WorkflowInstance "Application Service" is Completed
+171: WorkflowInstance "Application Service" is Deleted
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

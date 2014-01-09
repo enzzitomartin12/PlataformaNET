@@ -1,0 +1,6 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\bin\Debug\WcfServicioDemo.dll.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\bin\Debug\WcfServicioDemo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\bin\Debug\WcfServicioDemo.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\obj\Debug\WcfServicioDemo.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\WcfServicioDemo\obj\Debug\WcfServicioDemo.pdb

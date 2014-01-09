@@ -1,0 +1,6 @@
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\bin\Debug\ConvertWFInstanceToXML.exe.config
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\bin\Debug\ConvertWFInstanceToXML.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\bin\Debug\ConvertWFInstanceToXML.pdb
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\obj\x86\Debug\ConvertWFInstanceToXML.exe
+C:\Windows Workflow Foundation\Labs\Lab01\Lab01-Ejercicio\ConvertWFInstanceToXML\obj\x86\Debug\ConvertWFInstanceToXML.pdb
