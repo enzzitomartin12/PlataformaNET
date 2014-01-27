@@ -1,0 +1,1514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9cb20102-5e97-4284-9027-248e7364f808"
+  name="MateriaAppModelo" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="93746466-cd12-4897-81bf-c0e8dcea7221">
+      <body>Seleccionar el Alumno por Legajo
+</body>
+      <annotatedElements>
+        <useCaseMoniker
+          Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+          LastKnownName="Consultar Alumno"
+          LastKnownLocation="MateriaAppModelo.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="79d5b180-9ed7-4a02-8c6c-6cf627f25835">
+      <body>Seleccionar el Alumno por Apellido
+</body>
+      <annotatedElements>
+        <useCaseMoniker
+          Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+          LastKnownName="Consultar Alumno"
+          LastKnownLocation="MateriaAppModelo.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="d75b29c2-9db7-4b4e-9844-a9a820326974">
+      <body>Mostrar todas las materias inscriptas del alumno
+</body>
+      <annotatedElements>
+        <useCaseMoniker
+          Id="b572546d-7a17-4f65-bbab-520f406786e5"
+          LastKnownName="Mostrar Lista de Materias"
+          LastKnownLocation="MateriaAppModelo.uml" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="94c47379-7255-4461-b8e0-6ad0f4c330f8"
+        name="Empleado Dpto Alumno"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="98353844-f9de-4efa-983b-0834d821aed9"
+            isDerived="false"
+            sourceEndRoleName="Empleado Dpto Alumno"
+            targetEndRoleName="Ingresar Resultado de Examen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4da9f1ad-bbfd-45a8-8a62-29a6ef861de6"
+              LastKnownName="Ingresar Resultado de Examen"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60c86fd1-e66a-4037-adcb-c9949ca5aebd"
+                  name="Empleado Dpto Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="397d85d2-511e-4ec0-a76b-e7911b0e04eb"
+                  name="Ingresar Resultado de Examen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="26cea9b6-4ad7-4283-8cc5-a1ca6546422c"
+            isDerived="false"
+            sourceEndRoleName="Empleado Dpto Alumno"
+            targetEndRoleName="Manipular Listado de Materias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e1df2a9a-1317-479c-84ec-43d160979131"
+              LastKnownName="Manipular Listado de Materias"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d72ddbf1-c065-41ec-9d9b-d9229d0fdb94"
+                  name="Empleado Dpto Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="908f3f18-c84a-49a0-a1ac-adb0bccc5a47"
+                  name="Manipular Listado de Materias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="90bfbf7e-2881-42ff-a174-6c4d2c7a0946"
+            isDerived="false"
+            sourceEndRoleName="Empleado Dpto Alumno"
+            targetEndRoleName="Mostrar Lista de Materias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b572546d-7a17-4f65-bbab-520f406786e5"
+              LastKnownName="Mostrar Lista de Materias"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5758d038-c9bd-499c-8f0f-9a55e5351d16"
+                  name="Empleado Dpto Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dadfc515-842c-45bd-bffc-198ab5aacdb2"
+                  name="Mostrar Lista de Materias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="124f4d95-d116-4030-8621-bf75d0ff7798"
+            isDerived="false"
+            sourceEndRoleName="Empleado Dpto Alumno"
+            targetEndRoleName="Mostrar Rendimiento de Alumno"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fcde5269-c0c3-4e75-9612-55f25bae072b"
+              LastKnownName="Mostrar Rendimiento de Alumno"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="939a3702-5b34-4e61-8cb9-cf942122474e"
+                  name="Empleado Dpto Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd900034-0dca-43f4-a1d7-4168bfc3de35"
+                  name="Mostrar Rendimiento de Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d39f0ea8-413a-4758-b9d9-f9bb8e814a55"
+            isDerived="false"
+            sourceEndRoleName="Empleado Dpto Alumno"
+            targetEndRoleName="Consultar Alumno"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+              LastKnownName="Consultar Alumno"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59cabf67-d23d-4cc2-b5f4-c729be1a66ce"
+                  name="Empleado Dpto Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55bf1170-7e04-42e2-bed5-33536f7025de"
+                  name="Consultar Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="8361194f-d908-437f-93a7-98c226fc319e"
+        name="Aumno"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c43f65d1-2071-46a4-a3d8-f1f583f65917"
+            isDerived="false"
+            sourceEndRoleName="Aumno"
+            targetEndRoleName="Consultar Alumno"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+              LastKnownName="Consultar Alumno"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0827722f-1fb7-4ec9-beed-12a992a94218"
+                  name="Aumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef3a8e0f-70d8-4db5-921b-c77726c415f9"
+                  name="Consultar Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0ecb3180-aa6b-4532-b003-1a0d88a4a7b7"
+            isDerived="false"
+            sourceEndRoleName="Aumno"
+            targetEndRoleName="Mostrar Rendimiento de Alumno"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fcde5269-c0c3-4e75-9612-55f25bae072b"
+              LastKnownName="Mostrar Rendimiento de Alumno"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b4265dc6-c561-40f0-ac88-204612f1496f"
+                  name="Aumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="86f5da36-ab3d-44c1-a09b-6f2191f67271"
+                  name="Mostrar Rendimiento de Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9675209a-3aa4-4c34-b036-7ced1dcedbd0"
+            isDerived="false"
+            sourceEndRoleName="Aumno"
+            targetEndRoleName="Mostrar Lista de Materias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b572546d-7a17-4f65-bbab-520f406786e5"
+              LastKnownName="Mostrar Lista de Materias"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2ef443b6-4629-47b1-b07f-c84e776d3906"
+                  name="Aumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6e0afb34-c06f-42ba-aba3-58e2f1690d07"
+                  name="Mostrar Lista de Materias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+        name="Consultar Alumno"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fcde5269-c0c3-4e75-9612-55f25bae072b"
+        name="Mostrar Rendimiento de Alumno"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b572546d-7a17-4f65-bbab-520f406786e5"
+        name="Mostrar Lista de Materias"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e1df2a9a-1317-479c-84ec-43d160979131"
+        name="Manipular Listado de Materias"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4da9f1ad-bbfd-45a8-8a62-29a6ef861de6"
+        name="Ingresar Resultado de Examen"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="7728d493-1123-462f-8e7a-05468e508311"
+        name="Consultar Alumno"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="223018ab-eb9e-4607-9c78-b9d9f2bedcd5"
+            name="Inicio"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="273d82b7-ce71-4bcb-a42a-a09ffa50c032"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0e98bc86-6d8f-4ce5-8ed8-76f7ecabca46"
+                  LastKnownName="Selecciona Consultar Alumno"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="0e98bc86-6d8f-4ce5-8ed8-76f7ecabca46"
+            name="Selecciona Consultar Alumno"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9a79b310-ce07-460d-a1f8-6cc17fca2aa1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b06010a9-2761-4d05-8968-53c087bc5fd8"
+                  LastKnownName="Muestra Formulario de Consulta"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b06010a9-2761-4d05-8968-53c087bc5fd8"
+            name="Muestra Formulario de Consulta"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1ce249dd-6b17-4949-98c6-438eb1d0665b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5c1a43c1-1e5a-49d9-8422-e46d2e488c9e"
+                  LastKnownName="Ingresa Criterios  de Busqueda"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5c1a43c1-1e5a-49d9-8422-e46d2e488c9e"
+            name="Ingresa Criterios  de Busqueda"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6ab0a9c3-0954-4444-86ca-fc8ecbc45f23"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5008e3a3-ce1c-4024-b84b-1c38284c8b09"
+                  LastKnownName="Valida Campos Ingresados"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5008e3a3-ce1c-4024-b84b-1c38284c8b09"
+            name="Valida Campos Ingresados"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="68adda8e-f463-4808-9ff0-74ca57e0c131"
+        name="UMLActivityDiagram1.activitydiagram"
+        isAbstract="false"
+        isLeaf="false"
+        fileName="MateriaAppModelo\UMLActivityDiagram1.activitydiagram">
+        <targetEnds>
+          <association
+            Id="eae3c120-4841-4423-a3a9-d5c6a326aee0"
+            isDerived="false"
+            sourceEndRoleName="UMLActivityDiagram1.activitydiagram"
+            targetEndRoleName="Consultar Alumno"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="935a5cef-d679-448c-bf2d-e6867d0eb740"
+              LastKnownName="Consultar Alumno"
+              LastKnownLocation="MateriaAppModelo.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7523e7e6-873b-481b-85b1-c90104b54822"
+                  name="UMLActivityDiagram1.activitydiagram"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f58f84ce-2bc6-4707-8af8-ae674a81f8e0"
+                  name="Consultar Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </artifact>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="a9763ee9-5cb5-4ef8-ae1f-e6bd8315e1cc"
+        name="Consultar Alumno"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="6290cf1f-4f6c-4696-b620-cb3458591bc7"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2f6f1a78-a65f-45fc-b65c-6ff5d29f5b12"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7ee88555-7617-482d-9fa2-8c98c17da957"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="66cf806c-f10f-4d16-af7a-45c7d7f63c42"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8bf116fe-d01a-46f2-b960-026308a84b49"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7ee88555-7617-482d-9fa2-8c98c17da957"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f724f7da-eb5b-470e-8e1d-8647dbd9ceff"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget
+            Id="c8bb243e-9f1d-4618-924c-03bd1e7d3c42"
+            name="LostFoundTarget1" />
+          <messageOccurrenceSpecification
+            Id="66cf806c-f10f-4d16-af7a-45c7d7f63c42"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="86c8bcef-ea30-4b1a-b887-0ad5fbe4bb82"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0401728-8c54-4f08-849e-4f884c8a2926"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3527d16b-fbe5-4f7d-bf43-31a89e625371"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="619d7adc-68e6-4ce7-88b3-8824a3a0c1e8"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3c87972b-93a1-4304-bd7b-10c498f192f8"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fe04e2f0-416e-47d7-aa20-99de4e9a0263"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="15f0c55a-b711-45fa-8757-4166539f81ad"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bd334ef9-cbdc-4f63-ac18-0d30ff884856"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="57227130-aa29-4aa2-828d-5ee745f6aeba"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3733a95e-cc96-4e1a-acd8-acef4ab29d6b"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3527d16b-fbe5-4f7d-bf43-31a89e625371"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="537fb238-266d-4168-9e5d-cccd047199df"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8bf116fe-d01a-46f2-b960-026308a84b49"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="619d7adc-68e6-4ce7-88b3-8824a3a0c1e8"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2f6f1a78-a65f-45fc-b65c-6ff5d29f5b12"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7362f2b7-2fc4-45db-94e4-a4a56cae0efe"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d9a06a07-a124-4d29-b345-21c1104c3c47"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ba887dbb-1971-4f89-a376-4b7ba398352a"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b6ffdf6c-18bc-4c58-8f44-1a802166c725"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f725e556-c20e-493c-9515-fc52a2c80125"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e68cd323-7da6-46f9-ac5a-aa77f0bb36ad"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="53382a9e-addb-49eb-ac0a-d331a96f0d0d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="eaa3ccb6-d6f5-4f65-956f-e085972e7a32"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b6ffdf6c-18bc-4c58-8f44-1a802166c725"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e07c741a-fcb4-4dd6-b782-4ba43c4d71c5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3c87972b-93a1-4304-bd7b-10c498f192f8"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f725e556-c20e-493c-9515-fc52a2c80125"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f820d352-aff2-4977-8fff-b396bc21e0ce"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a630aebd-08e4-42de-a798-5b8700810653"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6eb20e3-3db2-4def-9069-7cc69532417a"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="612d921c-4307-45b6-8739-6c32f5c09796"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="78e71de7-40ef-408b-9cf0-9741e54b8ca9"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a6eb20e3-3db2-4def-9069-7cc69532417a"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="65601064-c3dc-4a2b-bfe9-ac5fe71573aa"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e68cd323-7da6-46f9-ac5a-aa77f0bb36ad"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="612d921c-4307-45b6-8739-6c32f5c09796"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="78e71de7-40ef-408b-9cf0-9741e54b8ca9"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="53382a9e-addb-49eb-ac0a-d331a96f0d0d"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a630aebd-08e4-42de-a798-5b8700810653"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c42c7ff4-7baa-4b74-9d51-2062210e442f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+                LastKnownName="Alumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="eaa3ccb6-d6f5-4f65-956f-e085972e7a32"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fe04e2f0-416e-47d7-aa20-99de4e9a0263"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ba887dbb-1971-4f89-a376-4b7ba398352a"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c26e31d7-dcac-427e-b650-0c143fbaf2ea"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+                LastKnownName="GestorAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f9ad4fdb-27b2-4c8d-bfe3-f78219ad7da0"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+                LastKnownName="Mensaje"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2d43d44c-5f11-49cb-a79d-2b52a0094001"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="27d173a3-aa22-4938-93de-fa26eb92382e"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f47f8474-f689-465a-bc4e-760e5a01c1aa"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2a20f16a-96c7-433d-9f44-a2b965cc494a"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="27d173a3-aa22-4938-93de-fa26eb92382e"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3118cd0f-5b70-41ef-8fed-e424f3e3ca53"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+                LastKnownName="Mensaje"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="15f0c55a-b711-45fa-8757-4166539f81ad"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f47f8474-f689-465a-bc4e-760e5a01c1aa"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+                LastKnownName="Mensaje"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bd334ef9-cbdc-4f63-ac18-0d30ff884856"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2a20f16a-96c7-433d-9f44-a2b965cc494a"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+                LastKnownName="Mensaje"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget
+            Id="83f66a3b-da8d-4b1d-a7f3-35f4c5f07e55"
+            name="LostFoundTarget3" />
+          <behaviorExecutionSpecification
+            Id="b5aa906e-29ca-4714-a33c-e31ba09a80a4"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3733a95e-cc96-4e1a-acd8-acef4ab29d6b"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="57227130-aa29-4aa2-828d-5ee745f6aeba"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e5dc499c-a9de-4b39-b853-9bc99bc14955"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="57227130-aa29-4aa2-828d-5ee745f6aeba"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="823b4e14-8a12-4ff0-9a49-e1cfbf056562"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e5dc499c-a9de-4b39-b853-9bc99bc14955"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2d43d44c-5f11-49cb-a79d-2b52a0094001"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="22bf51a6-54d4-49d4-b425-30cc7d21b556"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+                LastKnownName="Mensaje"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3733a95e-cc96-4e1a-acd8-acef4ab29d6b"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="34658ec2-0506-42d6-99f1-5678a816d971"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c0401728-8c54-4f08-849e-4f884c8a2926"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="17b9160e-ec7d-4e5a-8122-f8cdaa255c0a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MateriaAppModelo.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+                LastKnownName="FormBuscarAlumno"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="6b0e762a-c1de-40fc-87eb-c83d26f0ad5b"
+            name="Alumno"
+            isActor="true"
+            lifelineDisplayName="Alumno">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7ee88555-7617-482d-9fa2-8c98c17da957"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2f6f1a78-a65f-45fc-b65c-6ff5d29f5b12"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="eb5795e6-19ef-49e8-a5c1-dcc00a503577"
+            name="FormBuscarAlumno"
+            isActor="false"
+            lifelineDisplayName="FormBuscarAlumno">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="3527d16b-fbe5-4f7d-bf43-31a89e625371"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c0401728-8c54-4f08-849e-4f884c8a2926"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="89f64e9e-f7b9-450d-80fc-2232fd77d227"
+            name="GestorAlumno"
+            isActor="false"
+            lifelineDisplayName="GestorAlumno">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b6ffdf6c-18bc-4c58-8f44-1a802166c725"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ba887dbb-1971-4f89-a376-4b7ba398352a"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="36e2236f-adcf-4ac6-8d20-da7185e1f36b"
+            name="Alumno"
+            isActor="false"
+            lifelineDisplayName="Alumno">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6eb20e3-3db2-4def-9069-7cc69532417a"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a630aebd-08e4-42de-a798-5b8700810653"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="5c28b187-a2df-45b1-ba5a-ad23d6bb275f"
+            name="Mensaje"
+            isActor="false"
+            lifelineDisplayName="Mensaje">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="27d173a3-aa22-4938-93de-fa26eb92382e"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="MateriaAppModelo.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2d43d44c-5f11-49cb-a79d-2b52a0094001"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="afe67f92-b6b7-422d-96b6-5073a234ab5a"
+            name="Quiere Buscar un Alumno"
+            messageKind="Found"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <lostFoundTargetMoniker
+                Id="c8bb243e-9f1d-4618-924c-03bd1e7d3c42"
+                LastKnownName="LostFoundTarget1"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="66cf806c-f10f-4d16-af7a-45c7d7f63c42"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1e987c81-125d-46e5-8660-39517e063eea"
+            name="BuscarClick"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8bf116fe-d01a-46f2-b960-026308a84b49"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="619d7adc-68e6-4ce7-88b3-8824a3a0c1e8"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0cbe6b54-4eb2-42c8-850c-f1af08e13b2e"
+            name="BuscarAlumno"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3c87972b-93a1-4304-bd7b-10c498f192f8"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f725e556-c20e-493c-9515-fc52a2c80125"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3f68cd78-9b11-4436-bcdf-e4dcec703a1a"
+            name="BuscarAlumnoPorLegajo"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e68cd323-7da6-46f9-ac5a-aa77f0bb36ad"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="612d921c-4307-45b6-8739-6c32f5c09796"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="03b94824-4d53-4bfb-ae66-9bdf4ecfbea8"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="78e71de7-40ef-408b-9cf0-9741e54b8ca9"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="53382a9e-addb-49eb-ac0a-d331a96f0d0d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9154702b-177e-4973-8608-fee0d6928a97"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="eaa3ccb6-d6f5-4f65-956f-e085972e7a32"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fe04e2f0-416e-47d7-aa20-99de4e9a0263"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2fa97ff0-adf0-4122-bc0c-2e053abdd3b3"
+            name="No Existe"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="15f0c55a-b711-45fa-8757-4166539f81ad"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f47f8474-f689-465a-bc4e-760e5a01c1aa"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="879be8be-629f-4d01-ae38-e6b56fea07e5"
+            name="Fin"
+            messageKind="Lost"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2a20f16a-96c7-433d-9f44-a2b965cc494a"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker
+                Id="83f66a3b-da8d-4b1d-a7f3-35f4c5f07e55"
+                LastKnownName="LostFoundTarget3"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="217a5c45-50ca-4c8e-bf23-00d91c3deb2e"
+            name="MostrarAlumno"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bd334ef9-cbdc-4f63-ac18-0d30ff884856"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e5dc499c-a9de-4b39-b853-9bc99bc14955"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="MateriaAppModelo.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f724f7da-eb5b-470e-8e1d-8647dbd9ceff"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7362f2b7-2fc4-45db-94e4-a4a56cae0efe"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="537fb238-266d-4168-9e5d-cccd047199df"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="17b9160e-ec7d-4e5a-8122-f8cdaa255c0a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e07c741a-fcb4-4dd6-b782-4ba43c4d71c5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c26e31d7-dcac-427e-b650-0c143fbaf2ea"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="65601064-c3dc-4a2b-bfe9-ac5fe71573aa"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c42c7ff4-7baa-4b74-9d51-2062210e442f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3118cd0f-5b70-41ef-8fed-e424f3e3ca53"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="22bf51a6-54d4-49d4-b425-30cc7d21b556"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="823b4e14-8a12-4ff0-9a49-e1cfbf056562"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="34658ec2-0506-42d6-99f1-5678a816d971"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c155c492-99f1-452b-b0ef-2ae293c92b54"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c410258e-969e-454e-92ab-6119c8b1cfe7"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

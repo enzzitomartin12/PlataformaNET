@@ -1,0 +1,5 @@
+F:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploJPP\JPP3\JPP3\bin\Debug\JPP3.exe
+F:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploJPP\JPP3\JPP3\bin\Debug\JPP3.pdb
+F:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploJPP\JPP3\JPP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploJPP\JPP3\JPP3\obj\Debug\JPP3.exe
+F:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploJPP\JPP3\JPP3\obj\Debug\JPP3.pdb

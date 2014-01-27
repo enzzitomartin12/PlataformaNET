@@ -1,0 +1,26 @@
+C:\EntLib\Validation\Validation\bin\Debug\ValidationExample.exe.config
+C:\EntLib\Validation\Validation\bin\Debug\ValidationExample.exe
+C:\EntLib\Validation\Validation\bin\Debug\ValidationExample.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\EntLib\Validation\Validation\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\EntLib\Validation\Validation\obj\Debug\ResolveAssemblyReference.cache
+C:\EntLib\Validation\Validation\obj\Debug\ValidationExample.exe
+C:\EntLib\Validation\Validation\obj\Debug\ValidationExample.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\Validation\Validation\bin\Debug\ValidationExample.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\Validation\Validation\obj\Debug\ValidationExample.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\Validation\Validation\obj\Debug\ValidationExample.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\Validation\Validation\bin\Debug\ValidationExample.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\Validation\Validation\obj\Debug\ValidationExample.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\Validation\Validation\obj\Debug\ValidationExample.pdb

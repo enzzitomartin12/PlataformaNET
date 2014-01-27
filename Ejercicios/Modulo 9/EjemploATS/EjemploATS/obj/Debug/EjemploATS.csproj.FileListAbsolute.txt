@@ -1,0 +1,10 @@
+C:\Users\Victor\Documents\Visual Studio 2008\Projects\EjemploATS\EjemploATS\bin\Debug\EjemploATS.exe
+C:\Users\Victor\Documents\Visual Studio 2008\Projects\EjemploATS\EjemploATS\bin\Debug\EjemploATS.pdb
+C:\Users\Victor\Documents\Visual Studio 2008\Projects\EjemploATS\EjemploATS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Visual Studio 2008\Projects\EjemploATS\EjemploATS\obj\Debug\EjemploATS.exe
+C:\Users\Victor\Documents\Visual Studio 2008\Projects\EjemploATS\EjemploATS\obj\Debug\EjemploATS.pdb
+G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploATS\obj\Debug\EjemploATS.exe
+G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploATS\obj\Debug\EjemploATS.pdb
+G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploATS\obj\Debug\ResolveAssemblyReference.cache
+G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploATS\bin\Debug\EjemploATS.exe
+G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\EjemploATS\bin\Debug\EjemploATS.pdb

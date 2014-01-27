@@ -1,0 +1,57 @@
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.exe.config
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.exe
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\EntLib\ExceptionHandling\ExceptionHandling\obj\Debug\ResolveAssemblyReference.cache
+C:\EntLib\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.exe
+C:\EntLib\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandlingExample.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 8\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandlingExample.pdb

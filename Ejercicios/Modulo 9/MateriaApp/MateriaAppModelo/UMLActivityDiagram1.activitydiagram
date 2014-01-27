@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="5ca5c294-6d67-488a-81d0-115d76ba5918" name="Consultar Alumno" linkedPackageId="ae93d739-b548-42c5-9de3-eef18792aa37" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="450e5255-ce23-4973-b830-044e7901601e">
+      <profileInstance Id="d491b2ea-5995-4b85-9cee-0d3af898848c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c629e15a-db6c-4efc-a883-37dc88326dcb">
+      <profileInstance Id="f259eec3-4884-4f98-8d58-5ed55320d71f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="af3be95f-350e-4aa2-af88-c3432c5bff5d" name="Consultar Alumno" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="7728d493-1123-462f-8e7a-05468e508311" />
+        <nodes>
+          <initialNode Id="5b60e8ec-a11d-40fb-8287-4c46a57aa8e8" name="Inicio" isLeaf="false">
+            <elementDefinition Id="223018ab-eb9e-4607-9c78-b9d9f2bedcd5" />
+            <flowNodeTargets>
+              <controlFlow Id="5a057100-9293-42b9-9fa8-7537cd145009" isLeaf="false">
+                <opaqueActionMoniker Id="e58fa4f5-8c28-48df-a23d-4f262c203f0a" LastKnownName="Selecciona Consultar Alumno" />
+                <elementDefinition Id="273d82b7-ce71-4bcb-a42a-a09ffa50c032" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="e58fa4f5-8c28-48df-a23d-4f262c203f0a" name="Selecciona Consultar Alumno" isLeaf="false">
+            <elementDefinition Id="0e98bc86-6d8f-4ce5-8ed8-76f7ecabca46" />
+            <flowNodeTargets>
+              <controlFlow Id="6e19ef93-bcac-4448-9e5d-01dcd0be139b" isLeaf="false">
+                <opaqueActionMoniker Id="bc6edf08-2584-45a7-8dd7-dc40f5acfb4e" LastKnownName="Muestra Formulario de Consulta" />
+                <elementDefinition Id="9a79b310-ce07-460d-a1f8-6cc17fca2aa1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bc6edf08-2584-45a7-8dd7-dc40f5acfb4e" name="Muestra Formulario de Consulta" isLeaf="false">
+            <elementDefinition Id="b06010a9-2761-4d05-8968-53c087bc5fd8" />
+            <flowNodeTargets>
+              <controlFlow Id="fd33bc62-2e2e-4e4f-bd91-664179db2ece" isLeaf="false">
+                <opaqueActionMoniker Id="6be05b81-adf4-4a6d-882a-e3a6fa0db3bc" LastKnownName="Ingresa Criterios  de Busqueda" />
+                <elementDefinition Id="1ce249dd-6b17-4949-98c6-438eb1d0665b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="6be05b81-adf4-4a6d-882a-e3a6fa0db3bc" name="Ingresa Criterios  de Busqueda" isLeaf="false">
+            <elementDefinition Id="5c1a43c1-1e5a-49d9-8422-e46d2e488c9e" />
+            <flowNodeTargets>
+              <controlFlow Id="788a5a8b-ce0e-4609-9cef-1f7d0a0377e9" isLeaf="false">
+                <opaqueActionMoniker Id="d8413b5b-bb3d-443d-a7cb-7ffbe4cf713b" LastKnownName="Valida Campos Ingresados" />
+                <elementDefinition Id="6ab0a9c3-0954-4444-86ca-fc8ecbc45f23" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d8413b5b-bb3d-443d-a7cb-7ffbe4cf713b" name="Valida Campos Ingresados" isLeaf="false">
+            <elementDefinition Id="5008e3a3-ce1c-4024-b84b-1c38284c8b09" />
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="ae93d739-b548-42c5-9de3-eef18792aa37" name="MateriaAppModelo">
+    <elementDefinition Id="9cb20102-5e97-4284-9027-248e7364f808" />
+  </package>
+</activityRootModel>

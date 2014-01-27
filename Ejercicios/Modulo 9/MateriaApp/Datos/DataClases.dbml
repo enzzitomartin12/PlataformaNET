@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Materia" Class="DataClasesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=VICTOR-VB\SQLEXPRESS2;Initial Catalog=Materia;Integrated Security=True;Pooling=False" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="MateriaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Alumno" Member="Alumno">
+    <Type Name="Alumno">
+      <Column Name="Legajo" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Alumno_Matricula" Member="Matricula" ThisKey="Legajo" OtherKey="Legajo" Type="Matricula" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Materia" Member="Materia">
+    <Type Name="Materia">
+      <Column Name="CodMateria" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PlanEstudio" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Departamento" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Materia_Matricula" Member="Matricula" ThisKey="CodMateria" OtherKey="CodMateria" Type="Matricula" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Matricula" Member="Matricula">
+    <Type Name="Matricula">
+      <Column Name="IdMatricula" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CodMateria" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Legajo" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaInscripcion" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Situacion" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Alumno_Matricula" Member="Alumno" ThisKey="Legajo" OtherKey="Legajo" Type="Alumno" IsForeignKey="true" />
+      <Association Name="Materia_Matricula" Member="Materia" ThisKey="CodMateria" OtherKey="CodMateria" Type="Materia" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

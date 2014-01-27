@@ -1,0 +1,48 @@
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.config
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.BuscarAlumno.resources
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.MateriaApp.resources
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.Properties.Resources.resources
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.exe
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.BuscarAlumno.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.MateriaApp.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.Properties.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResGen.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResGen.write.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.CodeAnalysisLog.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.lastcodeanalysissucceeded
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.CodeAnalysisLog.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe.lastcodeanalysissucceeded
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Datos.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\Gestores.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.BuscarAlumno.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.MateriaApp.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\MateriaApp.Properties.Resources.resources
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResGen.read.1.tlog
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\obj\Debug\ResGen.write.1.tlog

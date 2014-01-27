@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp\bin\Debug\MateriaApp.exe">
+   <Modules>
+    <Module Name="materiaapp.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Firme 'MateriaApp.exe' con una clave de nombre seguro.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Marque 'MateriaApp.exe' con CLSCompliant(true) porque expone tipos visibles externamente.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Puesto que el ensamblado 'MateriaApp.exe' contiene un archivo de recursos basado en ResX, márquelo con el atributo NeutralResourcesLanguage, especificando el lenguaje de los recursos del ensamblado. Esto puede mejorar el rendimiento de las búsquedas la primera vez que se recupera un recurso.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="MateriaApp">
+       <Types>
+        <Type Name="BuscarAlumno" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.cs" Line="27">El método 'BuscarAlumno.button1_Click(object, EventArgs)' pasa una cadena literal como parámetro 'caption' de una llamada a 'MessageBox.Show(string, string, MessageBoxButtons)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Cerrar Ventana".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.cs" Line="27">El método 'BuscarAlumno.button1_Click(object, EventArgs)' pasa una cadena literal como parámetro 'text' de una llamada a 'MessageBox.Show(string, string, MessageBoxButtons)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Quiere Salir?".</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.cs" Line="27">Cambie 'BuscarAlumno.button1_Click(object, EventArgs)' para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="66">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Apellidos".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="123">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Buscar Alumno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="105">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Buscar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="95">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Cancelar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="57">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Nombre".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.Designer.cs" Line="48">El método 'BuscarAlumno.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Nro  Legajo".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MostrarDatos(Datos.Alumno)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.cs" Line="47">En el método 'BuscarAlumno.MostrarDatos(Alumno)' visible externamente, valide el parámetro 'alumno' antes de usarlo.</Issue>
+            </Message>
+            <Message Id="alumno" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="BuscarAlumno.cs" Line="46">'alumno', un parámetro declarado en 'BuscarAlumno.MostrarDatos(Alumno)', tiene el mismo nombre que el campo de instancia en el tipo. Cambie el nombre de uno de estos elementos.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MateriaApp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">El nombre de tipo 'MateriaApp' está en conflicto total o parcialmente con el nombre del espacio de nombres 'MateriaApp'. Cambie el nombre para eliminar el conflicto.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#buscarToolStripMenuItem_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.cs" Line="21">En el método 'MateriaApp.buscarToolStripMenuItem_Click(object, EventArgs)', llame a System.IDisposable.Dispose en el objeto 'fBuscarAlumno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.Designer.cs" Line="79">El método 'MateriaApp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "MateriaApp".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.Designer.cs" Line="46">El método 'MateriaApp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'Control.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "menuStrip1".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.ToolStripItem.set_Text(System.String)" TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-06-14 15:44:36Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.Designer.cs" Line="62">El método 'MateriaApp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'ToolStripItem.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Alumno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.Designer.cs" Line="68">El método 'MateriaApp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'ToolStripItem.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Buscar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\MateriaApp" File="MateriaApp.Designer.cs" Line="54">El método 'MateriaApp.InitializeComponent()' pasa una cadena literal como parámetro 'value' de una llamada a 'ToolStripItem.Text.set(string)'. En su lugar, recupere las siguientes cadenas de una tabla de recursos: "Entidades".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Los ensamblados deben tener nombres seguros válidos</Name>
+   <Description>Puede que el ensamblado no tenga un nombre seguro, que no sea válido o que éste sea válido únicamente por la configuración del equipo. No se puede implementar el ensamblado en este estado. Las causas más probables son: 1) El contenido del ensamblado se modificó después de firmarlo. 2) Error en el proceso de firma. 3) El ensamblado tenía firma retardada. 4) Existía una clave del Registro que permitió que se realizara la comprobación (de lo contrario no se hubiera realizado).</Description>
+   <Resolution Name="NoStrongName">Firme {0} con una clave de nombre seguro.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Eliminar (Dispose) objetos antes de perder el ámbito</Name>
+   <Description>Si un objeto que se puede eliminar (método Dispose) no se elimina de forma explícita antes de que todas las referencias a él estén fuera de ámbito, el objeto se eliminará en algún momento indeterminado cuando el recolector de elementos no utilizados ejecute el finalizador del objeto. Puesto que podría producirse un evento excepcional que impida que se ejecute el finalizador del objeto, el objeto debe eliminarse de forma explícita.</Description>
+   <Resolution Name="NonExceptionEdge">En el método {0}, llame a System.IDisposable.Dispose en el objeto {1} antes de que todas las referencias a él estén fuera de ámbito.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Marque los ensamblados con CLSCompliantAttribute</Name>
+   <Description>Los ensamblados deben establecer explícitamente ser conformes a CLS usando el atributo CLSCompliant. Un ensamblado sin este atributo no es conforme a CLS. Los ensamblados, módulos y tipos pueden ser conformes a CLS incluso si alguna parte del ensamblado, módulo o tipo no son conformes a CLS. Se aplican las siguientes reglas: 1) Si el elemento está marcado como CLSCompliant, cualquier miembro no compatible debe tener el atributo CLSCompliant presente con el argumento establecido como false. 2) Se debe proporcionar un miembro alternativo conforme a CLS comparable con cada miembro que no sea conforme a CLS.</Description>
+   <Resolution Name="Default">Marque {0} con CLSCompliant(true) porque expone tipos visibles externamente.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Marque los ensamblados con NeutralResourcesLanguageAttribute</Name>
+   <Description>El atributo NeutralResourcesLanguage informa a ResourceManager del lenguaje usado para representar los recursos de referencia cultural neutra para un ensamblado. Cuando se buscan recursos en la misma referencia cultural que el lenguaje de recursos neutro, ResourceManager usa automáticamente los recursos del ensamblado principal, en lugar de buscar un ensamblado satélite con la cultura de la interfaz de usuario actual para el subproceso actual. Esto mejorará el rendimiento de las búsquedas del primer recurso que cargue y puede reducir el espacio de trabajo.</Description>
+   <Resolution Name="Default">Puesto que el ensamblado {0} contiene un archivo de recursos basado en ResX, márquelo con el atributo NeutralResourcesLanguage, especificando el lenguaje de los recursos del ensamblado. Esto puede mejorar el rendimiento de las búsquedas la primera vez que se recupera un recurso.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="No pasar cadenas literal como parámetros localizados" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>No pasar cadenas literal como parámetros localizados</Name>
+   <Description>Las cadenas de tipo literal incrustadas en el código fuente son difíciles de localizar. Evite pasar cadenas literal como argumentos en circunstancias donde, por lo general, se espera una cadena localizada.</Description>
+   <Resolution Name="KnownValue">El método {0} pasa una cadena literal como parámetro '{1}' de una llamada a {2}. En su lugar, recupere las siguientes cadenas de una tabla de recursos: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
+   <Name>Especifique MessageBoxOptions</Name>
+   <Description>Para poder ejecutar correctamente los sistemas de derecha a izquierda, todas las llamadas realizadas a MessageBox.Show deben utilizar la sobrecarga que especifica MessageBoxOptions como un argumento. Los programas deben detectar si se están ejecutando en un sistema de derecha a izquierda en tiempo de ejecución y pasar el valor MessageBoxOptions apropiado para que se muestre correctamente.</Description>
+   <Resolution Name="Default">Cambie {0} para que llame a la sobrecarga MessageBox.Show que especifica MessageBoxOptions y asegúrese de establecer MessageBoxOptions.RightAlign y MessageBoxOptions.RtlReading si RightToLeft está establecido en RightToLeft.Yes en el control primario.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182191(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+   <Name>Los nombres de tipo no deberían coincidir con los espacios de nombres</Name>
+   <Description>Se deberían evitar los identificadores que están en conflicto, en todo o en parte, con los nombres de espacios de nombres. Se prefieren los nombres que describen el objetivo o el contenido de un tipo.</Description>
+   <Resolution Name="Default">El nombre de tipo {0} está en conflicto total o parcialmente con el nombre del espacio de nombres '{1}'. Cambie el nombre para eliminar el conflicto.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182257(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validar argumentos de métodos públicos</Name>
+   <Description>Todos los argumentos de referencia pasados a métodos visibles externamente deben comprobarse para ver si son NULL (Nothing en VB). Si procede, produzca una excepción System.ArgumentNullException cuando el argumento sea NULL.</Description>
+   <Resolution Name="Default">En el método {0} visible externamente, valide el parámetro '{1}' antes de usarlo.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Los nombres de las variables no deben coincidir con los nombres de los campos</Name>
+   <Description>El campo de instancia y los nombres de variables no deben ser idénticos dentro del mismo ámbito.</Description>
+   <Resolution Name="Parameter">{0}, un parámetro declarado en {1}, tiene el mismo nombre que el campo de instancia en el tipo. Cambie el nombre de uno de estos elementos.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182216(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,21 @@
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Gestores.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\bin\Debug\Datos.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Gestores\obj\Debug\Gestores.pdb

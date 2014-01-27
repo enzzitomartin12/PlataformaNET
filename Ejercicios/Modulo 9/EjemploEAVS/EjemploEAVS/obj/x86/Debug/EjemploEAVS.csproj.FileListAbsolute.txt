@@ -1,0 +1,5 @@
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\EjemploEAVS\EjemploEAVS\bin\Debug\EjemploEAVS.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\EjemploEAVS\EjemploEAVS\bin\Debug\EjemploEAVS.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\EjemploEAVS\EjemploEAVS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\EjemploEAVS\EjemploEAVS\obj\x86\Debug\EjemploEAVS.exe
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\EjemploEAVS\EjemploEAVS\obj\x86\Debug\EjemploEAVS.pdb

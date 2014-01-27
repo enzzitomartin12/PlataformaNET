@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="b9e6ec8f-b3b3-45d1-8d45-2cd2a361d390" name="UMLUseCaseDiagram1" linkedPackageId="3b9f98e2-a8e0-4f3e-bec2-43e2fdec1e69" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="d8ee0375-14f6-43d3-aa77-d0cd5d714f70">
+      <elementDefinition Id="93746466-cd12-4897-81bf-c0e8dcea7221" />
+      <body>Seleccionar el Alumno por Legajo
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" LastKnownName="Consultar Alumno" />
+      </annotatedElements>
+    </comment>
+    <comment Id="7b346ca4-4ce3-444d-9c9e-026ccfaacde7">
+      <elementDefinition Id="79d5b180-9ed7-4a02-8c6c-6cf627f25835" />
+      <body>Seleccionar el Alumno por Apellido
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" LastKnownName="Consultar Alumno" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a72927a7-754e-4b2c-9c40-b15ef6e380f2">
+      <elementDefinition Id="d75b29c2-9db7-4b4e-9844-a9a820326974" />
+      <body>Mostrar todas las materias inscriptas del alumno
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="ae6c1cc5-7c25-4033-80c7-4f6d5d21e588" LastKnownName="Mostrar Lista de Materias" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="ad9cdb69-be1d-4356-b114-320b50ed12ed" name="Empleado Dpto Alumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="94c47379-7255-4461-b8e0-6ad0f4c330f8" />
+        <targetEnds>
+          <association Id="245c4bcb-c063-4e29-8e31-c8ba50afc13c" isDerived="false" sourceEndRoleName="Empleado Dpto Alumno" targetEndRoleName="Ingresar Resultado de Examen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="026e4de5-2de7-47e4-8d28-dcbe68866f7d" LastKnownName="Ingresar Resultado de Examen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="27d760ae-6f57-45f7-94fb-1f100ed9aa2a" name="Empleado Dpto Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60c86fd1-e66a-4037-adcb-c9949ca5aebd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd73265b-6d60-4cd2-b169-396fd9ef5b8d" name="Ingresar Resultado de Examen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="397d85d2-511e-4ec0-a76b-e7911b0e04eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="98353844-f9de-4efa-983b-0834d821aed9" />
+          </association>
+          <association Id="26aa921c-800e-4afe-b0e9-7362fe459896" isDerived="false" sourceEndRoleName="Empleado Dpto Alumno" targetEndRoleName="Manipular Listado de Materias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d423444d-3bf2-4d21-a010-0ebb8283dc81" LastKnownName="Manipular Listado de Materias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b19f70ba-e38d-4c6c-ba59-2c3e79780dd5" name="Empleado Dpto Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d72ddbf1-c065-41ec-9d9b-d9229d0fdb94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0dbf98b4-0793-4081-8e27-1a5f4dee805d" name="Manipular Listado de Materias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="908f3f18-c84a-49a0-a1ac-adb0bccc5a47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="26cea9b6-4ad7-4283-8cc5-a1ca6546422c" />
+          </association>
+          <association Id="24289047-4c01-4d8a-99bd-195eaa28829d" isDerived="false" sourceEndRoleName="Empleado Dpto Alumno" targetEndRoleName="Mostrar Lista de Materias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae6c1cc5-7c25-4033-80c7-4f6d5d21e588" LastKnownName="Mostrar Lista de Materias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="88772b5b-91e4-4562-92c1-8a874f248760" name="Empleado Dpto Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5758d038-c9bd-499c-8f0f-9a55e5351d16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23a8e32e-27f6-46f0-b7cb-79a1fe2893d1" name="Mostrar Lista de Materias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dadfc515-842c-45bd-bffc-198ab5aacdb2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="90bfbf7e-2881-42ff-a174-6c4d2c7a0946" />
+          </association>
+          <association Id="20675593-8038-4f77-8c33-787f35035be2" isDerived="false" sourceEndRoleName="Empleado Dpto Alumno" targetEndRoleName="Mostrar Rendimiento de Alumno" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="79b0a7d9-442d-4ed6-b77d-92d0b3987b9a" LastKnownName="Mostrar Rendimiento de Alumno" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4d81148-3521-4996-87b3-27c368fc08b6" name="Empleado Dpto Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="939a3702-5b34-4e61-8cb9-cf942122474e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2121873-f568-498d-9228-26f54bae7dd0" name="Mostrar Rendimiento de Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cd900034-0dca-43f4-a1d7-4168bfc3de35" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="124f4d95-d116-4030-8621-bf75d0ff7798" />
+          </association>
+          <association Id="3a810eef-9120-4d6e-b968-1c74812e9fe1" isDerived="false" sourceEndRoleName="Empleado Dpto Alumno" targetEndRoleName="Consultar Alumno" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" LastKnownName="Consultar Alumno" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc7db354-6d73-4a01-b718-4725c5969857" name="Empleado Dpto Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="59cabf67-d23d-4cc2-b5f4-c729be1a66ce" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a02d5802-3f99-471a-8ca1-4433c4a1d620" name="Consultar Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="55bf1170-7e04-42e2-bed5-33536f7025de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d39f0ea8-413a-4758-b9d9-f9bb8e814a55" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7419315b-3faf-482d-8dd0-c384ca7930ca" name="Aumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8361194f-d908-437f-93a7-98c226fc319e" />
+        <targetEnds>
+          <association Id="9ab25533-1ba7-4e35-a6c6-2f7457f8436f" isDerived="false" sourceEndRoleName="Aumno" targetEndRoleName="Consultar Alumno" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" LastKnownName="Consultar Alumno" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="abc8478d-1c1a-4faa-922b-2bea86e62e3b" name="Aumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0827722f-1fb7-4ec9-beed-12a992a94218" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d31fc555-dd59-4862-873b-ad85a9728924" name="Consultar Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ef3a8e0f-70d8-4db5-921b-c77726c415f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c43f65d1-2071-46a4-a3d8-f1f583f65917" />
+          </association>
+          <association Id="39102e3f-ad68-4e58-a95f-386ed6668c75" isDerived="false" sourceEndRoleName="Aumno" targetEndRoleName="Mostrar Rendimiento de Alumno" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="79b0a7d9-442d-4ed6-b77d-92d0b3987b9a" LastKnownName="Mostrar Rendimiento de Alumno" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec48029c-cf98-4d8c-96c3-c9a29631f855" name="Aumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b4265dc6-c561-40f0-ac88-204612f1496f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5a208daa-8130-49ac-b95b-c7f7a9cbec89" name="Mostrar Rendimiento de Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="86f5da36-ab3d-44c1-a09b-6f2191f67271" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0ecb3180-aa6b-4532-b003-1a0d88a4a7b7" />
+          </association>
+          <association Id="897bea8f-8d1d-410f-a26d-d6bc2d91b809" isDerived="false" sourceEndRoleName="Aumno" targetEndRoleName="Mostrar Lista de Materias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae6c1cc5-7c25-4033-80c7-4f6d5d21e588" LastKnownName="Mostrar Lista de Materias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5de04c6b-a0e1-47b5-ba0b-ef6002b26c79" name="Aumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2ef443b6-4629-47b1-b07f-c84e776d3906" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ef22727b-5791-4679-8f3d-856244779867" name="Mostrar Lista de Materias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6e0afb34-c06f-42ba-aba3-58e2f1690d07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9675209a-3aa4-4c34-b036-7ced1dcedbd0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" name="Consultar Alumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="935a5cef-d679-448c-bf2d-e6867d0eb740" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="79b0a7d9-442d-4ed6-b77d-92d0b3987b9a" name="Mostrar Rendimiento de Alumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fcde5269-c0c3-4e75-9612-55f25bae072b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ae6c1cc5-7c25-4033-80c7-4f6d5d21e588" name="Mostrar Lista de Materias" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b572546d-7a17-4f65-bbab-520f406786e5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d423444d-3bf2-4d21-a010-0ebb8283dc81" name="Manipular Listado de Materias" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e1df2a9a-1317-479c-84ec-43d160979131" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="026e4de5-2de7-47e4-8d28-dcbe68866f7d" name="Ingresar Resultado de Examen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4da9f1ad-bbfd-45a8-8a62-29a6ef861de6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="6b5e6688-9905-4e34-8e80-2466cb9440f4" name="UMLActivityDiagram1.activitydiagram" isAbstract="false" isLeaf="false" fileName="MateriaAppModelo\UMLActivityDiagram1.activitydiagram">
+        <elementDefinition Id="68adda8e-f463-4808-9ff0-74ca57e0c131" />
+        <targetEnds>
+          <association Id="1ce69706-e82f-4273-9202-af4c0a699e0a" isDerived="false" sourceEndRoleName="UMLActivityDiagram1.activitydiagram" targetEndRoleName="Consultar Alumno" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9cbde11a-5ac8-4beb-8c95-703f07a515ec" LastKnownName="Consultar Alumno" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a5391288-11f6-4a8c-a5de-de87326d8c3b" name="UMLActivityDiagram1.activitydiagram" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7523e7e6-873b-481b-85b1-c90104b54822" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9a8c28d1-22f0-417c-9e0c-48e4ef8f3d7d" name="Consultar Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f58f84ce-2bc6-4707-8af8-ae674a81f8e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eae3c120-4841-4423-a3a9-d5c6a326aee0" />
+          </association>
+        </targetEnds>
+      </artifact>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="3b9f98e2-a8e0-4f3e-bec2-43e2fdec1e69" name="MateriaAppModelo">
+    <elementDefinition Id="9cb20102-5e97-4284-9027-248e7364f808" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3fe85fa9-ebbd-40a6-ab26-3cc67c1567d1">
+        <profileInstance Id="69bd55f2-da38-43e0-b19e-ca2a8836560d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="00c76b49-a428-4b21-bc90-1aff2cacb300">
+        <profileInstance Id="cf4c8478-e4f2-404d-97d1-3749441f40c9" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Logging">
+</Property><Property Name="Archivo de la solución" Value="C:\EntLib\Logging\Logging.sln">
+</Property><Property Name="Date" Value="domingo, 13 de mayo de 2012">
+</Property><Property Name="Time" Value="10:41 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Logging.sln" Description="La copia C:\EntLib\Logging\Backup\Logging.sln del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Logging.csproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto C:\EntLib\Logging\Backup\Logging\Logging.csproj">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\MenuSystem\DelegateMenuOption.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\MenuSystem\DelegateMenuOption.cs">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\MenuSystem\MenuDrivenApplication.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\MenuSystem\MenuDrivenApplication.cs">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\MenuSystem\MenuOption.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\MenuSystem\MenuOption.cs">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Program.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\Program.cs">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Properties\AssemblyInfo.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\App.config" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\App.config">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Database\Logging.mdf" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\Database\Logging.mdf">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Database\Logging_log.LDF" Description="Se realizó correctamente la copia de seguridad del archivo C:\EntLib\Logging\Backup\Logging\Database\Logging_log.LDF">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Logging.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Logging" Source="Logging\Logging.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Logging.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Logging.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Logging" Source="Logging\Logging.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

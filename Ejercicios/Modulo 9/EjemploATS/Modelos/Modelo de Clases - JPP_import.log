@@ -1,0 +1,56 @@
+
+Importing Model from XMI
+Root Package: Sistema
+Unknown Version Control configuration: 
+Add Classifier Role: Modelos Dinámicos
+Add Classifier Role: Modelo de Clases
+Append Package: Modelo de Clases
+Add Classifier Role: Clases
+Append Package: Clases
+Add Classifier: Abonado
+Add Classifier: Pedido
+Add Classifier: Lista de Precios
+Add Classifier: Menu_Principal
+Add Classifier: Item_Menu
+Add Classifier: Catalogo
+Append Package: Modelos Dinámicos
+Add Classifier: 
+Add Classifier: Note
+Add Classifier Role: Diagrama de Estado (Pedido)
+Append Package: Diagrama de Estado (Pedido)
+Add Classifier: 
+Add Classifier Role: Estados (Pedido)
+Append Package: Estados (Pedido)
+Add State: 
+Add State: 
+Add State: Iniciado
+Add State: En curso
+Add State: Encolado
+Add State: Entregado
+Add State: Finalizado
+Add State: Abortado
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Sistema
+Adding Diagram : Modelo de Clases
+Adding Diagram : Modelos Dinámicos
+Adding Diagram : Diagrama de Estado (Pedido)
+Adding Elements to Diagram : Sistema
+Adding Elements to Diagram : Modelo de Clases
+Adding Elements to Diagram : Modelos Dinámicos
+Adding Elements to Diagram : Diagrama de Estado (Pedido)
+Error adding notelink
+Resolving DiagramIDs
+Adding Links to Diagram : Sistema
+Adding Links to Diagram : Modelo de Clases
+Adding Links to Diagram : Modelos Dinámicos
+Adding Links to Diagram : Diagrama de Estado (Pedido)
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Fixup external references
+Import Complete!

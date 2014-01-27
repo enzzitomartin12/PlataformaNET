@@ -1,0 +1,22 @@
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.config
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.dll
+C:\Users\Victor\Documents\Curso .NET\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.config
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.dll
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.CodeAnalysisLog.xml
+C:\Users\Victor\Documents\Mi Trabajo\PARTICULAR\.NET Base\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.lastcodeanalysissucceeded
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.config
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.CodeAnalysisLog.xml
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\bin\Debug\Datos.dll.lastcodeanalysissucceeded
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.dll
+C:\Users\Victor\Desktop\Ejemplos\Modulo 9\MateriaApp\Datos\obj\Debug\Datos.pdb

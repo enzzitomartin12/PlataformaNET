@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c784efad-c28a-4ffc-86f1-f72bf0ae6a06" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="8210fafb-4d08-4bed-a257-44518f0ddd5c" name="Presentacion">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="b1d47ad6-856b-4253-9708-0007184b7bda" direction="Forward">
+          <layerMoniker Id="e3c38163-bf3d-4821-9048-5abd19030d47" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="0e4e8004-4d73-43d3-9572-f5c5be5db24f" direction="Forward">
+          <layerMoniker Id="f725fef4-f292-4c09-8fed-5b418698e578" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="e3c38163-bf3d-4821-9048-5abd19030d47" name="Gestores">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="afd7288e-d879-4131-b299-904e9edd3a9b" direction="Forward">
+          <layerMoniker Id="f725fef4-f292-4c09-8fed-5b418698e578" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="f725fef4-f292-4c09-8fed-5b418698e578" name="Datos&#xD;&#xA;" />
+  </layers>
+</layerModel>

@@ -1,0 +1,46 @@
+Exporting package to 'G:\Biblioteca\Mi Trabajo\Liveware\Cursos\ATS\EjemploATS\Modelos\Modelo de Clases - JPP.xml'
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+Processing package: Sistema
+Element:0: Modelos Dinámicos
+Element:1: Modelo de Clases
+Diagram: Sistema
+Processing package: Modelo de Clases
+Element:2: Clases
+Diagram: Modelo de Clases
+Processing package: Clases
+Element:3: Abonado
+Element:4: Pedido
+Element:5: Lista de Precios
+Element:6: Menu_Principal
+Element:7: Item_Menu
+Element:8: Catalogo
+Processing package: Modelos Dinámicos
+Element:9: 
+Element:10: Note
+Element:11: Diagrama de Estado (Pedido)
+Diagram: Modelos Dinámicos
+Processing package: Diagrama de Estado (Pedido)
+Element:12: 
+Element:13: Estados (Pedido)
+Diagram: Diagrama de Estado (Pedido)
+Processing package: Estados (Pedido)
+Element:14: 
+Element:15: 
+Element:16: Iniciado
+Element:17: En curso
+Element:18: Encolado
+Element:19: Entregado
+Element:20: Finalizado
+Element:21: Abortado
+Adding State-Tables
+Formatting output XML...please wait
+XMI Document Export Complete!
