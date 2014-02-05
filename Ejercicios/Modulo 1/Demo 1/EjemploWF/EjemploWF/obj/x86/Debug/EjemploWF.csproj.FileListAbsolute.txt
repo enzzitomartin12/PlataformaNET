@@ -45,3 +45,11 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Deb
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Form1.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.csproj.GenerateResource.Cache

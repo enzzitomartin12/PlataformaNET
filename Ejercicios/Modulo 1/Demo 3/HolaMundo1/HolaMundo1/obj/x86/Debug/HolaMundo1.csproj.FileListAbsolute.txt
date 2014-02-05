@@ -1,0 +1,5 @@
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 2\HolaMundo1\HolaMundo1\bin\Debug\HolaMundo1.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 2\HolaMundo1\HolaMundo1\bin\Debug\HolaMundo1.pdb
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 2\HolaMundo1\HolaMundo1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 2\HolaMundo1\HolaMundo1\obj\x86\Debug\HolaMundo1.exe
+C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 2\HolaMundo1\HolaMundo1\obj\x86\Debug\HolaMundo1.pdb
