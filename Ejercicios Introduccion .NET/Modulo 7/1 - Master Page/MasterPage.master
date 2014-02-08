@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Técnicas avanzadas de ASP.NET</title>
+    <link href="Style/Style.css" rel="Stylesheet" type="text/css" />
+    <link href="Javascript/Validaciones.js" rel="Stylesheet" type="text/javascript" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="center">
+    <div>
+        <table class="tabla">
+        <!-- La clase tabla es equivalente a esta escritura en el código -->
+        <!--<table cellpadding="0" cellspacing="0" width="100%" align="center" border="0"> -->
+            <caption><asp:Label ID="lblMasterPage" runat="server" Text="Master Page" /></caption>
+            <tr>
+                <td class="mitad">
+                </td>
+                <td class="mitad">
+                    <div style="float:right">
+                        <asp:LoginName ID="lnNombreUsuario" runat="server" />
+                        <asp:LoginStatus ID="lsCerrarSesion" runat="server" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="mitad largo_300">
+                    <asp:ContentPlaceHolder id="cphMenu" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="mitad largo_300">
+                    <asp:ContentPlaceHolder id="cphContenido" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div align="right" style="width:70%">
+        <asp:Label ID="lbVersion" 
+                    runat="server" />
+    </div>
+    </div>
+    </form>
+</body>
+</html>

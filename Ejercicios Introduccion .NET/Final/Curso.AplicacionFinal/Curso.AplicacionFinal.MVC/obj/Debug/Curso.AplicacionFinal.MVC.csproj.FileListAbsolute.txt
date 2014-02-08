@@ -1,0 +1,7 @@
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\bin\Curso.AplicacionFinal.MVC.dll
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\bin\Curso.AplicacionFinal.MVC.pdb
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\bin\EntityFramework.dll
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\bin\EntityFramework.xml
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\obj\Debug\Curso.AplicacionFinal.MVC.dll
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.MVC\obj\Debug\Curso.AplicacionFinal.MVC.pdb

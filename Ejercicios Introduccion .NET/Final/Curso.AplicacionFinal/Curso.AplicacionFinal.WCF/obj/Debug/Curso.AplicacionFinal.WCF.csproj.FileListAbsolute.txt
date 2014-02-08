@@ -1,0 +1,5 @@
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.WCF\bin\Curso.AplicacionFinal.WCF.dll
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.WCF\bin\Curso.AplicacionFinal.WCF.pdb
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.WCF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.WCF\obj\Debug\Curso.AplicacionFinal.WCF.dll
+C:\Users\Elvira\Desktop\Curso .net\Final\Curso.AplicacionFinal\Curso.AplicacionFinal.WCF\obj\Debug\Curso.AplicacionFinal.WCF.pdb
