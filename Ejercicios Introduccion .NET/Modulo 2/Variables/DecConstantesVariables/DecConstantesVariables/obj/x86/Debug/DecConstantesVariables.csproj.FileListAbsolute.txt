@@ -1,0 +1,10 @@
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.pdb

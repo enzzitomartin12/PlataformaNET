@@ -1,0 +1,18 @@
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\bin\Debug\EjemploWF.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\bin\Debug\EjemploWF.pdb
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\EjemploWF.Form1.resources
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\EjemploWF.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\EjemploWF\obj\x86\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Form1.resources
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\EjemploWF\EjemploWF\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,10 @@
+c:\users\victor\documents\visual studio 2010\Projects\DemoIL\DemoIL\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\victor\documents\visual studio 2010\Projects\DemoIL\DemoIL\bin\Debug\DemoIL.exe
+c:\users\victor\documents\visual studio 2010\Projects\DemoIL\DemoIL\bin\Debug\DemoIL.pdb
+c:\users\victor\documents\visual studio 2010\Projects\DemoIL\DemoIL\obj\x86\Debug\DemoIL.exe
+c:\users\victor\documents\visual studio 2010\Projects\DemoIL\DemoIL\obj\x86\Debug\DemoIL.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\DemoIL\DemoIL\obj\x86\Debug\DemoIL.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\DemoIL\DemoIL\obj\x86\Debug\DemoIL.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\DemoIL\DemoIL\bin\Debug\DemoIL.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\DemoIL\DemoIL\bin\Debug\DemoIL.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 1\DemoIL\DemoIL\obj\x86\Debug\ResolveAssemblyReference.cache

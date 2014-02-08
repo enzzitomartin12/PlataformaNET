@@ -1,0 +1,5 @@
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\ValorReferencia\ValorReferencia\bin\Debug\ValorReferencia.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\ValorReferencia\ValorReferencia\bin\Debug\ValorReferencia.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\ValorReferencia\ValorReferencia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\ValorReferencia\ValorReferencia\obj\x86\Debug\ValorReferencia.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\ValorReferencia\ValorReferencia\obj\x86\Debug\ValorReferencia.pdb

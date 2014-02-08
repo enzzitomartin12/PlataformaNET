@@ -1,0 +1,10 @@
+C:\Users\Victor\AppData\Local\Temporary Projects\InstanciacionClase\bin\Debug\InstanciacionClase.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\InstanciacionClase\bin\Debug\InstanciacionClase.pdb
+C:\Users\Victor\AppData\Local\Temporary Projects\InstanciacionClase\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\AppData\Local\Temporary Projects\InstanciacionClase\obj\x86\Debug\InstanciacionClase.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\InstanciacionClase\obj\x86\Debug\InstanciacionClase.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\InstanciacionClase\InstanciacionClase\obj\x86\Debug\InstanciacionClase.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\InstanciacionClase\InstanciacionClase\obj\x86\Debug\InstanciacionClase.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\InstanciacionClase\InstanciacionClase\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\InstanciacionClase\InstanciacionClase\bin\Debug\InstanciacionClase.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\InstanciacionClase\InstanciacionClase\bin\Debug\InstanciacionClase.pdb

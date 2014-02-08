@@ -1,0 +1,7 @@
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\TipoPrimitivos\TipoPrimitivos\bin\Debug\TipoPrimitivos.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\TipoPrimitivos\TipoPrimitivos\bin\Debug\TipoPrimitivos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Variables\TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.pdb
