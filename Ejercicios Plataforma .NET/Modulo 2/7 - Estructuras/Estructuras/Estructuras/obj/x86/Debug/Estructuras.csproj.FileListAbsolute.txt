@@ -1,0 +1,10 @@
+C:\Users\Victor\AppData\Local\Temporary Projects\Estructuras\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\AppData\Local\Temporary Projects\Estructuras\bin\Debug\Estructuras.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\Estructuras\bin\Debug\Estructuras.pdb
+C:\Users\Victor\AppData\Local\Temporary Projects\Estructuras\obj\x86\Debug\Estructuras.exe
+C:\Users\Victor\AppData\Local\Temporary Projects\Estructuras\obj\x86\Debug\Estructuras.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Estructuras\Estructuras\Estructuras\obj\x86\Debug\Estructuras.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Estructuras\Estructuras\Estructuras\obj\x86\Debug\Estructuras.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Estructuras\Estructuras\Estructuras\bin\Debug\Estructuras.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Estructuras\Estructuras\Estructuras\bin\Debug\Estructuras.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Estructuras\Estructuras\Estructuras\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6b - InstanciacionClase\InstanciacionClase\bin\Debug\InstanciacionClase.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6b - InstanciacionClase\InstanciacionClase\bin\Debug\InstanciacionClase.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6b - InstanciacionClase\InstanciacionClase\obj\x86\Debug\InstanciacionClase.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6b - InstanciacionClase\InstanciacionClase\obj\x86\Debug\InstanciacionClase.pdb

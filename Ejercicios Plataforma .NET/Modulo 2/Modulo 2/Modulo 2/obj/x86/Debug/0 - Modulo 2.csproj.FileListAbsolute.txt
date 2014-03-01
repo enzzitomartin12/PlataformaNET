@@ -1,0 +1,4 @@
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\Modulo 2\Modulo 2\bin\Debug\Modulo 2.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\Modulo 2\Modulo 2\bin\Debug\Modulo 2.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\Modulo 2\Modulo 2\obj\x86\Debug\Modulo 2.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\Modulo 2\Modulo 2\obj\x86\Debug\Modulo 2.pdb

@@ -1,0 +1,4 @@
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\3 - DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\3 - DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\3 - DecConstantesVariables\DecConstantesVariables\bin\Debug\DecConstantesVariables.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\3 - DecConstantesVariables\DecConstantesVariables\obj\x86\Debug\DecConstantesVariables.pdb

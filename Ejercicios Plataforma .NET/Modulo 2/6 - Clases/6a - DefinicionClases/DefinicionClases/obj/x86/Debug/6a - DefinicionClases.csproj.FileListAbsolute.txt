@@ -1,0 +1,4 @@
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6a - DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6a - DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6a - DefinicionClases\DefinicionClases\bin\Debug\DefinicionClases.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6a - DefinicionClases\DefinicionClases\bin\Debug\DefinicionClases.pdb

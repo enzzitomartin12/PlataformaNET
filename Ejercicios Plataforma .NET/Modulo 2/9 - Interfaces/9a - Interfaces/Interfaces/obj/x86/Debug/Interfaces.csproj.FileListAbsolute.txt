@@ -1,0 +1,10 @@
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\Estructuras\Interfaces\Interfaces\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\Estructuras\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\Estructuras\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\Estructuras\Interfaces\Interfaces\obj\x86\Debug\Interfaces.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\Estructuras\Interfaces\Interfaces\obj\x86\Debug\Interfaces.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Interfaces\Interfaces\Interfaces\obj\x86\Debug\Interfaces.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Interfaces\Interfaces\Interfaces\obj\x86\Debug\Interfaces.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Interfaces\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Interfaces\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Interfaces\Interfaces\Interfaces\obj\x86\Debug\ResolveAssemblyReference.cache

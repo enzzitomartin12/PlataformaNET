@@ -1,0 +1,7 @@
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DefinicionClases\DefinicionClases\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DefinicionClases\DefinicionClases\bin\Debug\DefinicionClases.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DefinicionClases\DefinicionClases\bin\Debug\DefinicionClases.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Introduccion a NET y CSharp\Ejercicios\Modulo 2\DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.pdb
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.exe
+C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Clases\DefinicionClases\DefinicionClases\obj\x86\Debug\DefinicionClases.pdb
