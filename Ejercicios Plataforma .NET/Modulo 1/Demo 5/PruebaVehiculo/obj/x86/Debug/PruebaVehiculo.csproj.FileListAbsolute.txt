@@ -5,3 +5,10 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\PruebaVehiculo\bin\Debug\Vehicu
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\PruebaVehiculo.exe
 C:\Users\Victor\Desktop\Ejemplos\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\PruebaVehiculo.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\PruebaVehiculo.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\PruebaVehiculo.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\obj\x86\Debug\PruebaVehiculo.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\bin\Debug\PruebaVehiculo.exe.config
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\bin\Debug\PruebaVehiculo.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\bin\Debug\PruebaVehiculo.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 5\PruebaVehiculo\bin\Debug\Vehiculo.dll

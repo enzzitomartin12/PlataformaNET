@@ -53,3 +53,11 @@ C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\Ejempl
 C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Form1.resources
 C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
 C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\bin\Debug\EjemploWF.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Form1.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.Properties.Resources.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 1\Demo 1\EjemploWF\EjemploWF\obj\x86\Debug\EjemploWF.csproj.GenerateResource.Cache
