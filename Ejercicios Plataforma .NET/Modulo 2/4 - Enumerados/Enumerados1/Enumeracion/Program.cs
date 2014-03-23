@@ -36,12 +36,12 @@ namespace Enumeracion
            
 
             // 2. Operaciones con Enumerados
-            //Colores MiColorA = Colores.Verde;
-            //Colores MiColorB = Colores.Azul;
-            //Colores MiColorBitWihise = MiColorA | MiColorB;
-            //Console.WriteLine("Operacion OR: {0} - {1}", MiColorBitWihise, (sbyte)MiColorBitWihise);
-            //Colores MiColorBitWihiseB = MiColorA & MiColorB;
-            //Console.WriteLine("Operacion AND: {0} - {1}", MiColorBitWihiseB, (sbyte)MiColorBitWihiseB);
+            Colores MiColorA = Colores.Verde;
+            Colores MiColorB = Colores.Azul;
+            Colores MiColorBitWise = MiColorA | MiColorB;
+            Console.WriteLine("Operacion OR: {0} - {1}", MiColorBitWise, (sbyte)MiColorBitWise);
+            Colores MiColorBitWiseB = MiColorA & MiColorB;
+            Console.WriteLine("Operacion AND: {0} - {1}", MiColorBitWiseB, (sbyte)MiColorBitWiseB);
             Console.ReadLine();
 
 

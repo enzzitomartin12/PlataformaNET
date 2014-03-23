@@ -27,13 +27,31 @@ namespace ValorReferencia
 
             Console.WriteLine("objeto {0}", tipoRef);
             Console.WriteLine(tipoRef.GetType());
+            Console.WriteLine("objeto B {0}", tipoRefB);
+            Console.WriteLine(tipoRefB.GetType());
 
             tipoRef = "Hola";
             Console.WriteLine("objeto {0}", tipoRef);
             Console.WriteLine(tipoRef.GetType());
 
+            MiClase c = new MiClase();
+            c.cadena = "aaaa";
+            tipoRefB = c;
+            Console.WriteLine("objeto {0}", tipoRefB.ToString());
+            Console.WriteLine(tipoRefB.GetType());
+
             Console.ReadLine();
 
+        }
+    }
+
+    class MiClase
+    {
+        public string cadena;
+
+        public override string ToString()
+        {
+            return cadena;
         }
     }
 }

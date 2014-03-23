@@ -17,17 +17,10 @@ namespace DecConstantesVariables
 
             //int numeroEnteroA, numeroEnteroB;
             int numeroEnteroA = 10, numeroEnteroB = 5;
-            //--------------------------------
-            //Declarar Variables Char
-
-            //Declarar Variables Cadenas
-            //-------------------------------------
-
+ 
             //Declaracion de Constantes
-
             const int numeroConstante = 10;
-            //--------------------------------------
-
+ 
             //Tipos anónimos
             var persona = new { Nombre = "Victor", Edad = 49 };
             Console.WriteLine ("Nombre:  "  + persona.Nombre + " - " + " Edad: " + Convert.ToString(persona.Edad));

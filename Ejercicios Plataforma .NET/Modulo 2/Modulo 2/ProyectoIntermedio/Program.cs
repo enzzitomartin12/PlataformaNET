@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System.Text;
 
+
 namespace ProyectoIntermedio
 {
     class Program
@@ -18,7 +19,7 @@ namespace ProyectoIntermedio
 
         static void Main(string[] args)
         {
-              
+              /*
                     SomeRef r1 = new SomeRef(); // Allocated in heap
                     SomeVal v1 = new SomeVal(); // Allocated on stack
 
@@ -43,8 +44,14 @@ namespace ProyectoIntermedio
                     // The right side of Figure 5-2 reflects the situation
                     // after ALL of the lines above have executed.
                     Console.ReadLine();
-            
-           
+            */
+
+            Object o = new Empleado();
+            Empleado e = (Empleado)o;
+            Console.WriteLine(e.GetType());
+            Console.WriteLine(o.GetType());
+
+            Console.ReadLine();
         }
 
      }

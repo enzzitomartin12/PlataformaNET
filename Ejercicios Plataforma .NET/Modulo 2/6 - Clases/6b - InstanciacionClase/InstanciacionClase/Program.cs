@@ -62,8 +62,8 @@ namespace InstanciacionClase
             p.nombre = "pepe";
             p.Saludar();
             p.Saludar("Ciudad Paisaje");
-            p.Saludar("Pase la mejor temporada", 2011);
-            Console.WriteLine(p.Saludar(2011));
+            p.Saludar("Pase la mejor temporada", 2014);
+            Console.WriteLine(p.Saludar(2014));
             Console.ReadLine();
         }
     }

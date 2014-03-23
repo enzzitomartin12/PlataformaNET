@@ -15,6 +15,12 @@ namespace Matrices1
             //2. Inicialización de Arreglos
             string[] nombre = new string[] { "Victor", "Diego", "Marcos" };
             Console.WriteLine(nombre.Length);
+            Array.Sort(nombre);
+
+            foreach (string c in nombre)
+            {
+                Console.WriteLine(c);
+            }
             Console.ReadLine();
 
             //3. Los arreglos son objetos manejado por referencias

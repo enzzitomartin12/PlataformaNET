@@ -18,22 +18,23 @@ namespace Ambito
             //}
             //i++;// Fuera del ámbito del bloque
 
-            //for (int i = 0; i <= 10; i++)
-            //{
-            //    int j = 0; //Dentro del ámbito del bloque
-            //    j++;
-            //}
-            //j++; // Fuera del ámbito del bloque
+            for (int i = 0; i <= 10; i++)
+            {
+                int j = 0; //Dentro del ámbito del bloque
+                j++;
 
-            for (int l = 0; l <= 10; l++)
-            {
-                l++;
             }
-            if (1 == 1)
-            {
-                int l = 9;
-                l++;
-            }
+            j++; // Fuera del ámbito del bloque
+
+            //for (int l = 0; l <= 10; l++)
+            //{
+            //    l++;
+            //}
+            //if (1 == 1)
+            //{
+            //    int l = 9;
+            //    l++;
+            //}
 
             //Uso de una clase dentro del espacio de nombres
             //ClaseA objClaseA = new ClaseA();
@@ -71,6 +72,7 @@ namespace Ambito
 
         public void AmbitoMetodoD()
         {
+            //4. Uso de Variable de ambito de Clase
             int j = 0;  
             for (int l = 0; l <= 10; l++)
             {

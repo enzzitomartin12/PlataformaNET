@@ -18,30 +18,30 @@ namespace Enumerdos2
     class Program
     {
 
-        
         static void Main(string[] args)
         {
             //3. Asignaciones de valores no contemplados en la lista de enumerados
             Colores MiColorA = Colores.Verde;
             Colores MiColorB = Colores.Azul;
-            Colores MiColorC = (Colores)3;
+            Colores MiColorC = (Colores)5;
             Console.WriteLine(MiColorC);
 
             //4. Evaluación de contenido de la variable enumerada
-            Program p = new Program();
+            Programa p = new Programa();
             p.Trabajar(MiColorC);
             Console.ReadLine();
-            
         }
 
-        public Program() { }
-        public void Trabajar(Colores color)
+        class Programa
         {
-            if (Enum.IsDefined(typeof(Colores), color)) //
-                Console.WriteLine(color);
-            else
-                Console.WriteLine("Tipo no definido, ERROR!");
-            
+            public void Trabajar(Colores color)
+            {
+                if (Enum.IsDefined(typeof(Colores), color)) //
+                    Console.WriteLine(color);
+                else
+                    Console.WriteLine("Tipo no definido, ERROR!");
+            }
         }
+
     }
 }
