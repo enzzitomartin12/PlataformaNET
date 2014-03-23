@@ -6,7 +6,12 @@ namespace Abstractas
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			Triangulo miTriangulo = new Triangulo ();
+
+			miTriangulo.InformarDatosGeometricos ();
+
+			Console.ReadLine ();
+
 		}
 	}
 }
