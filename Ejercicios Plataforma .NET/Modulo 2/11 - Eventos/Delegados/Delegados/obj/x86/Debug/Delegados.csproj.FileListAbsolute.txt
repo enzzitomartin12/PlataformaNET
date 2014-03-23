@@ -1,5 +1,0 @@
-C:\Users\Victor\AppData\Local\Temporary Projects\Delegados\bin\Debug\Delegados.exe
-C:\Users\Victor\AppData\Local\Temporary Projects\Delegados\bin\Debug\Delegados.pdb
-C:\Users\Victor\AppData\Local\Temporary Projects\Delegados\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\AppData\Local\Temporary Projects\Delegados\obj\x86\Debug\Delegados.exe
-C:\Users\Victor\AppData\Local\Temporary Projects\Delegados\obj\x86\Debug\Delegados.pdb

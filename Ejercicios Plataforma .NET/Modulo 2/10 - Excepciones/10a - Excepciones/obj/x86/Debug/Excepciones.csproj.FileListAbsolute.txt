@@ -1,5 +1,0 @@
-C:\Users\Victor\AppData\Local\Temporary Projects\Excepciones\bin\Debug\Excepciones.exe
-C:\Users\Victor\AppData\Local\Temporary Projects\Excepciones\bin\Debug\Excepciones.pdb
-C:\Users\Victor\AppData\Local\Temporary Projects\Excepciones\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\AppData\Local\Temporary Projects\Excepciones\obj\x86\Debug\Excepciones.exe
-C:\Users\Victor\AppData\Local\Temporary Projects\Excepciones\obj\x86\Debug\Excepciones.pdb

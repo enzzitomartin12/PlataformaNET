@@ -1,9 +1,0 @@
-C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Matrices\Matrices1\obj\x86\Debug\Matrices1.exe
-C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Matrices\Matrices1\obj\x86\Debug\Matrices1.pdb
-C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Matrices\Matrices1\bin\Debug\Matrices1.exe
-C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Matrices\Matrices1\bin\Debug\Matrices1.pdb
-C:\Users\Victor\Documents\Mi Trabajo\SDP\Capacitaciones\Capacitaciones\Introduccion a NET y CSharp A\Ejercicios\Modulo 2\Matrices\Matrices1\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\5 - Matrices\Matrices\obj\x86\Debug\Matrices1.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\5 - Matrices\Matrices\obj\x86\Debug\Matrices1.pdb
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\5 - Matrices\Matrices\bin\Debug\Matrices1.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\5 - Matrices\Matrices\bin\Debug\Matrices1.pdb

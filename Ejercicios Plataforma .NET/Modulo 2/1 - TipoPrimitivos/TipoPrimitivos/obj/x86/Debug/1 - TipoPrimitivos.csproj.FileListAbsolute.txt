@@ -1,4 +1,0 @@
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\1 - TipoPrimitivos\TipoPrimitivos\bin\Debug\TipoPrimitivos.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\1 - TipoPrimitivos\TipoPrimitivos\bin\Debug\TipoPrimitivos.pdb
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\1 - TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\1 - TipoPrimitivos\TipoPrimitivos\obj\x86\Debug\TipoPrimitivos.pdb

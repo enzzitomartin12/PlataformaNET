@@ -1,4 +1,0 @@
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\4 - Enumerados\Enumerados2\Enumerados2\bin\Debug\Enumerdos2.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\4 - Enumerados\Enumerados2\Enumerados2\bin\Debug\Enumerdos2.pdb
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\4 - Enumerados\Enumerados2\Enumerados2\obj\x86\Debug\Enumerdos2.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\4 - Enumerados\Enumerados2\Enumerados2\obj\x86\Debug\Enumerdos2.pdb

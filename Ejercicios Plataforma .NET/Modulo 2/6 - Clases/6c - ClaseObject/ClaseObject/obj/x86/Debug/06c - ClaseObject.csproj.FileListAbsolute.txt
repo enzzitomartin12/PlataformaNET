@@ -1,5 +1,0 @@
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6c - ClaseObject\ClaseObject\obj\x86\Debug\ClaseObject.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6c - ClaseObject\ClaseObject\obj\x86\Debug\ClaseObject.pdb
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6c - ClaseObject\ClaseObject\bin\Debug\ClaseObject.exe
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6c - ClaseObject\ClaseObject\bin\Debug\ClaseObject.pdb
-C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 2\6 - Clases\6c - ClaseObject\ClaseObject\obj\x86\Debug\06c - ClaseObject.csprojResolveAssemblyReference.cache
