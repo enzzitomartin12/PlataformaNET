@@ -23,10 +23,10 @@ namespace Modulo_2
             Console.WriteLine("Los datos fueron cambiados");
         }
 
-         internal override void Ejecutar()
+		internal override void Ejecutar()
         {
-            Program p = new Program();
-            Console.ReadLine();
+			/*Program p = new Program();
+            Console.ReadLine();*/
         }
 
     }

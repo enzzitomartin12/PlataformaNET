@@ -30,7 +30,7 @@ namespace Modulo_2
                 
         internal override void Ejecutar()
         {
-            Program p = new Program();
+			/*Program p = new Program();*/
             Console.ReadLine();
         }
     }
