@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Colecciones_tipo_Generic
+namespace Modulo_3
 {
     class Program
     {

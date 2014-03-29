@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
-namespace Colecciones_de_datos
+namespace Modulo_3
 {
     class Program
     {
