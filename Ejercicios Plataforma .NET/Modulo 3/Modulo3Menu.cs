@@ -2,7 +2,7 @@
 
 namespace Modulo_3
 {
-	static public class Modulo2Menu
+	static public class Modulo3Menu
 	{
 
 		static public void MostrarMenu()
@@ -15,20 +15,10 @@ namespace Modulo_3
 				Console.WriteLine("Programas Demos de la Módulo 2 - La Plataforma de Desarrollo.NET\n");
 				Console.WriteLine("Seleccionar un tema:\n");
 
-				Console.WriteLine("1 - Tipos Primitivos");
-				Console.WriteLine("2 - Tipos Valor / Referencia");
-				Console.WriteLine("3 - Lista de Tipos");
-				Console.WriteLine("4 - Declaracion de Constantes y Variables");
-				Console.WriteLine("5 - Enumerados");
-				Console.WriteLine("6 - Matrices y Arreglos");
-				Console.WriteLine("7 - Estructuras");
-				Console.WriteLine("8 - Clases");
-				Console.WriteLine("9 - Clase Object");
-				Console.WriteLine("10 - Ambito");
-				Console.WriteLine("11 - Clase Abstracta");
-				Console.WriteLine("12 - Interfaces");
-				Console.WriteLine("13 - Excepciones");
-				Console.WriteLine("14 - Eventos y Delegados");
+				Console.WriteLine("1 - Colecciones");
+                Console.WriteLine("2 - Streams");
+				Console.WriteLine("3 - Archivos y Directorios");
+				Console.WriteLine("4 - Acceso a Redes");
 
 				Console.WriteLine("0 - Salir");
 
@@ -45,76 +35,32 @@ namespace Modulo_3
 				switch (_opcion)
 				{
 				case 1:
-					Modulo2.MostrarTituloDemo("Demo de Tipos Primitivos");
-					Modulo2.EjecutarPrograma(new Programa01());
+					Modulo3.MostrarTituloDemo("Demo de Colecciones - Colecciones de Datos");
+					Modulo3.EjecutarPrograma(new Programa01a());
+                    Modulo3.MostrarTituloDemo("Demo de Colecciones - IList");
+					Modulo3.EjecutarPrograma(new Programa01b());
+                    Modulo3.MostrarTituloDemo("Demo de Colecciones - List Generics");
+					Modulo3.EjecutarPrograma(new Programa01c());
 					break;
 				case 2:
-					Modulo2.MostrarTituloDemo("Demo de Tipos Valor y Referencia");
-					Modulo2.EjecutarPrograma(new Programa02());
+                    Modulo3.MostrarTituloDemo("Demo de Streams - FileStream Basico");
+                    Modulo3.EjecutarPrograma(new Programa02a());
+                    Modulo3.MostrarTituloDemo("Demo de Streams - FileStream IList");
+                    Modulo3.EjecutarPrograma(new Programa02b());
+                    Modulo3.MostrarTituloDemo("Demo de Streamwriter y StreamReader");
+					Modulo3.EjecutarPrograma(new Programa02c());
 					break;
 				case 3:
-					Modulo2.MostrarTituloDemo("Demo de Tipos Valor y Referencia - 2");
-					Modulo2.EjecutarPrograma(new Programa03());
+                    Modulo3.MostrarTituloDemo("Demo de Archivos");
+					Modulo3.EjecutarPrograma(new Programa03a());
+                    Modulo3.MostrarTituloDemo("Demo de Archivos");
+					Modulo3.EjecutarPrograma(new Programa03b());
 					break;
 				case 4:
-					Modulo2.MostrarTituloDemo("Demo de Declaracion de Constantes y Variables");
-					Modulo2.EjecutarPrograma(new Programa04());
-					break;
-				case 5:
-					Modulo2.MostrarTituloDemo("Demo de Enumeración - Caso A");
-					Modulo2.EjecutarPrograma(new Programa05a());
-					Modulo2.MostrarTituloDemo("Demo de Enumeración - Caso B");
-					Modulo2.EjecutarPrograma(new Programa05b());
-					break;
-				case 6:
-					Modulo2.MostrarTituloDemo("Demo de Matrices y Arreglos");
-					Modulo2.EjecutarPrograma(new Programa06());
-					break;
-				case 7:
-					Modulo2.MostrarTituloDemo("Demo de Estructuras - A");
-					Modulo2.EjecutarPrograma(new Programa07a());
-					Modulo2.MostrarTituloDemo("Demo de Estructuras - B");
-					Modulo2.EjecutarPrograma(new Programa07b());
-					break;
-				case 8:
-					Modulo2.MostrarTituloDemo("Demo de Clases - Definición");
-					Modulo2.EjecutarPrograma(new Programa08a());
-					Modulo2.MostrarTituloDemo("Demo de Clases - Instaciación");
-					Modulo2.EjecutarPrograma(new Programa08b());
-					break;
-				case 9:
-					Modulo2.MostrarTituloDemo("Demo de Clase Object");
-					Modulo2.EjecutarPrograma(new Programa09());
-					break;
-				case 10:
-					Modulo2.MostrarTituloDemo("Demo de Ambito - A");
-					Modulo2.EjecutarPrograma(new Programa10a());
-					Modulo2.MostrarTituloDemo("Demo de Ambito - B");
-					Modulo2.EjecutarPrograma(new Programa10b());
-					break;
-				case 11:
-					Modulo2.MostrarTituloDemo("Demo de Clase Abstracta");
-					Modulo2.EjecutarPrograma(new Programa11());
-					break;
-				case 12:
-					Modulo2.MostrarTituloDemo("Demo de Interfaces - Usuario");
-					Modulo2.EjecutarPrograma(new Programa12a());
-					Modulo2.MostrarTituloDemo("Demo de Interfaces - Framework");
-					Modulo2.EjecutarPrograma(new Programa12b());
-					break;
-				case 13:
-					Modulo2.MostrarTituloDemo("Demo de Exepciones - A");
-					Modulo2.EjecutarPrograma(new Programa13a());
-					Modulo2.MostrarTituloDemo("Demo de Exepciones - B");
-					Modulo2.EjecutarPrograma(new Programa13b());
-					Modulo2.MostrarTituloDemo("Demo de Exepciones - C");
-					Modulo2.EjecutarPrograma(new Programa13c());
-					break;
-				case 14:
-					Modulo2.MostrarTituloDemo("Demo de Eventos");
-					Modulo2.EjecutarPrograma(new Programa14a());
-					Modulo2.MostrarTituloDemo("Demo de Delegados");
-					Modulo2.EjecutarPrograma(new Programa14b());
+                    //Modulo3.MostrarTituloDemo("Demo de Acceso - Internet");
+                    //Modulo3.EjecutarPrograma(new Programa04a());
+                    Modulo3.MostrarTituloDemo("Demo de Acceso - FTP");
+                    Modulo3.EjecutarPrograma(new Programa04b());
 					break;
 				}      
 
@@ -123,7 +69,7 @@ namespace Modulo_3
 
 	}
 
-	static internal class Modulo2
+	static internal class Modulo3
 	{
 		static internal void MostrarTituloDemo(string titulo)
 		{

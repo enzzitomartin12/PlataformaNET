@@ -41,11 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01 - Colecciones\01a - Colecciones\Program.cs" />
-    <Compile Include="01 - Colecciones\01b - Colecciones\Program.cs" />
-    <Compile Include="01 - Colecciones\02c - Colecciones\Program.cs" />
+    <Compile Include="01 - Colecciones\01a - Colecciones\Programa01a.cs" />
+    <Compile Include="01 - Colecciones\01b - Colecciones\Cliente.cs" />
+    <Compile Include="01 - Colecciones\01b - Colecciones\Programa01b.cs" />
+    <Compile Include="01 - Colecciones\01c - Colecciones\Programa01c.cs" />
+    <Compile Include="02 - Streams\02a - Streams\Programa02a.cs" />
+    <Compile Include="02 - Streams\02b - Streams\Programa2b.cs" />
+    <Compile Include="02 - Streams\02c - Streams\Documento.cs" />
+    <Compile Include="02 - Streams\02c - Streams\Programa02c.cs" />
+    <Compile Include="03 - Archivos\03a - Archivos\Program03a.cs" />
+    <Compile Include="03 - Archivos\03b - Archivos\Programa03b.cs" />
+    <Compile Include="04 - Acceso a Redes\04a - Acceso a Redes\Programa04a.cs" />
+    <Compile Include="04 - Acceso a Redes\04b - Acceso a Redes\Programa04b.cs" />
+    <Compile Include="04 - Acceso a Redes\04c - Acceso a Redes\Programa04c.cs" />
     <Compile Include="Modulo3Menu.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Inicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

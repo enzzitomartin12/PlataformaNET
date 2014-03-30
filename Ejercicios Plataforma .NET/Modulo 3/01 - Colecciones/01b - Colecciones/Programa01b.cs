@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Modulo_3
 {
-    class Program
+    internal class Programa01b : Programa
     {
-        static void Main(string[] args)
+        internal override void Ejecutar()
         {
             Clientes clientes = new Clientes();
 
@@ -30,49 +30,12 @@ namespace Modulo_3
         }
     }
 
-    /// <summary>
-    /// Clase Cliente
-    /// </summary>
-    /// <remarks>
-    /// Esta clase se puede clasificar por el campo Apellidos
-    /// </remarks>
-    public class Cliente : System.IComparable
-    {
-        public string Nombre;
-        public string Apellidos;
-
-        public Cliente(string nombre)
-        {
-            this.Nombre = nombre;
-        }
-        public Cliente(string nombre, string apellidos)
-        {
-            this.Nombre = nombre;
-            this.Apellidos = apellidos;
-        }
-
-        public override string ToString()
-        {
-            return Apellidos + ", " + Nombre;
-        }
-
-        public int CompareTo(object obj)
-        {
-            if (obj is Cliente)
-            {
-                Cliente cli = (Cliente)obj;
-                return string.Compare(this.Apellidos, cli.Apellidos);
-            }
-            else
-                return 0;
-        }
-    }
-
+   
     /// <summary>
     /// Colección de tipo Cliente basada en IList
     /// </summary>
     /// <remarks></remarks>
-    public class Clientes : System.Collections.CollectionBase
+    internal class Clientes : System.Collections.CollectionBase
     {
         public int Add(Cliente value)
         {

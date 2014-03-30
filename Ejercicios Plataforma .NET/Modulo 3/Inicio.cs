@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Modulo_3
 {
-    class Modulo3
+    class Inicio
     {
         static void Main(string[] args)
         {
+            Modulo3Menu.MostrarMenu();
         }
     }
 }

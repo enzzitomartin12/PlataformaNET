@@ -6,12 +6,13 @@ using System.Collections;
 
 namespace Modulo_3
 {
-    class Program
+    internal class Programa01a:Programa
     {
-        static void Main(string[] args)
+        internal override void Ejecutar()
         {
             #region Colecciones que implementan ICollection
 
+            //1. Implementacion de Stack (Generics)
             Stack<int> stack = new Stack<int>();
             stack.Push(1);
             stack.Push(2);
@@ -30,7 +31,7 @@ namespace Modulo_3
 
             Console.ReadKey(true);
 
-
+            //1. Implementacion de Queue (Generics)
             Queue<int> queue = new Queue<int>();
             queue.Enqueue(1);
             queue.Enqueue(2);
@@ -43,7 +44,6 @@ namespace Modulo_3
                 int valor = queue.Dequeue();
                 Console.WriteLine(valor);
             }
-
 
             Console.WriteLine("Presione una tecla para continuar...");
 
