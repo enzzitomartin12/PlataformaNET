@@ -57,10 +57,10 @@ namespace Modulo_3
 					Modulo3.EjecutarPrograma(new Programa03b());
 					break;
 				case 4:
-                    //Modulo3.MostrarTituloDemo("Demo de Acceso - Internet");
-                    //Modulo3.EjecutarPrograma(new Programa04a());
-                    Modulo3.MostrarTituloDemo("Demo de Acceso - FTP");
-                    Modulo3.EjecutarPrograma(new Programa04b());
+                    Modulo3.MostrarTituloDemo("Demo de Acceso - Internet");
+                    Modulo3.EjecutarPrograma(new Programa04a());
+                    //Modulo3.MostrarTituloDemo("Demo de Acceso - FTP");
+                    //Modulo3.EjecutarPrograma(new Programa04b());
 					break;
 				}      
 

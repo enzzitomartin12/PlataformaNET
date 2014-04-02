@@ -28,9 +28,17 @@ namespace Modulo_3
             //Escribe en un archivo
             FileStream fs = new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter stream = new StreamWriter(fs);
-            stream.Write(dato);
+            try
+            {
+                stream.Write(dato);
+                Console.WriteLine("Archivo guardado con éxito.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             stream.Close();
-            Console.WriteLine("Archivo guardado con éxito.");
+            stream.Dispose();
         }
 
         public string LeerArchivo(string archivo)

@@ -61,6 +61,7 @@ namespace Modulo_3
             string _linea;
 
             Console.Clear();
+            Console.WriteLine("Ingrese el un texto cualquiera. Dos veces Enter para salir");
             do
             {
                 _linea = Console.ReadLine();
@@ -87,7 +88,6 @@ namespace Modulo_3
                     {
                         file.WriteLine(s);
                     }
-                    file.Dispose();
                 }
                 
             }
@@ -115,7 +115,6 @@ namespace Modulo_3
                    {
                        this.LlenarTexto(linea);
                    }
-                   file.Dispose();
                 }
                 
             }

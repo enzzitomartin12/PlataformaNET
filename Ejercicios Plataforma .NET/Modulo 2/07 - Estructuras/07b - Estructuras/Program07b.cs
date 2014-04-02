@@ -53,7 +53,7 @@ namespace Modulo_2
 
         //internal override string ToString()
         //{
-        //    return nombre + " " + apellido + ", edad: " + edad;
+        //    return nombre + " " + apellido + "(" + genero + "), edad: " + edad;
         //}
     }
 }

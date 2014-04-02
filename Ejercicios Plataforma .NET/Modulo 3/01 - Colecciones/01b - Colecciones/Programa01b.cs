@@ -15,6 +15,7 @@ namespace Modulo_3
             clientes.Add(new Cliente("Pedro", "Gomez"));
             clientes.Add(new Cliente("Piojo", "Lopez"));
 
+            Console.WriteLine("Muestra la lista de clientes agregados.");
             // Se puede recorrer con un For o con un Foreach
             for (int i = 0; i <= clientes.Count - 1; i++)
             {
@@ -22,10 +23,19 @@ namespace Modulo_3
             }
             Console.ReadKey();
 
+            
             foreach(Cliente cliente in clientes)
             {
                 Console.WriteLine(cliente.ToString());
             }
+
+            Console.WriteLine("Muestra la lista de clientes ordenada.");
+            clientes.Sort();
+            foreach(Cliente cliente in clientes)
+            {
+                Console.WriteLine(cliente.ToString());
+            }
+
             Console.ReadKey();
         }
     }
