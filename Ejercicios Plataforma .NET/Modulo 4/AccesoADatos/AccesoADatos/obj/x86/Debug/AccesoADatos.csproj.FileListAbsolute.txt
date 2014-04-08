@@ -43,3 +43,17 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debu
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.Properties.Resources.resources
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\bin\Debug\AccesoADatos.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\bin\Debug\AccesoADatos.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.EjemploDataAdapter.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.EjemploDataAdapter2.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.EjemploDataAdapter3.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.EjemploDataReader.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.EjemploDataReader2.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.Form1.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.Principal.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.Properties.Resources.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\AccesoADatos\obj\x86\Debug\AccesoADatos.csproj.GenerateResource.Cache

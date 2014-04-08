@@ -28,3 +28,12 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\D
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.Properties.Resources.resources
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\bin\Debug\TrabajoConLINQ2.exe.config
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\bin\Debug\TrabajoConLINQ2.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\bin\Debug\TrabajoConLINQ2.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.Form1.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.Properties.Resources.resources
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ2\obj\x86\Debug\TrabajoConLINQ2.pdb

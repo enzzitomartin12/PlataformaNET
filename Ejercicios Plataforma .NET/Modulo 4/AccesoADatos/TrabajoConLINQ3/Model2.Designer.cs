@@ -8,12 +8,13 @@
 //------------------------------------------------------------------------------
 
 using System;
+using System.ComponentModel;
+using System.Data.EntityClient;
 using System.Data.Objects;
 using System.Data.Objects.DataClasses;
-using System.Data.EntityClient;
-using System.ComponentModel;
-using System.Xml.Serialization;
+using System.Linq;
 using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 [assembly: EdmSchemaAttribute()]
 #region Metadatos de relaciones en EDM
@@ -103,6 +104,7 @@ namespace TrabajoConLINQ3
         private ObjectSet<Proyectos> _Proyectos;
 
         #endregion
+
         #region Métodos AddTo
     
         /// <summary>
@@ -122,11 +124,11 @@ namespace TrabajoConLINQ3
         }
 
         #endregion
+
     }
-    
 
     #endregion
-    
+
     #region Entidades
     
     /// <summary>
@@ -173,6 +175,7 @@ namespace TrabajoConLINQ3
         }
 
         #endregion
+
         #region Propiedades primitivas
     
         /// <summary>
@@ -467,6 +470,7 @@ namespace TrabajoConLINQ3
         partial void OnWebChanged();
 
         #endregion
+
     
         #region Propiedades de navegación
     
@@ -493,6 +497,7 @@ namespace TrabajoConLINQ3
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -521,6 +526,7 @@ namespace TrabajoConLINQ3
         }
 
         #endregion
+
         #region Propiedades primitivas
     
         /// <summary>
@@ -623,6 +629,7 @@ namespace TrabajoConLINQ3
         partial void OnIDClienteChanged();
 
         #endregion
+
     
         #region Propiedades de navegación
     
@@ -665,8 +672,10 @@ namespace TrabajoConLINQ3
         }
 
         #endregion
+
     }
 
     #endregion
+
     
 }

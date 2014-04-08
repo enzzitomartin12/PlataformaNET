@@ -19,3 +19,10 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\AccesoADatos.exe
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\AccesoADatos.pdb
 C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\TrabajoConLINQ\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\TrabajoConLINQ.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\TrabajoConLINQ.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\AccesoADatos.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\bin\Debug\AccesoADatos.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\obj\x86\Debug\TrabajoConLINQ.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\obj\x86\Debug\TrabajoConLINQ.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 4\AccesoADatos\TrabajoConLINQ\obj\x86\Debug\TrabajoConLINQ.pdb
