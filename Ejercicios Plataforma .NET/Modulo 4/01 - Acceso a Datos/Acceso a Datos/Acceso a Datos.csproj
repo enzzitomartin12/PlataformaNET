@@ -56,12 +56,6 @@
     <Compile Include="EjemploDataAdapter2.designer.cs">
       <DependentUpon>EjemploDataAdapter2.cs</DependentUpon>
     </Compile>
-    <Compile Include="EjemploDataAdapter3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EjemploDataAdapter3.designer.cs">
-      <DependentUpon>EjemploDataAdapter3.cs</DependentUpon>
-    </Compile>
     <Compile Include="EjemploDataReader.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,12 +67,6 @@
     </Compile>
     <Compile Include="EjemploDataReader2.designer.cs">
       <DependentUpon>EjemploDataReader2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -104,17 +92,11 @@
     <EmbeddedResource Include="EjemploDataAdapter2.resx">
       <DependentUpon>EjemploDataAdapter2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EjemploDataAdapter3.resx">
-      <DependentUpon>EjemploDataAdapter3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EjemploDataReader.resx">
       <DependentUpon>EjemploDataReader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EjemploDataReader2.resx">
       <DependentUpon>EjemploDataReader2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -128,7 +110,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

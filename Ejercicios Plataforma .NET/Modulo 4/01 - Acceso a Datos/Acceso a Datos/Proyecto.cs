@@ -27,11 +27,6 @@ namespace AccesoADatos
             set { _nombre= value; }
         }
 
-        public string Descripcion
-        {
-            get { return _descripcion; }
-            set { _descripcion = value; }
-        }
 
         public int IDCliente
         {
@@ -54,7 +49,6 @@ namespace AccesoADatos
                 dataAdapter.InsertCommand = command;
                 command.Parameters.AddWithValue("@IDProyecto", filaProyecto.IDProyecto);
                 command.Parameters.AddWithValue("@Nombre", filaProyecto.Nombre);
-                command.Parameters.AddWithValue("@Descripcion", filaProyecto.Descripcion);
                 command.Parameters.AddWithValue("@IDCliente", filaProyecto.IDCliente);
 
                 //Se conecta a la base de datos y realiza de acción desde el dataAdapter

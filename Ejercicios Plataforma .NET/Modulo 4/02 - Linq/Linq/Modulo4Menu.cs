@@ -15,10 +15,11 @@ namespace Modulo_4
 				Console.WriteLine("Programas Demos de la Módulo 3 - La Plataforma de Desarrollo.NET\n");
 				Console.WriteLine("Seleccionar un tema:\n");
 
-				Console.WriteLine("1 - LINQ ");
-                //Console.WriteLine("2 - Streams");
-                //Console.WriteLine("3 - Archivos y Directorios");
-                //Console.WriteLine("4 - Acceso a Redes");
+				Console.WriteLine("1 - LINQ a Objetos - Basico ");
+                Console.WriteLine("2 - LINQ a Objetos - Filtrado Basico");
+                Console.WriteLine("3 - LINQ a Objetos - Lista de Objetos");
+                Console.WriteLine("4 - LINQ a SQL - Consola");
+                Console.WriteLine("5 - LINQ a SQL - CRUD");
 
 				Console.WriteLine("0 - Salir");
 
@@ -35,24 +36,25 @@ namespace Modulo_4
 				switch (_opcion)
 				{
 				case 1:
-                    //Modulo4.MostrarTituloDemo("Demo de LINQ - Basicos");
-                    //Modulo4.EjecutarPrograma(new Programa01a());
-                    //Modulo4.MostrarTituloDemo("Demo de LINQ - Basicos");
-                    //Modulo4.EjecutarPrograma(new Programa01b());
-                    //Modulo4.MostrarTituloDemo("Demo de LINQ - Basicos");
-                    //Modulo4.EjecutarPrograma(new Programa01c());
-                    Modulo4.MostrarTituloDemo("Demo de LINQ - Basicos");
-					Modulo4.EjecutarPrograma(new Programa01e());
+                    Modulo4.MostrarTituloDemo("Demo de LINQ a Objetos");
+                    Modulo4.EjecutarPrograma(new Programa01a());
 					break;
 				case 2:
-
+                    Modulo4.MostrarTituloDemo("Demo de LINQ a Objetos 2");
+                    Modulo4.EjecutarPrograma(new Programa01b());
 					break;
 				case 3:
-
-					break;
+                    Modulo4.MostrarTituloDemo("Demo de LINQ - Lista de Objetos");
+                    Modulo4.EjecutarPrograma(new Programa01c());
+                    break;
 				case 4:
-
+                    Modulo4.MostrarTituloDemo("Demo de LINQ - Consola");
+					Modulo4.EjecutarPrograma(new Programa01d());
 					break;
+                case 5:
+                    Modulo4.MostrarTituloDemo("Demo de LINQ - CRUD");
+                    Modulo4.EjecutarPrograma(new Programa01e());
+                    break;
 				}      
 
 			} while (_opcion != 0);

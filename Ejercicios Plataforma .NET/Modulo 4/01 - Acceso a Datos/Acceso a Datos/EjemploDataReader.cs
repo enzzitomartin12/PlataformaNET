@@ -31,7 +31,7 @@ namespace AccesoADatos
 
                 //PASO 2 - Se define el comando (tipo de acceso) a la base de datos (Capa conectada)
                 ConsultaSQL = "select Nombre from Clientes";
-                ConsultaSQL = "Select Clientes.Nombre, Proyectos.Titulo from Clientes, Proyectos Where Clientes.ID = Proyectos.IDCliente";
+                //ConsultaSQL = "Select Clientes.Nombre, Proyectos.Titulo from Clientes, Proyectos Where Clientes.ID = Proyectos.IDCliente";
                 SqlCommand miComando = new SqlCommand(ConsultaSQL, conn);
 
 
@@ -50,8 +50,8 @@ namespace AccesoADatos
                 textBox.Text += "Lista de Datos extraidos\r\n";
                 while (miDataReader.Read())
                 {
-                    //textBox.Text += miDataReader["nombre"].ToString() + "\r\n";
-                    textBox.Text += miDataReader[0] + " - " + miDataReader[1] + "\r\n";
+                    textBox.Text += miDataReader["nombre"].ToString() + "\r\n";
+                    //textBox.Text += miDataReader[0] + " - " + miDataReader[1] + "\r\n";
                 }
                 //PASO 6 - Se cierra la conexion
                 miComando = null;
@@ -63,12 +63,6 @@ namespace AccesoADatos
             }
         
         }
-
-        private void textBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
 
     }
 }

@@ -19,19 +19,14 @@ namespace DataBaseFirst
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using(var ctx = new northwindEntities())
+            using (var ctx = new northwindEntities())
             {
                 var clientes = from c in ctx.Customers
-                               where c.CompanyName.StartsWith("A")
-                               select new { 
-                                   c.CompanyName,
-                                   c.Country,
-                                   c.City
-                               };
-
-                foreach (var c in clientes)
+                               select c;
+                
+                foreach (Customers c in clientes)
                 {
-                    listBox1.Items.Add(c.CompanyName + ":" + c.Country + ":" + c.City);
+                    listBox1.Items.Add(c.CompanyName);
                 }
             }
         }

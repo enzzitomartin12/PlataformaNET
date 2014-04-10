@@ -9,7 +9,8 @@ namespace Modulo_4
     {
         internal override void Ejecutar()
         {
-            List<Proyecto> _proyectoList = new List<Proyecto>
+            #region Constructor de la lista de Proyectos
+            List<Proyecto> _listaProyectos = new List<Proyecto>
             {
                 new Proyecto
                 {
@@ -34,29 +35,33 @@ namespace Modulo_4
                 }
 
             };
+            #endregion
 
-            //var proyectos = from proy in _proyectoList
-            //                where proy.IDCliente == 1
-            //                orderby proy.Nombre
-            //                select proy;
-
-            //foreach (var proy in proyectos)
-            //{
-            //    Console.WriteLine("Nombre: {0}, Descripcion: {1}", proy.Nombre, proy.Descripcion);
-            //}
-
-            var proyectos = from proy in _proyectoList
+            #region Filtrado por Cliente
+            var proyectos = from proy in _listaProyectos
                             where proy.IDCliente == 1
                             orderby proy.Nombre
-                            select new
-                            {
-                                Resumen = proy.Nombre + ", " + proy.Descripcion + "\n" + "Cliente: " + proy.IDCliente.ToString()
-                            };
+                            select proy;
 
             foreach (var proy in proyectos)
             {
-                Console.WriteLine(proy.Resumen);
+                Console.WriteLine("Nombre: {0}, Descripcion: {1}", proy.Nombre, proy.Descripcion);
             }
+
+            //var proyectos = from proy in _listaProyectos
+            //                where proy.IDCliente == 1
+            //                orderby proy.Nombre
+            //                select new
+            //                {
+            //                    Resumen = proy.Nombre + ", " + proy.Descripcion + "\n" + "Cliente: " + proy.IDCliente.ToString()
+            //                };
+
+            //foreach (var proy in proyectos)
+            //{
+            //    Console.WriteLine(proy.Resumen);
+            //}
+            #endregion
+
             Console.ReadKey();
 
         }

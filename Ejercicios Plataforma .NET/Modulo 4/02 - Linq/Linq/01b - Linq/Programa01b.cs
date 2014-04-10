@@ -11,7 +11,7 @@ namespace Modulo_4
         internal override void Ejecutar()
         {
        
-            #region Ejemplo Básico de LINQ
+            #region Ejemplo Básico de LINQ a Objetos 2
             //Lista de strings
             string[] colores =
             {
@@ -26,12 +26,13 @@ namespace Modulo_4
             "Blue"
             };
 
-            Autos Lista = new Autos();
-            Console.WriteLine("Muestra lista completa");
-            Lista.MostrarLista();
+            //Inicializa una lista de objetos
+            Autos _listaAutos = new Autos();
+            Console.WriteLine("Muestra lista completa de objetos");
+            _listaAutos.MostrarLista();
 
-
-            IEnumerable<Auto> _resultado = from c in colores
+            //Filtra la lista de colors y 
+            IEnumerable<Auto> _resultado =   from c in colores
                                              where c.Length == 5
                                              orderby c
                                              select new Auto()

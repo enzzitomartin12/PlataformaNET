@@ -10,7 +10,7 @@ namespace Modulo_4
     {
         internal override void Ejecutar()
         {
-            #region Ejemplo Básico de LINQ
+            #region Ejemplo Básico de LINQ - Objetos
             //Lista de strings
             string[] colores =
             {
@@ -25,6 +25,7 @@ namespace Modulo_4
             "Blue"
             };
 
+            //Uso de Linq en Objetos
             IEnumerable<string> _resultado = from c in colores
                                             where c.StartsWith("B")
                                             orderby c

@@ -49,12 +49,6 @@ namespace AccesoADatos
             Ejemplo4.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            EjemploDataAdapter3 Ejemplo5 = new EjemploDataAdapter3();
-
-            Ejemplo5.Show();
-        }
 
      }
 }

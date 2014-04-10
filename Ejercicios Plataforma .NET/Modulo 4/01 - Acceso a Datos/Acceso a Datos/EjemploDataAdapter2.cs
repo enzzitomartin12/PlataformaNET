@@ -60,7 +60,6 @@ namespace AccesoADatos
                 DataRow unaFila = dataSet1.Tables["Proyectos"].NewRow();
                 unaFila["ID"] = textBox4.Text;
                 unaFila["Titulo"] = textBox1.Text;
-                unaFila["Descripcion"] = textBox2.Text;
                 unaFila["IDCliente"] = textBox3.Text;
 
                 dataSet1.Tables["Proyectos"].Rows.Add(unaFila);
@@ -72,7 +71,6 @@ namespace AccesoADatos
                     //Prepara el objeto Proyecto con los campos a insertat
                     unProyecto.IDProyecto = Convert.ToInt32(textBox4.Text);
                     unProyecto.Nombre = textBox1.Text;
-                    unProyecto.Descripcion = textBox2.Text;
                     unProyecto.IDCliente = Convert.ToInt32(textBox3.Text);
 
                     //Inserta la fila y verifica el éxito de la acción

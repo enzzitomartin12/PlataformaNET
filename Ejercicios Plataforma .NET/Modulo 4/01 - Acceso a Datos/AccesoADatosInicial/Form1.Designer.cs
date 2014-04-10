@@ -201,7 +201,7 @@
             this.proyectosBindingNavigatorSaveItem.Name = "proyectosBindingNavigatorSaveItem";
             this.proyectosBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
             this.proyectosBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.proyectosBindingNavigatorSaveItem.Click += new System.EventHandler(this.proyectosBindingNavigatorSaveItem_Click);
+            this.proyectosBindingNavigatorSaveItem.Click += new System.EventHandler(this.proyectosBindingNavigatorSaveItem_Click_1);
             // 
             // proyectosDataGridView
             // 
@@ -212,7 +212,7 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
             this.proyectosDataGridView.DataSource = this.proyectosBindingSource;
-            this.proyectosDataGridView.Location = new System.Drawing.Point(57, 86);
+            this.proyectosDataGridView.Location = new System.Drawing.Point(48, 53);
             this.proyectosDataGridView.Name = "proyectosDataGridView";
             this.proyectosDataGridView.Size = new System.Drawing.Size(300, 220);
             this.proyectosDataGridView.TabIndex = 1;
@@ -239,7 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 425);
+            this.ClientSize = new System.Drawing.Size(425, 439);
             this.Controls.Add(this.proyectosDataGridView);
             this.Controls.Add(this.proyectosBindingNavigator);
             this.Name = "Form1";
@@ -279,6 +279,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+
+
     }
 }
 
