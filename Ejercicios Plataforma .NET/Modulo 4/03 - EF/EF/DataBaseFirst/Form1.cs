@@ -19,16 +19,65 @@ namespace DataBaseFirst
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (var ctx = new northwindEntities())
-            {
-                var clientes = from c in ctx.Customers
-                               select c;
+            //using (var ctx = new northwindEntities())
+            //{
+            //    var clientes = from c in ctx.Customers
+            //                   select c;
                 
-                foreach (Customers c in clientes)
+            //    foreach (Customers c in clientes)
+            //    {
+            //        listBox1.Items.Add(c.CompanyName);
+            //    }
+            //}
+
+            try
+            {
+                using( var ctx = new northwindEntities())
                 {
-                    listBox1.Items.Add(c.CompanyName);
+                    var _repClientes = new Repositorio<Customers>(ctx);
+
+                    var clientes = _repClientes.GetTodos();
+
+                    foreach (Customers c in clientes)
+                    {
+                        listBox1.Items.Add(c.CompanyName);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "\n" + ex.InnerException);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string _nombreCliente = listBox1.SelectedItem.ToString();
+            
+            var _cliente = new Customers();
+
+            try
+            {
+                using (var ctx = new northwindEntities())
+                {
+                    var _clientes = from c in ctx.Customers
+                                   where c.CompanyName == _nombreCliente
+                                   select c;
+
+                    _cliente = _clientes.SingleOrDefault();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "\n" + ex.InnerException);
+            }
+            textBox1.Text = _cliente.CompanyName;
+            textBox2.Text = _cliente.ContactName;
         }
     }
 }
