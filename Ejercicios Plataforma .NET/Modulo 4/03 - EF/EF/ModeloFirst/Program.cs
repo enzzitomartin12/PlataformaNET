@@ -66,10 +66,10 @@ namespace ModeloFirst
                 //var _equipo = _equipos.SingleOrDefault();
 
                 var _repEquipo = new Repositorio<Equipo>(ctx);
-                var _equipo = _repEquipo.GetPorId(7);
+                var _equipo = _repEquipo.GetPorId(13);
 
                 _equipo.Campeonatos = 30;
-                _repEquipo.Actualizar(_equipo);
+
 
                 ctx.SaveChanges();
 

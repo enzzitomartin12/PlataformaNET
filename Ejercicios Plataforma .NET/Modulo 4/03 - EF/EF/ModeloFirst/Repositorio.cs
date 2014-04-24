@@ -13,9 +13,11 @@ namespace ModeloFirst
     public class Repositorio<T> : IRepositorio<T> where T : class
     {
         protected  DbSet<T> DbSet;
+        private DbContext _ctx;
 
         public Repositorio(DbContext ctx)
         {
+            _ctx = ctx;
             DbSet = ctx.Set<T>();
         }
 
