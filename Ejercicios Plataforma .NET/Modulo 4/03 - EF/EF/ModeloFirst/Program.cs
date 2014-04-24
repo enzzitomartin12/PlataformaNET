@@ -10,39 +10,47 @@ namespace ModeloFirst
     {
         static void Main(string[] args)
         {
-            //try
-            //{
-            //    using (var ctx = new ModeloCampeonatoContainer())
-            //    {
-            //        var _equipo = new Equipo
-            //        {
-            //            Nombre = "Boca Juniors",
-            //            Campeonatos = 28,
-            //            Id = 1
-            //        };
-            //        ctx.Equipos.Add(_equipo);
-            //        _equipo = new Equipo
-            //        {
-            //            Nombre = "River Plate",
-            //            Campeonatos = 33,
-            //            Id = 2
-            //        };
-            //        ctx.Equipos.Add(_equipo);
+            
+            try
+            {
+                using (var ctx = new ModeloCampeonatoContainer())
+                {
+                    var _repEquipo = new Repositorio<Equipo>(ctx);
 
-            //        ctx.SaveChanges();
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine(ex.Message + ":" + ex.InnerException);
-            //}
+                    var _equipo = new Equipo
+                    {
+                        Nombre = "Boca Juniors",
+                        Campeonatos = 28,
+                    };
+
+                    //ctx.Equipos.Add(_equipo);
+                    _repEquipo.Guardar(_equipo);
+
+                    _equipo = new Equipo
+                    {
+                        Nombre = "River Plate",
+                        Campeonatos = 33,
+                    };
+                    //ctx.Equipos.Add(_equipo);
+                    _repEquipo.Guardar(_equipo);
+
+                    ctx.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message + ":" + ex.InnerException);
+            }
           
 
 
             using (var ctx = new ModeloCampeonatoContainer())
             {
-                var _equipos = from e in ctx.Equipos
-                               select e;
+                //var _equipos = from e in ctx.Equipos
+                //               select e;
+                var _repEquipo = new Repositorio<Equipo>(ctx);
+                var _equipos = _repEquipo.GetTodos();
+
                 foreach (Equipo e in _equipos)
                 {
                     Console.WriteLine(">" + e.Nombre);
@@ -52,12 +60,16 @@ namespace ModeloFirst
 
             using (var ctx = new ModeloCampeonatoContainer())
             {
-                var _equipos = from e in ctx.Equipos
-                               where e.Nombre == "Boca Juniors"
-                               select e;
-                var _equipo = _equipos.SingleOrDefault();
+                //var _equipos = from e in ctx.Equipos
+                //               where e.Nombre == "Boca Juniors"
+                //               select e;
+                //var _equipo = _equipos.SingleOrDefault();
+
+                var _repEquipo = new Repositorio<Equipo>(ctx);
+                var _equipo = _repEquipo.GetPorId(7);
 
                 _equipo.Campeonatos = 30;
+                _repEquipo.Actualizar(_equipo);
 
                 ctx.SaveChanges();
 

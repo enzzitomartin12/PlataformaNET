@@ -16,6 +16,6 @@ namespace ModeloFirst
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public short Campeonatos { get; set; }
+        public short Campeonatos{ get; set;}
     }
 }

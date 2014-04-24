@@ -44,6 +44,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // listBox1
@@ -178,6 +179,13 @@
             this.textBox7.Size = new System.Drawing.Size(217, 20);
             this.textBox7.TabIndex = 15;
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(433, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(415, 339);
+            this.panel1.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -199,6 +207,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -224,6 +233,7 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

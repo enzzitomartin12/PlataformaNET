@@ -78,6 +78,9 @@ namespace DataBaseFirst
             }
             textBox1.Text = _cliente.CompanyName;
             textBox2.Text = _cliente.ContactName;
+            textBox3.Text = _cliente.Address;
+            textBox4.Text = _cliente.City;
+            textBox5.Text = _cliente.Region;
         }
     }
 }

@@ -32,10 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.SqlServer">
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -56,13 +58,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BAGA.Domian\BAGA.Modelo.csproj">
-      <Project>{c662f013-817e-4623-8255-bff129bb3449}</Project>
-      <Name>BAGA.Modelo</Name>
-    </ProjectReference>
     <ProjectReference Include="BAGA.DataAccess\BAGA.DataAccess.csproj">
       <Project>{0f65fe39-43c7-4e08-8b8a-d36a140bf626}</Project>
       <Name>BAGA.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="BAGA.Modelo\BAGA.Modelo.csproj">
+      <Project>{c662f013-817e-4623-8255-bff129bb3449}</Project>
+      <Name>BAGA.Modelo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
