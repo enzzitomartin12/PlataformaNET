@@ -1,5 +1,0 @@
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves.Web\bin\LissajousCurves.Web.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves.Web\bin\LissajousCurves.Web.pdb
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves.Web\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves.Web\obj\Debug\LissajousCurves.Web.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\LissajousCurves.Web\obj\Debug\LissajousCurves.Web.pdb

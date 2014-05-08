@@ -1,8 +1,0 @@
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll.config
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.pdb
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.pdb
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.pdb

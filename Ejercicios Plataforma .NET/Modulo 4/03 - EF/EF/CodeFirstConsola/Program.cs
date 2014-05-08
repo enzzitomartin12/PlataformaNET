@@ -14,7 +14,7 @@ namespace CodeFirstConsola
         {
             Console.WriteLine("Probando....");
 
-            using (var ctx = new Context())
+            using (var ctx = new Class1())
             {
                 Student stud = new Student() { StudentName = "New Student" };
                 ctx.Students.Add(stud);

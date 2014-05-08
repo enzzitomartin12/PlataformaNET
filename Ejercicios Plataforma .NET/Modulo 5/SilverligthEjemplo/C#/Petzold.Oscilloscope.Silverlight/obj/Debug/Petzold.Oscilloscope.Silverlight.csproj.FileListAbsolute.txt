@@ -1,7 +1,0 @@
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\Bin\Debug\Petzold.Oscilloscope.Silverlight.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\Bin\Debug\Petzold.Oscilloscope.Silverlight.pdb
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\obj\Debug\Oscilloscope.g.i.cs
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\obj\Debug\Petzold.Oscilloscope.Silverlight.g.resources
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\obj\Debug\Petzold.Oscilloscope.Silverlight.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 5\SilverlitgthEjemplo\C#\Petzold.Oscilloscope.Silverlight\obj\Debug\Petzold.Oscilloscope.Silverlight.pdb
