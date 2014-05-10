@@ -1,5 +1,0 @@
-C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\WebApplication1\bin\WebApplication1.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\WebApplication1\bin\WebApplication1.pdb
-C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\WebApplication1\obj\Debug\WebApplication1.dll
-C:\Users\Victor\Desktop\Ejemplos\Modulo 4\AccesoADatos\WebApplication1\obj\Debug\WebApplication1.pdb
