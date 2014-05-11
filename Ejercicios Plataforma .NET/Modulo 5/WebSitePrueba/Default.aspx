@@ -8,19 +8,21 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            font-size: xx-large;
-        }
-        .auto-style2 {
-            color: #6699FF;
-            background-color: #000066;
+            color: #3333FF;
         }
     </style>
 </head>
 <body style="background-color: #CCCCFF">
     <form id="form1" runat="server">
-    <div class="auto-style1">
-    
-        <strong><span class="auto-style2">Hola, Bienvenido a la Catedra de .NET</span></strong></div>
+    <div>
+
+        <h1>Hola a todos de estamos en el curso de .NET</h1>
+        Ahora estamos en el <span class="auto-style1">modulo de asp.net,</span> para más información pueden ir la sitio <a href="http://www.asp.net">www.asp.net</a>.<br />
+        <br />
+        <strong>Espero que aprendan</strong><br />
+        <br />
+
+    </div>
     </form>
 </body>
 </html>
