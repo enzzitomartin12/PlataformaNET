@@ -13,28 +13,22 @@ public partial class IronManWeb : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
 
     protected void Page_Init(object sender, EventArgs e)
     {
         _eGestor = new EventoGestor();
-        //InitializeComponent();
         LigarComponentes();
     }
 
     private void LigarComponentes()
     {
-
-        //this. listBoxEventos.SelectedIndexChanged += OnEventoListBoxSelectedIndexChanged;
-
         this.listBoxEventos.DataSource = this._eGestor.Listar();
         this.listBoxEventos.DataTextField = "Nombre";
         this.listBoxEventos.DataValueField = "Id";
         this.listBoxEventos.DataBind();
-
-       
     }
+
     protected void listBoxEventos_SelectedIndexChanged(object sender, EventArgs e)
     {
         var _eventoIdSeleccionado = Convert.ToInt16(this.listBoxEventos.SelectedValue);

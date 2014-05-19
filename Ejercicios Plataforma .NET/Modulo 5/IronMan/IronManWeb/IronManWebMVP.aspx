@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="IronManWeb.aspx.cs" Inherits="IronManWeb" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="IronManWebMVP.aspx.cs" Inherits="IronManWebMVP" %>
 
 <!DOCTYPE html>
 
@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <style type="text/css">
+
         .auto-style1
         {
             width: 66%;
@@ -22,7 +23,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
     <div>
     
         <table class="auto-style1">

@@ -48,11 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IronManModelo.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IronManModelo.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Modelos\Evento.cs" />
     <Compile Include="AccesoDatos\IronManContext.cs" />
     <Compile Include="AccesoDatos\Mapeos\EventoMap.cs" />
@@ -63,16 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="IronManModelo.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>IronManModelo.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="IronManModelo.edmx.diagram">
-      <DependentUpon>IronManModelo.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

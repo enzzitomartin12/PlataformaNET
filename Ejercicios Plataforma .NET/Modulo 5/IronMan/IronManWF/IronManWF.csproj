@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEventoMVP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventoMVP.Designer.cs">
+      <DependentUpon>frmEventoMVP.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEventos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEventoMVP.resx">
+      <DependentUpon>frmEventoMVP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEventos.resx">
       <DependentUpon>frmEventos.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +107,10 @@
     <ProjectReference Include="..\IronMan.Gestores\IronMan.Gestores.csproj">
       <Project>{d2303b9d-bbfe-47f1-8f71-6e9e3fa8f58a}</Project>
       <Name>IronMan.Gestores</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IronMan.LibreriaMVP\IronMan.LibreriaMVP.csproj">
+      <Project>{d0de72cb-1202-455d-b825-be552feb444f}</Project>
+      <Name>IronMan.LibreriaMVP</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

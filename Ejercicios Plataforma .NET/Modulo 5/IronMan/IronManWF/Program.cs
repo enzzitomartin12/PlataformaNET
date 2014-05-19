@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using IronMan.Gestores;
+using IronMan.LibreriaMVP.Presenters;
+using IronMan.LibreriaMVP.Views;
 
 namespace IronManWF
 {
@@ -16,7 +19,19 @@ namespace IronManWF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEventos());
+
+            //Application.Run(new frmEventos());
+
+            var _frmEventoMVP = new frmEventoMVP();
+            var _eGestor = new EventoGestor();
+            var _eventoListPresenter = new EventoListPresenter(_frmEventoMVP, _eGestor);
+
+            _frmEventoMVP.Cerrar += () =>
+                {
+                    Application.Exit();
+                };
+
+            Application.Run(_frmEventoMVP);
         }
     }
 }
