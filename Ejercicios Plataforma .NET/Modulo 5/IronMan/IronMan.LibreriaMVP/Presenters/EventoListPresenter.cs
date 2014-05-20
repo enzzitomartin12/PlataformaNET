@@ -20,7 +20,7 @@ namespace IronMan.LibreriaMVP.Presenters
 
             var _eventos = this._eGestor.Listar();
 
-            this._view.EventoSeleccionado += OnEventoSeleccionado;
+            this._view.SeleccionarEvento += OnEventoSeleccionado;
             this._view.ListarEventos(_eventos);
 
             if (_eventos != null)
@@ -31,9 +31,9 @@ namespace IronMan.LibreriaMVP.Presenters
 
         public void OnEventoSeleccionado()
         {
-            if (this._view.Evento != null)
+            if (this._view.EventoSeleccionado != 0)
             {
-                var id = this._view.Evento.Id;
+                var id = this._view.EventoSeleccionado;
                 var evento = this._eGestor.Obtener(id);
 
                 this._view.MostrarEvento(evento);

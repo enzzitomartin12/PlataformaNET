@@ -9,11 +9,11 @@ namespace IronMan.LibreriaMVP.Views
 {
     public interface IEventosListView
     {
-        event Action EventoSeleccionado;
+        event Action SeleccionarEvento;
         event Action Cerrar;
 
         IList<EventoDTO> Eventos { get; }
-        EventoDTO Evento { get; }
+        int EventoSeleccionado { get; }
 
         void ListarEventos(IList<EventoDTO> eventos);
         void MostrarEvento(EventoDTO evento);

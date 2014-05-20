@@ -21,7 +21,7 @@ namespace IronManWF
             LigarComponentes();
         }
 
-        public event Action EventoSeleccionado;
+        public event Action SeleccionarEvento;
 
         public event Action Cerrar;
 
@@ -30,9 +30,9 @@ namespace IronManWF
             get { return this.listBoxEventos.DataSource as IList<EventoDTO>; }
         }
 
-        public EventoDTO Evento
+        public int EventoSeleccionado
         {
-            get { return  this.listBoxEventos.SelectedItem as EventoDTO; }
+            get { return  Convert.ToInt16(this.listBoxEventos.SelectedValue); }
         }
 
         public void ListarEventos(IList<IronMan.DTO.EventoDTO> eventos)
@@ -59,9 +59,9 @@ namespace IronManWF
 
         private void OnEventoListBoxSelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.EventoSeleccionado != null)
+            if (this.SeleccionarEvento != null)
             {
-                this.EventoSeleccionado();
+                this.SeleccionarEvento();
             }
         }
 
@@ -72,5 +72,6 @@ namespace IronManWF
                 this.Cerrar();
             }
         }
+
     }
 }

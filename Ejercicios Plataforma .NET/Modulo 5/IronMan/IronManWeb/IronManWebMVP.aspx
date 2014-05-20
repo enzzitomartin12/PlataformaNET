@@ -32,8 +32,7 @@
                     <asp:ListBox ID="listBoxEventos" 
                            runat="server" Height="162px" 
                            Width="300px" AutoPostBack="true"
-                           OnSelectedIndexChange="listBoxEventos_SelectedIndexChanged" >
-
+                           OnSelectedIndexChanged="listBoxEventos_SelectedIndexChanged" >
                     </asp:ListBox>
                 </td>
                 <td>

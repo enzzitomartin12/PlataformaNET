@@ -23,7 +23,7 @@ public partial class IronManWebMVP : System.Web.UI.Page, IEventosListView
         LigarComponentes();
     }
 
-    public event Action EventoSeleccionado;
+    public event Action SeleccionarEvento;
 
     public event Action Cerrar;
 
@@ -32,17 +32,20 @@ public partial class IronManWebMVP : System.Web.UI.Page, IEventosListView
         get { return this.listBoxEventos.DataSource as IList<EventoDTO>; }
     }
 
-    public EventoDTO Evento
+    public int EventoSeleccionado
     {
-        get { return null; }
+        get
+        {
+            return  Convert.ToInt16(this.listBoxEventos.SelectedValue); 
+        }
     }
 
-    public void ListarEventos(IList<IronMan.DTO.EventoDTO> eventos)
+    public void ListarEventos(IList<EventoDTO> eventos)
     {
         this.listBoxEventos.DataSource = eventos;
     }
 
-    public void MostrarEvento(IronMan.DTO.EventoDTO evento)
+    public void MostrarEvento(EventoDTO evento)
     {
         this.txtNombre.Text = evento.Nombre;
         this.txtLugar.Text = evento.Lugar;
@@ -52,18 +55,18 @@ public partial class IronManWebMVP : System.Web.UI.Page, IEventosListView
 
     private void LigarComponentes()
     {
-        this.listBoxEventos.SelectedIndexChanged += OnEventoListBoxSelectedIndexChanged;
+        this.listBoxEventos.SelectedIndexChanged += listBoxEventos_SelectedIndexChanged;
 
         this.listBoxEventos.DataTextField = "Nombre";
         this.listBoxEventos.DataValueField = "Id";
-        this.listBoxEventos.DataBind(); ;
+        this.listBoxEventos.DataBind();
     }
 
-    private void OnEventoListBoxSelectedIndexChanged(object sender, EventArgs e)
+    protected void listBoxEventos_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (this.EventoSeleccionado != null)
+        if (this.SeleccionarEvento != null)
         {
-            this.EventoSeleccionado();
+            this.SeleccionarEvento();
         }
     }
 }
