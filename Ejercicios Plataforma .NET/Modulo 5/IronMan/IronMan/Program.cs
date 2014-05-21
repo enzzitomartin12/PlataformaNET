@@ -9,6 +9,7 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using IronMan.Gestores;
 using IronMan.DTO;
+using IronMan.Repositorio;
 
 
 namespace IronMan
@@ -25,22 +26,24 @@ namespace IronMan
                 using (EventoGestor _eGestor = new EventoGestor())
                 {
                     IList<EventoDTO> _eLista = _eGestor.Listar();
-                    foreach (Evento e in _eLista)
+                   foreach (Evento e in _eLista)
                     {
-                        Console.WriteLine(e.ToString());
+                        Console.WriteLine(e.Id);
+                        Console.WriteLine(e.Nombre);
+                        Console.WriteLine(e.Lugar);
+                        Console.WriteLine(e.Fecha.ToString());
+                        Console.WriteLine(e.Comentario);
+                        Console.WriteLine(e.EstaHabilitado);
+                        Console.WriteLine("-----------");
+
                     }
-                }
 
-               //using (var ctx = new IronManContext())
-               //{
-               //    EventoRepositorio _eventos = new EventoRepositorio(ctx);
-
-               //    IQueryable<Evento> _eLista = _eventos.GetTodos();
+               using (var ctx = new IronManContext())
+               {
+                     
+                    PruebaRepositorio _prueba = new PruebaRepositorio(ctx);
+                    IQueryable<Prueba> _pLista = _prueba.GetTodos();
                   
-
-
-                //    programa.InicializarEventos();
-                //    programa.InicializarPruebas();
 
                 //    var _eventos = from e in ctx.Eventos
                 //                   where e.Lugar == "Santa Fe"
@@ -51,11 +54,16 @@ namespace IronMan
                 //    _e.Nombre = _e.Nombre + "(MOD)";
                 //    _eventos.Guardar(_e, _e.Id);
 
-                //    foreach (Evento e in _eventos.GetTodosByLugar("Santa Fe"))
-                //    {
-                //        Console.WriteLine(e.Lugar);
-                //        e.Nombre = e.Nombre + "(MOD)";
-                //    }
+                      foreach (Prueba p in _pLista)
+                      {
+                          Console.WriteLine(p.Id);
+                          Console.WriteLine(p.Tipo);
+                          Console.WriteLine(p.Distancia);
+                          Console.WriteLine(p.EstaHabilitado);
+                          Console.WriteLine(p.Evento_Id);
+                          Console.WriteLine("-----------");
+                         
+                       }
 
                 //    Console.WriteLine("Va a agregar");
                 //    Console.ReadKey();
@@ -77,8 +85,8 @@ namespace IronMan
                 //    foreach (Evento e in _eventos2)
                 //    {
                 //        Console.WriteLine(e.ToString());
-                //    }
-                //}
+                  }
+                }
 
             }
             catch (Exception ex)

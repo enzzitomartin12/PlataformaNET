@@ -22,9 +22,9 @@ namespace WpfLab053
     {            
         
         //Define los objetos que contendran los datos de la BD (que serán los datos fuentes del binding)
-        ProyectosDataSet miDataSet = new ProyectosDataSet();
-        ProyectosDataSetTableAdapters.ClientesTableAdapter cliAdapter = new ProyectosDataSetTableAdapters.ClientesTableAdapter();
-        ProyectosDataSetTableAdapters.ProyectosTableAdapter proAdapter = new ProyectosDataSetTableAdapters.ProyectosTableAdapter();
+        ClientesProyectos miDataSet = new ClientesProyectos();
+        ClientesProyectosTableAdapters.ClientesTableAdapter cliAdapter = new ClientesProyectosTableAdapters.ClientesTableAdapter();
+        ClientesProyectosTableAdapters.ProyectosTableAdapter proAdapter = new ClientesProyectosTableAdapters.ProyectosTableAdapter();
         
         public BindingADO()
         {

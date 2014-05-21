@@ -55,7 +55,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
             
-        <ListBox  ItemsSource ="{Binding Path=FK_Proyectos_Clientes}" DisplayMemberPath="Nombre"  IsSynchronizedWithCurrentItem="True"
+        <ListBox  ItemsSource ="{Binding Path=FK_Proyectos_Clientes}" DisplayMemberPath="Titulo"  IsSynchronizedWithCurrentItem="True"
                   Height="261" HorizontalAlignment="Left" Margin="265,0,0,0" Name="listBox2" VerticalAlignment="Top" Width="191" >
         </ListBox>
         

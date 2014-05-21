@@ -53,7 +53,7 @@ namespace WpfLab3
 
         private void listBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty,((ListBoxItem)listBox1.SelectedItem).FontFamily);
+            richTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty,((ListBoxItem)listBox1.SelectedItem).FontFamily);
         }
 
         private void richTextBox1_TextChanged(object sender, TextChangedEventArgs e)

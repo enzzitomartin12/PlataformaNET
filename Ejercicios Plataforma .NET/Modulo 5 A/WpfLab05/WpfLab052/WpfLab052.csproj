@@ -55,10 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ProyectosDataSet.Designer.cs">
+    <Compile Include="ClientesProyectos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ProyectosDataSet.xsd</DependentUpon>
+      <DependentUpon>ClientesProyectos.xsd</DependentUpon>
     </Compile>
     <Page Include="BindingADO.xaml">
       <SubType>Designer</SubType>
@@ -100,22 +100,22 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="ClientesProyectos.xsc">
+      <DependentUpon>ClientesProyectos.xsd</DependentUpon>
+    </None>
+    <None Include="ClientesProyectos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClientesProyectos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ClientesProyectos.xss">
+      <DependentUpon>ClientesProyectos.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <None Include="ProyectosDataSet.xsc">
-      <DependentUpon>ProyectosDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ProyectosDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ProyectosDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ProyectosDataSet.xss">
-      <DependentUpon>ProyectosDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

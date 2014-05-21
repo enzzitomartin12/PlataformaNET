@@ -19,10 +19,10 @@ namespace WpfLab053
     /// Lógica de interacción para BindingADO.xaml
     /// </summary>
     public partial class BindingADO : Window
-    {            
-        ProyectosDataSet miDataSet = new ProyectosDataSet();
-        ProyectosDataSetTableAdapters.ClientesTableAdapter cliAdapter = new ProyectosDataSetTableAdapters.ClientesTableAdapter();
-        ProyectosDataSetTableAdapters.ProyectosTableAdapter proAdapter = new ProyectosDataSetTableAdapters.ProyectosTableAdapter();
+    {
+        ClientesProyectos miDataSet = new ClientesProyectos();
+        ClientesProyectosTableAdapters.ClientesTableAdapter cliAdapter = new ClientesProyectosTableAdapters.ClientesTableAdapter();
+        ClientesProyectosTableAdapters.ProyectosTableAdapter proAdapter = new ClientesProyectosTableAdapters.ProyectosTableAdapter();
         
         public BindingADO()
         {
@@ -31,8 +31,6 @@ namespace WpfLab053
             cliAdapter.Fill(miDataSet.Clientes);
             proAdapter.Fill(miDataSet.Proyectos);
             grid1.DataContext = miDataSet.Clientes;
-            
-            
 
         }
 

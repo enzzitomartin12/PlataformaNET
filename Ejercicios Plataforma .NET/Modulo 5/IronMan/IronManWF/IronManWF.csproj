@@ -112,6 +112,10 @@
       <Project>{d0de72cb-1202-455d-b825-be552feb444f}</Project>
       <Name>IronMan.LibreriaMVP</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Repositorio\IronMan.Repositorio.csproj">
+      <Project>{801b4335-11ef-41a0-8575-8ef9144b39d6}</Project>
+      <Name>IronMan.Repositorio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

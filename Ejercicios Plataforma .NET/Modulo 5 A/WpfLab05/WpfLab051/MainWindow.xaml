@@ -35,7 +35,7 @@
             <GridSplitter Name="gridSplitter1" Margin="0" Width="5" Grid.Column="1" HorizontalAlignment="Left"/>
             <RichTextBox FontSize="{Binding ElementName=Slider1, Path=Value}" 
                          Background="Ivory"
-                         FontFamily="{Binding ElementName=listbox1, Path=SelectedItem.Content}" 
+                        FontFamily="{Binding ElementName=listbox1, Path=SelectedItem.Content}"
                          Grid.Column="2" Name="richTextBox1" />
         </Grid>
         

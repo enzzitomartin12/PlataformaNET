@@ -31,15 +31,17 @@
             this.listBoxEventos = new System.Windows.Forms.ListBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.pnlEvento = new System.Windows.Forms.Panel();
+            this.txtComentario = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.txtLugar = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblComentario = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblLugar = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtLugar = new System.Windows.Forms.TextBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
-            this.txtComentario = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pnlEvento.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxEventos
@@ -52,7 +54,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(323, 284);
+            this.btnCerrar.Location = new System.Drawing.Point(309, 517);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 23);
             this.btnCerrar.TabIndex = 1;
@@ -73,6 +75,34 @@
             this.pnlEvento.Name = "pnlEvento";
             this.pnlEvento.Size = new System.Drawing.Size(427, 189);
             this.pnlEvento.TabIndex = 2;
+            // 
+            // txtComentario
+            // 
+            this.txtComentario.Location = new System.Drawing.Point(158, 134);
+            this.txtComentario.Name = "txtComentario";
+            this.txtComentario.Size = new System.Drawing.Size(227, 20);
+            this.txtComentario.TabIndex = 7;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Location = new System.Drawing.Point(158, 97);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(100, 20);
+            this.txtFecha.TabIndex = 6;
+            // 
+            // txtLugar
+            // 
+            this.txtLugar.Location = new System.Drawing.Point(158, 61);
+            this.txtLugar.Name = "txtLugar";
+            this.txtLugar.Size = new System.Drawing.Size(227, 20);
+            this.txtLugar.TabIndex = 5;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(158, 29);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(227, 20);
+            this.txtNombre.TabIndex = 4;
             // 
             // lblComentario
             // 
@@ -111,46 +141,29 @@
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre del Evento";
             // 
-            // txtNombre
+            // dataGridView1
             // 
-            this.txtNombre.Location = new System.Drawing.Point(158, 29);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(227, 20);
-            this.txtNombre.TabIndex = 4;
-            // 
-            // txtLugar
-            // 
-            this.txtLugar.Location = new System.Drawing.Point(158, 61);
-            this.txtLugar.Name = "txtLugar";
-            this.txtLugar.Size = new System.Drawing.Size(227, 20);
-            this.txtLugar.TabIndex = 5;
-            // 
-            // txtFecha
-            // 
-            this.txtFecha.Location = new System.Drawing.Point(158, 97);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(100, 20);
-            this.txtFecha.TabIndex = 6;
-            // 
-            // txtComentario
-            // 
-            this.txtComentario.Location = new System.Drawing.Point(158, 134);
-            this.txtComentario.Name = "txtComentario";
-            this.txtComentario.Size = new System.Drawing.Size(227, 20);
-            this.txtComentario.TabIndex = 7;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(29, 275);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(365, 198);
+            this.dataGridView1.TabIndex = 3;
             // 
             // frmEventos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 334);
+            this.ClientSize = new System.Drawing.Size(777, 562);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pnlEvento);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.listBoxEventos);
             this.Name = "frmEventos";
             this.Text = "Eventos";
+            this.Load += new System.EventHandler(this.frmEventos_Load);
             this.pnlEvento.ResumeLayout(false);
             this.pnlEvento.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -168,6 +181,7 @@
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.TextBox txtLugar;
         private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

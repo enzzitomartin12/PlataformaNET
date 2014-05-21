@@ -20,18 +20,18 @@ namespace IronManWF
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            //Application.Run(new frmEventos());
+            Application.Run(new frmEventos());
 
-            var _frmEventoMVP = new frmEventoMVP();
-            var _eGestor = new EventoGestor();
-            var _eventoListPresenter = new EventoListPresenter(_frmEventoMVP, _eGestor);
+            //var _frmEventoMVP = new frmEventoMVP();
+            //var _eGestor = new EventoGestor();
+            //var _eventoListPresenter = new EventoListPresenter(_frmEventoMVP, _eGestor);
 
-            _frmEventoMVP.Cerrar += () =>
-                {
-                    Application.Exit();
-                };
+            //_frmEventoMVP.Cerrar += () =>
+            //    {
+            //        Application.Exit();
+            //    };
 
-            Application.Run(_frmEventoMVP);
+            //Application.Run(_frmEventoMVP);
         }
     }
 }
