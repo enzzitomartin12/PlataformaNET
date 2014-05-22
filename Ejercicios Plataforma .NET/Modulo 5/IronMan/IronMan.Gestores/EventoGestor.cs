@@ -20,66 +20,115 @@ namespace IronMan.Gestores
 
         public EventoGestor()
         {
-            var ctx = new IronManContext();
-            _ctx = ctx;
-            _repositorio = new EventoRepositorio(_ctx);
+            try
+            {
+                var ctx = new IronManContext();
+                _ctx = ctx;
+                _repositorio = new EventoRepositorio(_ctx);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                throw;
+            }
         }
 
         public void Guardar(EventoDTO e)
         {
+             
             try
             {
                 if (e.Id > 0)
                 {
-                    Evento _e;
+                    Evento _eMod = DTOaModelo(e);
                     _evento = _repositorio.GetPorId(e.Id);
-                    _e = DTOaModelo(e);
-                    _evento = _e;
+                    this.ActualizaEvento(_eMod, _evento);
                 }
-                _evento = DTOaModelo(e);
+                else
+                {
+                    _evento = DTOaModelo(e);
+                }
                 _repositorio.Guardar(_evento, _evento.Id);
                 _ctx.SaveChanges();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.InnerException);
+                throw;
             }
 
         }
 
         public void Habilitar(EventoDTO e)
         {
-            _evento = _repositorio.GetPorId(e.Id);
-            _evento.EstaHabilitado = e.EstaHabilitado;
-            _repositorio.Guardar(_evento, _evento.Id);
-            _ctx.SaveChanges();
+            try
+            {
+                _evento = _repositorio.GetPorId(e.Id);
+                _evento.EstaHabilitado = e.EstaHabilitado;
+                _repositorio.Guardar(_evento, _evento.Id);
+                _ctx.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                throw;
+            }
+
         }
 
         public void Deshabilitar(EventoDTO e)
         {
-            _evento = _repositorio.GetPorId(e.Id);
-            _evento.EstaHabilitado = e.EstaHabilitado;
-            _repositorio.Guardar(_evento, _evento.Id);
-            _ctx.SaveChanges();
+            try
+            {
+                _evento = _repositorio.GetPorId(e.Id);
+                Console.WriteLine(_ctx.Entry(_evento).State.ToString());
+                _evento.EstaHabilitado = e.EstaHabilitado;
+                _repositorio.Guardar(_evento, _evento.Id);
+                _ctx.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                throw;
+            }
         }
 
         public EventoDTO Obtener(int id)
         {
-            var _e = _repositorio.GetPorId(id);
-            return ModeloaDTO(_e);
+            EventoDTO _eDTO = new EventoDTO();
+            try
+            {
+                _eDTO = ModeloaDTO(_repositorio.GetPorId(id));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                throw;
+            }
+            return _eDTO;
         }
 
         public IList<EventoDTO> Listar()
         {
-            IQueryable<Evento> _eLista = _repositorio.GetTodos();
-            IList<EventoDTO> _eDTOLista = new List<EventoDTO>();
-            
-            foreach (Evento e in _eLista)
-            {
-                _eDTOLista.Add(ModeloaDTO(e));
+            IList<EventoDTO> _eDTOLista= new List<EventoDTO>();
 
+            try
+            {
+                IQueryable<Evento> _eLista = _repositorio.GetTodos();
+ 
+                foreach (Evento e in _eLista)
+                {
+                    _eDTOLista.Add(ModeloaDTO(e));
+                };
+             
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                throw;
             }
             return _eDTOLista;
+
         }
 
         public bool Validar(EventoDTO _eDTO)
@@ -89,8 +138,8 @@ namespace IronMan.Gestores
 
         private Evento DTOaModelo(EventoDTO _eDTO)
         {
-            var _evento = new Evento();
-
+            Evento _evento = new Evento();
+            _evento.Id = _eDTO.Id;
             _evento.Nombre = _eDTO.Nombre;
             _evento.Lugar = _eDTO.Lugar;
             _evento.Fecha = _eDTO.Fecha;
@@ -109,10 +158,20 @@ namespace IronMan.Gestores
             _eDTO.Fecha = _e.Fecha;
             _eDTO.Comentario = _e.Comentario;
             _eDTO.EstaHabilitado = _e.EstaHabilitado;
+            _eDTO.Pruebas = _e.Pruebas;
 
             return _eDTO;
         }
 
+        private void ActualizaEvento(Evento _eMod, Evento _evento)
+        {
+           
+            _evento.Nombre = _eMod.Nombre;
+            _evento.Lugar = _eMod.Lugar;
+            _evento.Fecha = _eMod.Fecha;
+            _evento.Comentario = _eMod.Comentario;
+            _evento.EstaHabilitado = _eMod.EstaHabilitado;
+        }
         public void Dispose()
         { 
             GC.SuppressFinalize(this); 

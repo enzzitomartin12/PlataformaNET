@@ -3,9 +3,13 @@ using System.Collections.Generic;
 
 namespace IronMan.Dominio.Modelos
 {
+    //Definición de la Entidad de Negocio: Participante
     public partial class Participante
     {
+        //Identificador
         public int Id { get; set; }
+
+        //Atributos o Propiedades
         public string Nombres { get; set; }
         public string Apellido { get; set; }
         public System.DateTime FechaNacimiento { get; set; }
@@ -20,6 +24,8 @@ namespace IronMan.Dominio.Modelos
         public string Domicilio_Pais { get; set; }
         public int Prueba_Id { get; set; }
         public bool  EstaHabilitado { get; set; }
+
+        //Relación con la prueba donde participa
         public virtual Prueba Prueba { get; set; }
     }
 }

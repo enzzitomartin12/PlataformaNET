@@ -19,10 +19,12 @@ namespace IronManWF
     {
 
         private readonly EventoGestor _eGestor;
+        private readonly PruebaGestor _pGestor;
 
         public frmEventos()
         {
             this._eGestor = new EventoGestor();
+            this._pGestor = new PruebaGestor();
             InitializeComponent();
             LigarComponentes();
 
@@ -45,23 +47,18 @@ namespace IronManWF
 
         private void OnEventoListBoxSelectedIndexChanged(object sender, EventArgs e)
         {
-            List<Prueba> _pLista;
-
             var _eventoIdSeleccionado = (int)this.listBoxEventos.SelectedValue;
-
-            var _eventoSeleccionado = _eGestor.Obtener(_eventoIdSeleccionado);
+            EventoDTO _eventoSeleccionado = _eGestor.Obtener(_eventoIdSeleccionado);
 
             this.txtNombre.Text = _eventoSeleccionado.Nombre;
             this.txtLugar.Text = _eventoSeleccionado.Lugar;
             this.txtFecha.Text = _eventoSeleccionado.Fecha.ToString();
             this.txtComentario.Text = _eventoSeleccionado.Comentario;
 
-            using (var _ctx = new IronManContext())
-            {
-                var _pRepositorio = new PruebaRepositorio(_ctx);
-                _pLista = _pRepositorio.GetTodosByEvento(_eventoIdSeleccionado).ToList();
-            }
-            dataGridView1.DataSource = _pLista;
+            dgPruebas.DataSource = _eventoSeleccionado.Pruebas;
+            dgPruebas.Columns["Evento_id"].Visible = false;
+            dgPruebas.Columns["Evento"].Visible = false;
+            dgPruebas.Columns["Participantes"].Visible = false;
         }
 
         private void OnCloseButtonClick(object sender, EventArgs e)
@@ -70,6 +67,11 @@ namespace IronManWF
         }
 
         private void frmEventos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBoxEventos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

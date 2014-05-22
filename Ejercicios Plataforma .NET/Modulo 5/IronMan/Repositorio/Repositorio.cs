@@ -20,8 +20,14 @@ namespace IronMan.Repositorio
             DbSet = ctx.Set<T>();
         }
 
+        //Guardar una nueva entidad o los cambios sobre la entidad
         public void Guardar(T entidad, int Id)
         {
+            //En esta implementacion si el Id es 0 es porque se
+            //está creando la entidad, es una entidad nueva,
+            //de otra manera se guardar el contexto con los
+            //cambios en la entidad
+            Console.WriteLine(_ctx.Entry(entidad).State.ToString());
             if (Id == 0)
             {
                 DbSet.Add(entidad);
@@ -29,12 +35,13 @@ namespace IronMan.Repositorio
             _ctx.SaveChanges();
         }
 
-
+        //Obtener la entidad por identificador (Clave Primaria)
         public T GetPorId(int id)
         {
             return DbSet.Find(id);
         }
 
+        //Obtener todos las instancias de dicha entidad
         public IQueryable<T> GetTodos()
         {
             return DbSet;

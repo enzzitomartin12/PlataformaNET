@@ -39,9 +39,9 @@
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblLugar = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgPruebas = new System.Windows.Forms.DataGridView();
             this.pnlEvento.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPruebas)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxEventos
@@ -51,10 +51,11 @@
             this.listBoxEventos.Name = "listBoxEventos";
             this.listBoxEventos.Size = new System.Drawing.Size(190, 186);
             this.listBoxEventos.TabIndex = 0;
+            this.listBoxEventos.SelectedIndexChanged += new System.EventHandler(this.listBoxEventos_SelectedIndexChanged);
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(309, 517);
+            this.btnCerrar.Location = new System.Drawing.Point(675, 517);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 23);
             this.btnCerrar.TabIndex = 1;
@@ -141,20 +142,20 @@
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre del Evento";
             // 
-            // dataGridView1
+            // dgPruebas
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 275);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(365, 198);
-            this.dataGridView1.TabIndex = 3;
+            this.dgPruebas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgPruebas.Location = new System.Drawing.Point(323, 253);
+            this.dgPruebas.Name = "dgPruebas";
+            this.dgPruebas.Size = new System.Drawing.Size(427, 229);
+            this.dgPruebas.TabIndex = 3;
             // 
             // frmEventos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(777, 562);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgPruebas);
             this.Controls.Add(this.pnlEvento);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.listBoxEventos);
@@ -163,7 +164,7 @@
             this.Load += new System.EventHandler(this.frmEventos_Load);
             this.pnlEvento.ResumeLayout(false);
             this.pnlEvento.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPruebas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -181,7 +182,7 @@
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.TextBox txtLugar;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgPruebas;
     }
 }
 

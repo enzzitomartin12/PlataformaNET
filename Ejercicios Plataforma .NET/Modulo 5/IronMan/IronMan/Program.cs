@@ -25,8 +25,11 @@ namespace IronMan
             {
                 using (EventoGestor _eGestor = new EventoGestor())
                 {
+
+                    Console.WriteLine("Listar Eventos");
+                    #region Listar Eventos
                     IList<EventoDTO> _eLista = _eGestor.Listar();
-                   foreach (Evento e in _eLista)
+                    foreach (Evento e in _eLista)
                     {
                         Console.WriteLine(e.Id);
                         Console.WriteLine(e.Nombre);
@@ -34,59 +37,68 @@ namespace IronMan
                         Console.WriteLine(e.Fecha.ToString());
                         Console.WriteLine(e.Comentario);
                         Console.WriteLine(e.EstaHabilitado);
-                        Console.WriteLine("-----------");
+                        Console.WriteLine("********");
 
+                        foreach (Prueba p in e.Pruebas)
+                        {
+                            Console.WriteLine("    >" + p.Tipo);
+                            Console.WriteLine("    >" + p.Distancia);
+                            Console.WriteLine("    >" + p.Evento_Id);
+                            Console.WriteLine("    >" + p.Evento);
+                            Console.WriteLine("    >" + p.EstaHabilitado);
+                            Console.WriteLine("------------------------");
+                        }
                     }
+                    Console.ReadKey();
+                    #endregion
 
-               using (var ctx = new IronManContext())
-               {
-                     
-                    PruebaRepositorio _prueba = new PruebaRepositorio(ctx);
-                    IQueryable<Prueba> _pLista = _prueba.GetTodos();
-                  
+                    programa.MostarEvento(_eGestor, 3);
 
-                //    var _eventos = from e in ctx.Eventos
-                //                   where e.Lugar == "Santa Fe"
-                //                   select e;
-                //    var _e = _eventos.GetTodosByLugar("Rosario").SingleOrDefault();
-                //    Console.WriteLine(_e.ToString());
+                    #region Agregar un evento
+                    //Console.Clear();
+                    //Console.WriteLine("Agregar un Evento");
 
-                //    _e.Nombre = _e.Nombre + "(MOD)";
-                //    _eventos.Guardar(_e, _e.Id);
+                    //var _eventoDTO = new EventoDTO();
+                    //_eventoDTO.Nombre = "Verano 4444";
+                    //_eventoDTO.Lugar = "Colon 4444";
+                    //_eventoDTO.Fecha = new DateTime(2014, 5, 10);
+                    //_eventoDTO.Comentario = "Sol 4444";
+                    //_eventoDTO.EstaHabilitado = true;
+                    //_eGestor.Guardar(_eventoDTO);
+                    //Console.ReadKey();
+                    #endregion
 
-                      foreach (Prueba p in _pLista)
-                      {
-                          Console.WriteLine(p.Id);
-                          Console.WriteLine(p.Tipo);
-                          Console.WriteLine(p.Distancia);
-                          Console.WriteLine(p.EstaHabilitado);
-                          Console.WriteLine(p.Evento_Id);
-                          Console.WriteLine("-----------");
-                         
-                       }
+                    #region Modificar un evento
+                    Console.Clear();
+                    Console.WriteLine("Modificar un Evento");
 
-                //    Console.WriteLine("Va a agregar");
-                //    Console.ReadKey();
-                //    var _evento = new Evento();
-                //    _evento.Nombre = "Por la vida";
-                //    _evento.Lugar = "La Paz";
-                //    _evento.Fecha = new DateTime(2014, 8, 25);
-                //    _evento.Comentario = "Sin";
-                //    _eventos.Guardar(_evento, _evento.Id);
+                    var _eDTOMod = _eGestor.Obtener(7); ;
+                    _eDTOMod.Nombre = _eDTOMod.Nombre + "*!!!!";
+                    _eDTOMod.Lugar = _eDTOMod.Lugar + "AAAAAAA";
+                    _eDTOMod.Comentario = _eDTOMod.Comentario + "$$$$$";
+                    _eGestor.Guardar(_eDTOMod);
+                    programa.MostarEvento(_eGestor, 7
+                        );
+                    Console.ReadKey();
+                    #endregion
 
-                //    ctx.Eventos.Add(_evento);
-                //    ctx.SaveChanges();
+                    #region Deshabilitar un evento
+                    //Console.Clear();
+                    //Console.WriteLine("Deshabilitar un Evento");
 
-                //    Console.WriteLine("Nueva lectura");
-                //    Console.ReadKey();
-
-                //    var _eventos2 = from e in ctx.Eventos
-                //                    select e;
-                //    foreach (Evento e in _eventos2)
-                //    {
-                //        Console.WriteLine(e.ToString());
-                  }
+                    //var _eDTOMod = _eGestor.Obtener(11);
+                    //_eDTOMod.EstaHabilitado = false;
+                    //_eGestor.Deshabilitar(_eDTOMod);
+                    //programa.MostarEvento(_eGestor, 11);
+                    //Console.ReadKey();
+                    #endregion
                 }
+
+               //using (var ctx = new IronManContext())
+               //{
+               //     PruebaRepositorio _prueba = new PruebaRepositorio(ctx);
+               //     IQueryable<Prueba> _pLista = _prueba.GetTodos();
+               //}
 
             }
             catch (Exception ex)
@@ -94,6 +106,33 @@ namespace IronMan
                 Console.WriteLine(ex.InnerException);
             }
 
+            Console.ReadKey();
+        }
+
+        private void MostarEvento(EventoGestor _eGestor, int Id)
+        {
+            Console.Clear();
+            Console.WriteLine("Obtener un Evento");
+            #region Obtener un evento
+            var _e = _eGestor.Obtener(Id);
+            Console.WriteLine(_e.Id);
+            Console.WriteLine(_e.Nombre);
+            Console.WriteLine(_e.Lugar);
+            Console.WriteLine(_e.Fecha.ToString());
+            Console.WriteLine(_e.Comentario);
+            Console.WriteLine(_e.EstaHabilitado);
+            Console.WriteLine("********");
+
+            foreach (Prueba p in _e.Pruebas)
+            {
+                Console.WriteLine("    >" + p.Tipo);
+                Console.WriteLine("    >" + p.Distancia);
+                Console.WriteLine("    >" + p.Evento_Id);
+                Console.WriteLine("    >" + p.Evento);
+                Console.WriteLine("    >" + p.EstaHabilitado);
+                Console.WriteLine("------------------------");
+            }
+            #endregion
             Console.ReadKey();
         }
 

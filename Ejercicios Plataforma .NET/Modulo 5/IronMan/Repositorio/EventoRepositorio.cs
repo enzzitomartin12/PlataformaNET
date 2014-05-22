@@ -16,6 +16,7 @@ namespace IronMan.Repositorio
         {
         }
 
+        //Recuperar lista de entidades por distinto criterios de campos
         public IQueryable<Evento> GetTodosByLugar(String _lugar)
         {   
             var _eventos = from e in _ctx.Set<Evento>()
@@ -35,7 +36,6 @@ namespace IronMan.Repositorio
 
         public IQueryable<Evento> GetTodosByFecha(DateTime _fInicial, DateTime _ffinal)
         {
-
             var _eventos = from e in _ctx.Set<Evento>()
                           where (e.Fecha >= _ffinal || e.Fecha <= _fInicial)
                           select e;

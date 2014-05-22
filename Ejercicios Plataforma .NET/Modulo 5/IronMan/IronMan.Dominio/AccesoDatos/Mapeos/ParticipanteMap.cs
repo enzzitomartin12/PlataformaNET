@@ -8,10 +8,10 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
     {
         public ParticipanteMap()
         {
-            // Primary Key
+            // Clave Primaria
             this.HasKey(t => t.Id);
 
-            // Properties
+            // Propiedades
             this.Property(t => t.Nombres)
                 .IsRequired();
 
@@ -42,7 +42,7 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
             this.Property(t => t.EstaHabilitado)
                 .IsRequired();
 
-            // Table & Column Mappings
+            // Mapeos de tablas y columnas
             this.ToTable("Participantes");
             this.Property(t => t.Id).HasColumnName("Id");
             this.Property(t => t.Nombres).HasColumnName("Nombres").HasMaxLength(50);
@@ -60,7 +60,7 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
             this.Property(t => t.EstaHabilitado).HasColumnName("Habilitado");
             this.Property(t => t.Prueba_Id).HasColumnName("Prueba_Id");
 
-            // Relationships
+            // Relaciones
             this.HasRequired(t => t.Prueba)
                 .WithMany(t => t.Participantes)
                 .HasForeignKey(d => d.Prueba_Id);

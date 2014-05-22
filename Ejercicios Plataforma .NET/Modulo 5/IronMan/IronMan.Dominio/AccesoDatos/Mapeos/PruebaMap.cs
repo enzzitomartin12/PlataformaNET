@@ -8,10 +8,10 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
     {
         public PruebaMap()
         {
-            // Primary Key
+            // Clave Primaria
             this.HasKey(t => t.Id);
 
-            // Properties
+            // Propiedades
             this.Property(t => t.Tipo)
                 .IsRequired();
 
@@ -20,7 +20,7 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
             this.Property(t => t.EstaHabilitado)
                 .IsRequired();
 
-            // Table & Column Mappings
+            // Mapeos de Tablas y columnas
             this.ToTable("Pruebas");
             this.Property(t => t.Id).HasColumnName("Id");
             this.Property(t => t.Tipo).HasColumnName("Tipo").HasMaxLength(50);
@@ -29,7 +29,7 @@ namespace IronMan.Dominio.AccesoDatos.Mapeos
 
             this.Property(t => t.Evento_Id).HasColumnName("Evento_Id");
 
-            // Relationships
+            // Relaciones
             this.HasRequired(t => t.Evento)
                 .WithMany(t => t.Pruebas)
                 .HasForeignKey(d => d.Evento_Id);

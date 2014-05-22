@@ -29,19 +29,19 @@ namespace IronManWPF
             
             InitializeComponent();
             this._eGestor = new EventoGestor();
-            DataContext = _eGestor.Listar();
+            DataContext = _eGestor.Listar().ToList();
         }
 
         private void listBoxEventos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //var _eventoIdSeleccionado = (int)this.listBoxEventos.SelectedValue;
-
-            //var _eventoSeleccionado = _eGestor.Obtener(_eventoIdSeleccionado);
+            //EventoDTO _eventoSeleccionado = (EventoDTO)this.listBoxEventos.SelectedItem;
 
             //this.txtNombre.Text = _eventoSeleccionado.Nombre;
             //this.txtLugar.Text = _eventoSeleccionado.Lugar;
             //this.txtFecha.Text = _eventoSeleccionado.Fecha.ToString();
             //this.txtComentario.Text = _eventoSeleccionado.Comentario;
+
+           
         }
     }
 }
