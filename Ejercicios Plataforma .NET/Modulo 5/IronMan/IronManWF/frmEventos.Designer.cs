@@ -161,6 +161,7 @@
             this.Controls.Add(this.listBoxEventos);
             this.Name = "frmEventos";
             this.Text = "Eventos";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmEventos_Load);
             this.pnlEvento.ResumeLayout(false);
             this.pnlEvento.PerformLayout();

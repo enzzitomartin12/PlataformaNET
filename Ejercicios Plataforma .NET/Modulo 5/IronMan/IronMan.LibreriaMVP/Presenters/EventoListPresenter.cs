@@ -8,16 +8,21 @@ using IronMan.Gestores;
 
 namespace IronMan.LibreriaMVP.Presenters
 {
-    public class EventoListPresenter
+    public class EventoListPresenter: BasePresenter<IEventosListView>
     {
         private readonly IEventosListView _view;
         private readonly EventoGestor _eGestor;
 
-        public EventoListPresenter(IEventosListView _view, EventoGestor _eGestor)
+        public EventoListPresenter(IEventosListView _view, EventoGestor _eGestor):
+            base(_view)
         {
             this._view = _view;
             this._eGestor = _eGestor;
 
+        }
+
+        public override void  Inicializar()
+        {
             var _eventos = this._eGestor.Listar();
 
             this._view.SeleccionarEvento += OnEventoSeleccionado;
@@ -31,11 +36,10 @@ namespace IronMan.LibreriaMVP.Presenters
 
         public void OnEventoSeleccionado()
         {
-            if (this._view.EventoSeleccionado != 0)
+            var id = this._view.EventoSeleccionado;
+            if (id != 0)
             {
-                var id = this._view.EventoSeleccionado;
                 var evento = this._eGestor.Obtener(id);
-
                 this._view.MostrarEvento(evento);
             }
         }

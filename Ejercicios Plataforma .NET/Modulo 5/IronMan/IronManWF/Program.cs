@@ -20,7 +20,7 @@ namespace IronManWF
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new frmEventos());
+            //Application.Run(new frmEventos());
 
             //var _frmEventoMVP = new frmEventoMVP();
             //var _eGestor = new EventoGestor();
@@ -32,6 +32,8 @@ namespace IronManWF
             //    };
 
             //Application.Run(_frmEventoMVP);
+            frmIronMan _frmIroMan = new frmIronMan();
+            Application.Run(_frmIroMan);
         }
     }
 }
