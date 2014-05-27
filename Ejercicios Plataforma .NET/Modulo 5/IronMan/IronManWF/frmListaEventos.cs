@@ -40,7 +40,6 @@ namespace IronManWF
             InitializeComponent();      
         }
             
-
         private void frmListaEventos_Load(object sender, EventArgs e)
         {
             _presenter.Inicializar();

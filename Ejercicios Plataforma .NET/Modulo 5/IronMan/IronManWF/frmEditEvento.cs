@@ -72,11 +72,16 @@ namespace IronManWF
             {
                 MessageBox.Show("Problema");
             }
+            frmListaEventos _frmListaEventos = new frmListaEventos();
+            _frmListaEventos.MdiParent = this.ParentForm;
+            _frmListaEventos.Show();
+            this.Close();
         }
         
         private void LlenarEventoDTO()
         {
             EventoDTO _eDTONuevo = new EventoDTO();
+            _eDTONuevo.Id = _presenter._eId;
             _eDTONuevo.Nombre = this.txtNombre.Text;
             _eDTONuevo.Lugar = this.txtLugar.Text;
             _eDTONuevo.Comentario = this.txtComentario.Text;

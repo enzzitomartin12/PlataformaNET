@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfLab021.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        TextBoxBase.TextChanged ="Window_TextChanged">
+    <Grid TextBoxBase.TextChanged ="Grid_TextChanged">
+        <TextBox 
+            HorizontalAlignment="Left" Height="23" Margin="206,75,0,0" TextWrapping="Wrap" 
+            Text="TextBox" VerticalAlignment="Top" Width="135"
+            TextChanged="TextBox_TextChanged"   />
+        <RadioButton Name="RadioButton1" Content="RadioButton" HorizontalAlignment="Left" Margin="228,120,0,0" VerticalAlignment="Top" Checked="RadioButton1_Checked"/>
+        <RadioButton Name="RadioButton2" Content="RadioButton" HorizontalAlignment="Left" Margin="228,149,0,0" VerticalAlignment="Top" Checked="RadioButton2_Checked"/>
+        <RadioButton Name="RadioButton3" Content="RadioButton" HorizontalAlignment="Left" Margin="228,178,0,0" VerticalAlignment="Top" Checked="RadioButton3_Checked"/>
+
+    </Grid>
+</Window>

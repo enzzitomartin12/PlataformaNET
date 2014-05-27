@@ -74,7 +74,6 @@ namespace IronMan.LibreriaMVP.Presenters
         }
         #endregion
 
-
         public void OnClickGuardar()
         {
             _eGestor.Guardar(this._eDTONuevo);

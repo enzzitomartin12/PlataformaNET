@@ -8,7 +8,9 @@ namespace IronMan.LibreriaMVP.Views
 {
     public enum ViewPages
     {
+        Eventos,
+        EventoDetalles,
         Confirmacion,
-        SessionNotFound
+        Error
     }
 }
