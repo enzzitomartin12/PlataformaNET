@@ -28,7 +28,7 @@ namespace IronMan.LibreriaMVP.Presenters
             this._view.SeleccionarEvento += OnEventoSeleccionado;
             this._view.ListarEventos(_eventos);
 
-            if (_eventos != null)
+            if (_eventos != null && _eventos.Count != 0)
             {
                 this._view.MostrarEvento(_eventos.First());
             }
