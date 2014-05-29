@@ -10,21 +10,21 @@ namespace IronMan.LibreriaMVP.Presenters
     public abstract class BasePresenter<TVista> where TVista : class, IView
 
     {
-        private readonly TVista __vista;
+        private readonly TVista _vista;
 
         private readonly INavegacionServicio _navegacionServicio;
 
         public BasePresenter(TVista vista)
         {
             if (vista == null) throw new ArgumentNullException("Vista");
-            __vista = vista;
+            _vista = vista;
         }
 
         public BasePresenter(TVista vista, INavegacionServicio navigationService)
         {
             if (vista == null) throw new ArgumentNullException("view");
             if (navigationService == null) throw new ArgumentNullException("navigationService");
-            __vista = vista;
+            _vista = vista;
             _navegacionServicio = navigationService;
         }
 
@@ -32,7 +32,7 @@ namespace IronMan.LibreriaMVP.Presenters
         {
             get
             {
-                return __vista;
+                return _vista;
             }
         }
 

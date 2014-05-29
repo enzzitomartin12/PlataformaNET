@@ -8,27 +8,30 @@ using System.Web;
 using System.Web.Mvc;
 using IronMan.Dominio.Modelos;
 using IronMan.Dominio.AccesoDatos;
+using IronMan.DTO;
+using IronMan.Gestores;
 
 namespace IronManMVC.Controllers
 {
     public class EventosController : Controller
     {
         private IronManContext db = new IronManContext();
+        private EventoGestor _eGestor = new EventoGestor();
 
         // GET: /Eventos/
         public ActionResult Index()
         {
-            return View(db.Eventos.ToList());
+            return View(_eGestor.Listar().ToList());
         }
 
         // GET: /Eventos/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == null && id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Evento evento = db.Eventos.Find(id);
+            EventoDTO evento = _eGestor.Obtener(id);
             if (evento == null)
             {
                 return HttpNotFound();
@@ -47,12 +50,13 @@ namespace IronManMVC.Controllers
         // más información vea http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,Nombre,Fecha,Lugar,Comentario,EstaHabilitado")] Evento evento)
+        public ActionResult Create([Bind(Include="Id,Nombre,Fecha,Lugar,Comentario,EstaHabilitado")] EventoDTO evento)
         {
             if (ModelState.IsValid)
             {
-                db.Eventos.Add(evento);
-                db.SaveChanges();
+                //db.Eventos.Add(evento);
+                _eGestor.Guardar(evento);
+                //db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -79,12 +83,13 @@ namespace IronManMVC.Controllers
         // más información vea http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,Nombre,Fecha,Lugar,Comentario,EstaHabilitado")] Evento evento)
+        public ActionResult Edit([Bind(Include="Id,Nombre,Fecha,Lugar,Comentario,EstaHabilitado")] EventoDTO evento)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(evento).State = EntityState.Modified;
-                db.SaveChanges();
+                //db.Entry(evento).State = EntityState.Modified;
+                //db.SaveChanges();
+                _eGestor.Guardar(evento);
                 return RedirectToAction("Index");
             }
             return View(evento);
@@ -110,9 +115,9 @@ namespace IronManMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Evento evento = db.Eventos.Find(id);
-            db.Eventos.Remove(evento);
-            db.SaveChanges();
+            EventoDTO evento = _eGestor.Obtener(id);
+            _eGestor.Deshabilitar(evento);
+            //db.SaveChanges();
             return RedirectToAction("Index");
         }
 
