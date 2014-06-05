@@ -10,3 +10,9 @@ C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\ConsolaCliente\obj\x86\Debug\C
 C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\ConsolaCliente\bin\Debug\ConsolaCliente.exe
 C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\ConsolaCliente\bin\Debug\ConsolaCliente.pdb
 C:\Users\Victor\Desktop\Ejemplos\Modulo 6\WcfDemo\ConsolaCliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\bin\Debug\ConsolaCliente.exe.config
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\bin\Debug\ConsolaCliente.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\bin\Debug\ConsolaCliente.pdb
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\obj\x86\Debug\ConsolaCliente.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\obj\x86\Debug\ConsolaCliente.exe
+C:\Users\Victor\Documents\GitHub\PlataformaNET\Ejercicios Plataforma .NET\Modulo 6\WcfDemo\ConsolaCliente\obj\x86\Debug\ConsolaCliente.pdb
