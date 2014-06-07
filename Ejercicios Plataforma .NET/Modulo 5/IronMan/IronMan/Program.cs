@@ -30,28 +30,5 @@ namespace IronMan
 
             Console.ReadKey();
         }
-
-        private void MostarEvento(EventoServicioClient servicio, int Id)
-        {
-            Console.Clear();
-            Console.WriteLine("Obtener un Evento");
-            #region Obtener un evento
-            var _e = servicio.ObtenerNombreEvento(Id);
-
-
-            //foreach (Prueba p in _e.Pruebas)
-            //{
-            //    Console.WriteLine("    >" + p.Tipo);
-            //    Console.WriteLine("    >" + p.Distancia);
-            //    Console.WriteLine("    >" + p.Evento_Id);
-            //    Console.WriteLine("    >" + p.Evento);
-            //    Console.WriteLine("    >" + p.EstaHabilitado);
-            //    Console.WriteLine("------------------------");
-            //}
-            #endregion
-            Console.ReadKey();
-        }
-
- 
     }
 }

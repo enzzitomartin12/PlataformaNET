@@ -47,18 +47,23 @@ namespace IronManServicios
         {
             List<Evento> _lista = new List<Evento>();
             EventoGestor _eGestor = new EventoGestor();
-            Evento _e = new Evento();
 
             foreach (EventoDTO _eDTO in _eGestor.Listar().ToList())
             {
-                _e.Nombre = _eDTO.Nombre;
-                _e.Lugar = _eDTO.Lugar;
-                _e.Fecha = _eDTO.Fecha;
-                _e.Comentario = _eDTO.Comentario;
-
-                _lista.Add(_e);
+                _lista.Add(DTOaEvento(_eDTO));
             }
             return _lista;
         }
-}
+
+        private Evento DTOaEvento(EventoDTO _eDTO)
+        {
+            Evento _e = new Evento();
+            _e.Nombre = _eDTO.Nombre;
+            _e.Lugar = _eDTO.Lugar;
+            _e.Fecha = _eDTO.Fecha;
+            _e.Comentario = _eDTO.Comentario;
+
+            return _e;
+        }
+    }
 }

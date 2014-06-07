@@ -24,7 +24,6 @@ namespace IronManServicios
         [OperationContract]
         List<Evento> Listar();
 
-
     }
 
 
