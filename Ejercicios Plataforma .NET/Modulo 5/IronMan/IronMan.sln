@@ -58,6 +58,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManWPF", "IronManWPF\IronManWPF.csproj", "{2742EFC0-617E-44EC-AE0A-B30040DAECCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManMVC", "IronManMVC\IronManMVC.csproj", "{9C8AD166-10A4-4686-A99A-241719FB727A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89542593-F25C-4344-ADD3-5BA6D420BA0C} = {89542593-F25C-4344-ADD3-5BA6D420BA0C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManServicios", "IronManServicios\IronManServicios.csproj", "{89542593-F25C-4344-ADD3-5BA6D420BA0C}"
 EndProject

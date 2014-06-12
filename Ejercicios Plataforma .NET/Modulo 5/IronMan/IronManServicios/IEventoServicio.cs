@@ -24,6 +24,11 @@ namespace IronManServicios
         [OperationContract]
         List<Evento> Listar();
 
+        [OperationContract]
+        void Deshabilitar(Evento e);
+
+        [OperationContract]
+        void Habilitar(Evento e);
     }
 
 
@@ -31,6 +36,9 @@ namespace IronManServicios
     [DataContract]
     public class Evento
     {
+        [DataMember]
+        public int Id { set; get; }
+
         [DataMember]
         public string Nombre { set; get; }
 
@@ -42,5 +50,8 @@ namespace IronManServicios
 
         [DataMember]
         public DateTime Fecha { set; get; }
+
+        [DataMember]
+        public bool EstaHabilitado { set; get; }
     }
 }

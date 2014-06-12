@@ -11,8 +11,7 @@ using IronMan.Gestores;
 
 namespace IronManServicios
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código, en svc y en el archivo de configuración.
-    // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
+
     public class EventoServicio : IEventoServicio
     {
         public string ObtenerNombreEvento(int id)
@@ -30,17 +29,52 @@ namespace IronManServicios
             EventoGestor _eGestor = new EventoGestor();
             EventoDTO _eDTO = new EventoDTO();
 
+            _eDTO.Id = e.Id;
             _eDTO.Nombre = e.Nombre;
             _eDTO.Lugar = e.Lugar;
             _eDTO.Fecha = e.Fecha;
             _eDTO.Comentario = e.Comentario;
+            _eDTO.EstaHabilitado = e.EstaHabilitado;
 
             _eGestor.Guardar(_eDTO);
         }
 
+        public void Deshabilitar(Evento e)
+        {
+            EventoGestor _eGestor = new EventoGestor();
+            EventoDTO _eDTO = new EventoDTO();
+
+            _eDTO.Id = e.Id;
+            _eDTO.Nombre = e.Nombre;
+            _eDTO.Lugar = e.Lugar;
+            _eDTO.Fecha = e.Fecha;
+            _eDTO.Comentario = e.Comentario;
+            _eDTO.EstaHabilitado = e.EstaHabilitado;
+
+            _eGestor.Deshabilitar(_eDTO);
+        }
+
+        public void Habilitar(Evento e)
+        {
+            EventoGestor _eGestor = new EventoGestor();
+            EventoDTO _eDTO = new EventoDTO();
+
+            _eDTO.Id = e.Id;
+            _eDTO.Nombre = e.Nombre;
+            _eDTO.Lugar = e.Lugar;
+            _eDTO.Fecha = e.Fecha;
+            _eDTO.Comentario = e.Comentario;
+            _eDTO.EstaHabilitado = e.EstaHabilitado;
+
+            _eGestor.Habilitar(_eDTO);
+        }
+
+
         public Evento Obtener(int id)
         {
- 	        throw new NotImplementedException();
+            EventoGestor _eGestor = new EventoGestor();
+            EventoDTO _eDTO = _eGestor.Obtener(id);
+            return DTOaEvento(_eDTO);
         }
 
         public List<Evento> Listar()
@@ -58,12 +92,14 @@ namespace IronManServicios
         private Evento DTOaEvento(EventoDTO _eDTO)
         {
             Evento _e = new Evento();
+            _e.Id = _eDTO.Id;
             _e.Nombre = _eDTO.Nombre;
             _e.Lugar = _eDTO.Lugar;
             _e.Fecha = _eDTO.Fecha;
             _e.Comentario = _eDTO.Comentario;
-
+            _e.EstaHabilitado = _eDTO.EstaHabilitado;
             return _e;
         }
+
     }
 }
